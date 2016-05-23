@@ -23,21 +23,21 @@ SET FOREIGN_KEY_CHECKS = 0;
 DROP TABLE IF EXISTS `t_mail`;
 CREATE TABLE `t_mail` (
   `mailid` bigint(255) NOT NULL AUTO_INCREMENT,
-  `subject` varchar(255) DEFAULT NULL,
-  `fromdisplay` varchar(500) DEFAULT NULL,
-  `fromaddress` varchar(500) DEFAULT NULL,
-  `todisplay` varchar(500) DEFAULT NULL,
-  `toaddress` varchar(500) DEFAULT NULL,
-  `ccdisplay` varchar(500) DEFAULT NULL,
-  `ccaddress` varchar(500) DEFAULT NULL,
-  `bccdisplay` varchar(500) DEFAULT NULL,
-  `bccaddress` varchar(500) DEFAULT NULL,
+  `subject` varchar(500) DEFAULT NULL,
+  `fromdisplay` varchar(255) DEFAULT NULL,
+  `fromaddress` varchar(255) DEFAULT NULL,
+  `todisplay` text DEFAULT NULL,
+  `toaddress` text DEFAULT NULL,
+  `ccdisplay` text DEFAULT NULL,
+  `ccaddress` text DEFAULT NULL,
+  `bccdisplay` varchar(3000) DEFAULT NULL,
+  `bccaddress` text DEFAULT NULL,
   `creatorname` varchar(255) DEFAULT NULL,
   `importance` int(5) DEFAULT NULL,
   `datesent` datetime DEFAULT NULL,
   `datereceive` datetime DEFAULT NULL,
   `size` int(255) DEFAULT NULL,
-  `attachmentnames` varchar(255) DEFAULT NULL,
+  `attachmentnames` varchar(1000) DEFAULT NULL,
   PRIMARY KEY (`mailid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=105 DEFAULT CHARSET=utf8;
 
@@ -63,3 +63,4 @@ CREATE TABLE `t_user_mail` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 SET FOREIGN_KEY_CHECKS = 1;
+

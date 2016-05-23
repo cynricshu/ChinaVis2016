@@ -1,7 +1,7 @@
+import codecs
 import csv
 import os
 import sys
-import codecs
 
 import pymysql
 
@@ -24,7 +24,6 @@ def main():
 
     for filename in fileList:
         loadcsv(conn, cursor, "data/", filename)
-        break
 
     cursor.close()
     conn.close()
@@ -73,29 +72,71 @@ def loadcsv(conn, cursor, dir, filename):
                      " (select max(userid) from t_user), " \
                      " (select max(mailid) from t_mail) " \
                      ")"
-    count = 1
+    count = 0
     """
     insert mail info, then add a new record in relation table t_user_mail
     """
+    maxSubLen = 0
+    maxFromLen = 0
+    maxToDisLen = 0
+    maxToLen = 0
+    maxCcDisLen = 0
+    maxCCLen = 0
+    maxBccLen = 0
+    maxBccDisLen = 0
+    maxAttachLen = 0
     for line in f:
-        # print(len(line))
-        if len(line) > 0:
+        if len(line) > 1:
+            # if len(line) < 15:
+            #     print("line " + str(count) + " of file " + filename + " less than 15: " + str(len(line)))
+            #     print(line)
+            #     continue
             vals = nullify(line)
-            # print(vals)
+
+            # get the longest length of ccaddress and toaddress
+
+            # if vals[2] is not None:
+            #     maxFromLen = max(maxFromLen, len(vals[2]))
+            # if vals[4] is not None:
+            #     maxToLen = max(maxToLen, len(vals[4]))
+            # if vals[6] is not None:
+            #     maxCCLen = max(maxCCLen, len(vals[6]))
+            # if vals[8] is not None:
+            #     maxBccLen = max(maxBccLen, len(vals[8]))
+
+            # if vals[0] is not None:
+            #     maxSubLen = max(maxSubLen, len(vals[0]))
+            # if vals[3] is not None:
+            #     maxToDisLen = max(maxToDisLen, len(vals[3]))
+            # if vals[5] is not None:
+            #     maxCcDisLen = max(maxCcDisLen, len(vals[5]))
+            # if vals[7] is not None:
+            #     maxBccDisLen = max(maxBccDisLen, len(vals[7]))
+            # if vals[14] is not None:
+            #     maxAttachLen = max(maxAttachLen, len(vals[14]))
+
             try:
                 cursor.execute(insertMail, vals)
                 cursor.execute(insertUserMail)
 
-            except Exception:
-                print(Exception)
+            except Exception as e:
+                print(e)
 
             if count % 20 == 0:
                 conn.commit()
             count += 1
-
     conn.commit()
 
-    print(count)
+    print("legal record count in " + filename + ": " + str(count))
+    # print("max fromaddress: " + str(maxFromLen))
+    # print("max todisplay: %s" % str(maxToDisLen))
+    # print("max toaddress: " + str(maxToLen))
+    # print("max cc display: %s" % str(maxCcDisLen))
+    # print("max ccaddress: " + str(maxCCLen))
+    # print("max bccaddress: " + str(maxBccLen))
+    # print(("max subject: %s" % maxSubLen))
+    # print("max bcc display : %s" % maxBccDisLen)
+    # print("max attachment: %s" % maxAttachLen)
 
 
 def buildInsertMailSql(numfields):

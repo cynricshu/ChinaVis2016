@@ -20,10 +20,10 @@ def main():
     # conn.commit()
     # print(id)
 
-    fileList = os.listdir("data")
+    fileList = os.listdir("data/origin")
 
     for filename in fileList:
-        loadcsv(conn, cursor, "data/", filename)
+        loadcsv(conn, cursor, "data/origin/", filename)
 
     cursor.close()
     conn.close()
@@ -95,23 +95,22 @@ def loadcsv(conn, cursor, dir, filename):
 
             # get the longest length of ccaddress and toaddress
 
-            # if vals[2] is not None:
-            #     maxFromLen = max(maxFromLen, len(vals[2]))
-            # if vals[4] is not None:
-            #     maxToLen = max(maxToLen, len(vals[4]))
-            # if vals[6] is not None:
-            #     maxCCLen = max(maxCCLen, len(vals[6]))
-            # if vals[8] is not None:
-            #     maxBccLen = max(maxBccLen, len(vals[8]))
-
             # if vals[0] is not None:
             #     maxSubLen = max(maxSubLen, len(vals[0]))
+            # if vals[2] is not None:
+            #     maxFromLen = max(maxFromLen, len(vals[2]))
             # if vals[3] is not None:
             #     maxToDisLen = max(maxToDisLen, len(vals[3]))
+            # if vals[4] is not None:
+            #     maxToLen = max(maxToLen, len(vals[4]))
             # if vals[5] is not None:
             #     maxCcDisLen = max(maxCcDisLen, len(vals[5]))
+            # if vals[6] is not None:
+            #     maxCCLen = max(maxCCLen, len(vals[6]))
             # if vals[7] is not None:
             #     maxBccDisLen = max(maxBccDisLen, len(vals[7]))
+            # if vals[8] is not None:
+            #     maxBccLen = max(maxBccLen, len(vals[8]))
             # if vals[14] is not None:
             #     maxAttachLen = max(maxAttachLen, len(vals[14]))
 

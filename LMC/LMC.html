@@ -55,6 +55,7 @@
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+//    d3.json("data/lmc.json", function(miserables) {
     d3.json("data/lmc.json", function(miserables) {
         var matrix = [],
                 nodes = miserables.nodes,

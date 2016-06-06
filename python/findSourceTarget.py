@@ -36,7 +36,7 @@ def addLink(data, links, nodes):
 
 
 def main():
-    outfile = "data/out/source_target.json"
+    outfile = "data/output/source_target.json"
     dataDir = "data/After2/"
     filename = "d.martinez_2.csv"
     f = csv.reader(codecs.open(dataDir + filename, "r", "iso-8859-1"))
@@ -69,7 +69,7 @@ def main():
 
     out = open(outfile, "w")
     json.dump(final, out)
-    # out.write(linksJson)
+    # output.write(linksJson)
     out.flush()
     out.close()
 

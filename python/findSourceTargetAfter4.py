@@ -153,9 +153,9 @@ def handleFile(dataDir, input, output, nameDict):
 def main():
     dataDir = "data/After4/"
 
-    toOut = "data/out/source_target_to"
-    ccOut = "data/out/source_target_cc"
-    bccOut = "data/out/source_target_bcc"
+    toOut = "data/output/source_target_to"
+    ccOut = "data/output/source_target_cc"
+    bccOut = "data/output/source_target_bcc"
     output = [toOut, ccOut, bccOut]
 
     filename = "all_4_to.csv"

@@ -1,0 +1,46 @@
+n_topics=20, n_iter=3000, random_state=1
+n_top_words = 12
+
+Topic 0: e per di il da al con su la un euro fino
+Topic 1: of your from system support Important DHL security information URGENT Your out
+Topic 2: HT di per del Ordine Invio Richiesta Fattura SRL n. posta fattura
+Topic 3: of Security Webinar Your News New U.S. How You VC Data WSJ
+Topic 4: RCS Assignment License file New license upgrade Release Upgrade TNI not File
+Topic 5: ISS Hacking Team 2015 2014 World HT Milipol Dubai reply Hotel DI
+Topic 6: it 1 ordine Amazon com tuo Il che 2 offerta Nuova per
+Topic 7: you Test assigned run de sample Twitter jpg Undeliverable mentioned o now
+Topic 8: event di calendar non da un new il che Daniele updated Milan
+Topic 9: rite SYSTEM_POSITIVE avmaster SYSTEM_FUNCTIONAL_RITE SYSTEM_FUNCTIONAL_SOLDIER_RITE SYSTEM_FUNCTIONAL_SKYPE_RITE SYSTEM_ELITE_FAST_SRV UPDATE_AV SYSTEM_DAILY SYSTEM_DAILY_SRV UPDATE_FULL SYSTEM_SOLDIER_SRV
+Topic 10: 2015 2014 Security days Maintenance going of expire Cyber Newsletter Conference 2013
+Topic 11: x Biglietti Milano aerei Hotel 2014 Voli 2013 2015 R del per
+Topic 12: Order SugarCRM New Confirmation Your Support Account System from Non Control Product
+Topic 13: di e per la il i con le al del tua della
+Topic 14: your Your of from New up off Last Get order now invitation
+Topic 15: Data di 2014 partenza PNR CWT Itinerary 2013 2015 E-Ticket C 10
+Topic 16: Assignment exploit Exploit Android request Windows Request exploits android 2 word iOS
+Topic 17: HT Demo Report Meeting Delivery Training up RCS Alert meeting Invoice SRL
+Topic 18: of you news US World security are your http cyber co be
+Topic 19: per di e test x su da demo TNI VPS mail Licenza
+
+
+Importante Il tuo account stato temporaneamente sospeso (top topic: 6)
+Deals update (top topic: 4)
+ISS South Africa HOTEL (top topic: 5)
+New ramson attacks Tech Start-Ups Are Targets of Ransom Cyberattacks (top topic: 3)
+Mi piacerebbe sapere (top topic: 8)
+FW analyzer opss (top topic: 1)
+SYSTEM_POSITIVE avmaster 141110-032739 (top topic: 9)
+russia licenza 8.1.5 (top topic: 4)
+Android Demo (top topic: 16)
+License CIS going expire 15 days (top topic: 10)
+Assignment Attivazione licenza windows phone server (top topic: 19)
+Seminario Check Point R77 Security Checkup ed altre novit 30 Ottobre Bari (top topic: 13)
+your probe configuration affecting your measurement (top topic: 1)
+presenze 2014 (top topic: 11)
+SYSTEM_MELT_SRV_FIF rite 150302-073950 (top topic: 9)
+Forex trader transcripts If you aint cheating you aint trying (top topic: 18)
+Saldo vs Fattura n. 2015 004 (top topic: 2)
+SYSTEM_FUNCTIONAL_SOLDIER_RITE rite 141011-083919 (top topic: 9)
+Richiesta personale (top topic: 2)
+Forecast Q2 (top topic: 3)
+

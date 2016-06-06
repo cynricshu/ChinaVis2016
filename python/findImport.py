@@ -6,7 +6,7 @@ from LineData import *
 
 
 def main():
-    outfile = "data/json/import.json"
+    outfile = "data/out/import.json"
     dataDir = "data/After4/"
     filename = "all_4_to.csv"
     f = csv.reader(codecs.open(dataDir + filename, "r", "iso-8859-1"))

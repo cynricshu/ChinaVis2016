@@ -4,30 +4,7 @@ import json
 import xml
 import xml.dom.minidom as minidom
 from LineData import *
-
-
-def loadEmployeeSet():
-    """
-    :return: dict
-    """
-    nameDict = dict()
-    f = codecs.open("data/before_file_names.txt", "r", "iso-8859-1")
-    for line in f:
-        data = str(line)[0:-2].split(",")
-        if len(data) == 1:
-            nameDict[data[0].lower()] = data[0].lower()
-            nameDict[data[0].lower() + "@hackingteam.it"] = data[0].lower()
-        else:
-            nameDict[data[0].lower()] = data[0].lower()
-            nameDict[data[0].lower() + "@hackingteam.it"] = data[0].lower()
-            nameDict[data[1].lower()] = data[0].lower()
-            nameDict[data[1].lower() + "@hackingteam.it"] = data[0].lower()
-
-    print(len(nameDict))
-    # for item in nameSet:
-    #     print(item)
-    f.close()
-    return nameDict
+import helper
 
 
 def addNode(name, nodes, count):
@@ -176,9 +153,9 @@ def handleFile(dataDir, input, output, nameDict):
 def main():
     dataDir = "data/After4/"
 
-    toOut = "data/json/source_target_to"
-    ccOut = "data/json/source_target_cc"
-    bccOut = "data/json/source_target_bcc"
+    toOut = "data/out/source_target_to"
+    ccOut = "data/out/source_target_cc"
+    bccOut = "data/out/source_target_bcc"
     output = [toOut, ccOut, bccOut]
 
     filename = "all_4_to.csv"
@@ -186,7 +163,7 @@ def main():
     bccFilename = "all_4_bcc.csv"
     input = [filename, ccFilename, bccFilename]
 
-    nameDict = loadEmployeeSet()
+    nameDict = helper.loadEmployeeSet()
 
     index = 0
     for i in range(len(input)):

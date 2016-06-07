@@ -1,0 +1,61 @@
+a.bassi,Alessandro Bassi
+a.capaldo,Antonella Capaldo
+a.dipasquale,Andrea Di Pasquale
+a.mazzeo,Antonio Mazzeo
+a.mino,Alessandra Mino
+a.ornaghi,Alberto Ornaghi
+a.pelliccionei,Alberto Pelliccione
+a.scarafile,Alessandro Scarafile
+a.velasco,Alex Velasco
+b.muschitiello,Bruno Muschitiello
+BESAdmin
+c.pozzi,Christian Pozzi
+c.vardaro,Cristian Vardaro
+d.giubertoni,Diego Giubertoni
+d.maglietta,Daniel Maglietta
+d.martinez,Daniel Martinez Moreno
+d.milan,Daniele Milan
+d.molteni,Daniele Molteni
+d.romualdi,Davide Romualdi
+d.vincenzetti,David Vincenzetti
+e.ciceri,Elisabetta Ciceri
+e.ho,Eugene Ho
+e.marcon,Eros Marcon
+e.pardo,Eduardo Pardo Carvajal
+e.parentini,Enrico Parentini
+e.placidi,Emanuele Placidi
+e.rabe,Eric Rabe
+e.shehata,Emad Shehata
+f.busatto,Fabio Busatto
+f.cornelli,Fabrizio Cornelli
+f.degiovanni,Fulvio De Giovanni
+g.cino,Giovanni Cino
+g.landi,Guido Landi
+g.russo,Giancarlo Russo
+i.speziale,Ivan Speziale
+l.guerra,Luca Guerra
+l.invernizzi,Lorenzo Invernizzi
+l.rana,Lucia Rana
+m.bettini,Marco Bettini
+m.catino,Marco Catino
+m.chiodini,Massimo Chiodini
+m.fontana,Marco Fontana
+m.losito,Marco Losito
+m.luppi,Massimiliano Luppi
+m.maanna,Mostapha Maanna
+m.oliva,Matteo Oliva
+m.romeo,Mauro Romeo
+m.test,Mauro Test
+m.valleri,Marco Valleri
+p.vinci,Philippe Antoine Vinci
+probe
+r.viscardi,Rosario Armando Viscardi
+s.gallucci,Simonetta Gallucci
+s.galvagna,Sara Galvagna
+s.iannelli,Stefania Iannelli
+s.solis,Sergio Rodriguez-Sol¨ªs y Guerrero
+s.woon,Serge Woon
+support,Utente Test
+u.test
+v.bedeschi,Valeriano Bedeschi
+w.furlan,Walter Furlan

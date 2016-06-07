@@ -1,0 +1,7504 @@
+{
+  "links": [
+    {
+      "value": 3,
+      "source": "Daniel Martinez",
+      "target": "'Gerardo Bautista Luciano'"
+    },
+    {
+      "value": 2,
+      "source": "Daniel Martinez",
+      "target": "Lorenzo Invernizzi"
+    },
+    {
+      "value": 1,
+      "source": "Eugene Ho",
+      "target": "hoanpv@dhag.com.vn"
+    },
+    {
+      "value": 1,
+      "source": "Philippe Antoine Vinci",
+      "target": "direcciongeneral@grupoarmor.mx"
+    },
+    {
+      "value": 2,
+      "source": "Emad Shehata",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 1,
+      "source": "Alex Velasco",
+      "target": "RSALES (rsales@hackingteam.it)"
+    },
+    {
+      "value": 1,
+      "source": "Giancarlo Russo",
+      "target": "rsales"
+    },
+    {
+      "value": 1,
+      "source": "David Vincenzetti",
+      "target": "Sales"
+    },
+    {
+      "value": 1,
+      "source": "Alberto Ornaghi",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "Bruno Cisotti"
+    },
+    {
+      "value": 1,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 19,
+      "source": "Francisco Villegas Landin",
+      "target": "Mtra. Rosa Raquel Garc\u00a8\u00aaa de Le\u00a8\u00aen Peniche (rosaraquel@computrack.com.mx)"
+    },
+    {
+      "value": 3,
+      "source": "Daniele Milan",
+      "target": "jorge.lorca@mipoltec.cl"
+    },
+    {
+      "value": 72,
+      "source": "Gruppo SIO x HT",
+      "target": "rcs-support"
+    },
+    {
+      "value": 2,
+      "source": "Daniel Martinez Moreno",
+      "target": "'gilbertoe@neolinx.mx'"
+    },
+    {
+      "value": 87,
+      "source": "Bruno Muschitiello",
+      "target": ""
+    },
+    {
+      "value": 2,
+      "source": "Eugene Ho",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "'m_irtaimeh@sahoury.com'"
+    },
+    {
+      "value": 1,
+      "source": "Eugene Ho",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 2,
+      "source": "Marco Valleri",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "Alex Velasco"
+    },
+    {
+      "value": 1,
+      "source": "Paco Villegas Land\u00a8\u00aan",
+      "target": "Alex Velasco"
+    },
+    {
+      "value": 1,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 2,
+      "source": "Luis Diaz",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 5,
+      "source": "Alessandro Scarafile",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 1,
+      "source": "Diego Giubertoni",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "Paco Villegas Landin"
+    },
+    {
+      "value": 52,
+      "source": "Simonetta Gallucci",
+      "target": ""
+    },
+    {
+      "value": 206,
+      "source": "David Vincenzetti",
+      "target": "flist@hackingteam.it"
+    },
+    {
+      "value": 7,
+      "source": "Daniel Martinez Moreno",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 7,
+      "source": "Fabio Busatto",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 9,
+      "source": "Giancarlo Russo",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 1,
+      "source": "",
+      "target": "ccaceresh@investigaciones.cl"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "ask"
+    },
+    {
+      "value": 7,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Cristian Vardaro"
+    },
+    {
+      "value": 1,
+      "source": "Serge Woon",
+      "target": "ask"
+    },
+    {
+      "value": 3,
+      "source": "Marco Bettini",
+      "target": "Philippe Antoine Vinci"
+    },
+    {
+      "value": 1,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 4,
+      "source": "Daniele Milan",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Niv Yarimi",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 144,
+      "source": "Alex Velasco",
+      "target": ""
+    },
+    {
+      "value": 2,
+      "source": "Alan Zarza",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Walter Furlan",
+      "target": "'Giancarlo Russo'"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "ICE SanPaolo"
+    },
+    {
+      "value": 3,
+      "source": "Alberto Ornaghi",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 1,
+      "source": "Philippe Antoine Vinci",
+      "target": "dmoreno@elitetactical.net"
+    },
+    {
+      "value": 3,
+      "source": "Antonella Capaldo",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 14,
+      "source": "Walter Furlan",
+      "target": "rcs-support"
+    },
+    {
+      "value": 3,
+      "source": "Cristian Vardaro",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Maglietta",
+      "target": "Giancarlo Russo"
+    },
+    {
+      "value": 13,
+      "source": "Walter Furlan",
+      "target": "fae"
+    },
+    {
+      "value": 1,
+      "source": "Alessandro Scarafile",
+      "target": "marketing"
+    },
+    {
+      "value": 30,
+      "source": "wirbelwind79@outlook.com",
+      "target": "rcs-support"
+    },
+    {
+      "value": 2,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero (Confluence)",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "'f.busatto@hackingteam.it'"
+    },
+    {
+      "value": 3,
+      "source": "Lorenzo Invernizzi",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 12,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 2,
+      "source": "Fabrizio Cornelli",
+      "target": "Massimo Chiodini"
+    },
+    {
+      "value": 3,
+      "source": "Alberto Ornaghi",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Walter Furlan",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 31,
+      "source": "Daniel Martinez",
+      "target": "Simonetta Gallucci"
+    },
+    {
+      "value": 18,
+      "source": "Mohammed",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Alessandro Scarafile",
+      "target": "dmoreno@elitetactical.net"
+    },
+    {
+      "value": 1,
+      "source": "Rosario Armando Viscardi",
+      "target": ""
+    },
+    {
+      "value": 294,
+      "source": "David Vincenzetti",
+      "target": "list@hackingteam.it"
+    },
+    {
+      "value": 1,
+      "source": "Marco Valleri",
+      "target": "'ornella-dev@hackingteam.it'"
+    },
+    {
+      "value": 5,
+      "source": "Fabio Busatto",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 5,
+      "source": "Bruno Muschitiello",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 4,
+      "source": "Daniele Milan",
+      "target": "Fabrizio Cornelli"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "'paco@cloudsec.mx'"
+    },
+    {
+      "value": 3,
+      "source": "tulum@tutanota.de",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "'dmoreno@elitetactical.net'"
+    },
+    {
+      "value": 1,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Eugene Ho"
+    },
+    {
+      "value": 109,
+      "source": "Alberto Ornaghi",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Giancarlo Russo",
+      "target": "Fred D'Alessio"
+    },
+    {
+      "value": 1,
+      "source": "Massimiliano Luppi",
+      "target": "Tom\u00a8\u00a2? Hlavsa"
+    },
+    {
+      "value": 7,
+      "source": "David Vincenzetti",
+      "target": "Ivan Speziale"
+    },
+    {
+      "value": 11,
+      "source": "Eduardo Pardo Carvajal (Confluence)",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "oscarg@symservicios.com"
+    },
+    {
+      "value": 2,
+      "source": "Andrea Di Pasquale",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "'Luis D\u00a8\u00aaaz'"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "marketing@gemrad.com"
+    },
+    {
+      "value": 1,
+      "source": "Andrea Di Pasquale",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "Antonella Capaldo"
+    },
+    {
+      "value": 2,
+      "source": "Walter Furlan",
+      "target": "Lorenzo Invernizzi"
+    },
+    {
+      "value": 3,
+      "source": "TRUST",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Eric Rabe",
+      "target": "fae"
+    },
+    {
+      "value": 1,
+      "source": "Eugene Ho",
+      "target": "Davide Romualdi"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "claudio.debertolis@bcubegroup.com"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 6,
+      "source": "Fabio Busatto",
+      "target": "Fabrizio Cornelli"
+    },
+    {
+      "value": 1,
+      "source": "Alex Velasco",
+      "target": "HT"
+    },
+    {
+      "value": 1,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Davide Romualdi"
+    },
+    {
+      "value": 1,
+      "source": "Massimo Chiodini",
+      "target": "Marco Losito"
+    },
+    {
+      "value": 1,
+      "source": "David Vincenzetti",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 25,
+      "source": "Daniele Milan",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Ing. Oscar Israel Gonzalez",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "alberto.quaquarelli@forcetex.it"
+    },
+    {
+      "value": 4,
+      "source": "Massimiliano Luppi",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 1,
+      "source": "Cristian Vardaro",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 4,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "rsales"
+    },
+    {
+      "value": 14,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 1,
+      "source": "Marco Fontana",
+      "target": "ornella-dev"
+    },
+    {
+      "value": 1,
+      "source": "David Vincenzetti",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "staff"
+    },
+    {
+      "value": 6,
+      "source": "Marco Losito",
+      "target": ""
+    },
+    {
+      "value": 1059,
+      "source": "Bruno Muschitiello",
+      "target": "rcs-support"
+    },
+    {
+      "value": 2,
+      "source": "Fabrizio Cornelli",
+      "target": "marketing"
+    },
+    {
+      "value": 2,
+      "source": "Andrea Di Pasquale",
+      "target": "Fabrizio Cornelli"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "'taysir@nextgenerationco.com'"
+    },
+    {
+      "value": 7,
+      "source": "Alessandro Scarafile",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 11,
+      "source": "support",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 16,
+      "source": "Daniel Martinez",
+      "target": "Alex Velasco"
+    },
+    {
+      "value": 1,
+      "source": "Computrack Rosa Raquel",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 2,
+      "source": "Massimiliano Luppi",
+      "target": "delivery"
+    },
+    {
+      "value": 1,
+      "source": "Cristian Vardaro",
+      "target": "support"
+    },
+    {
+      "value": 3,
+      "source": "Ing. Oscar Israel Gonzalez",
+      "target": ""
+    },
+    {
+      "value": 2,
+      "source": "Rosario Armando Viscardi",
+      "target": "fae"
+    },
+    {
+      "value": 7,
+      "source": "Giancarlo Russo",
+      "target": "Alex Velasco"
+    },
+    {
+      "value": 1,
+      "source": "Giovanni Cino",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 1,
+      "source": "said ortiz",
+      "target": "dmoreno@elitetactical.net"
+    },
+    {
+      "value": 3,
+      "source": "Giancarlo Russo",
+      "target": "Lorenzo Invernizzi"
+    },
+    {
+      "value": 1,
+      "source": "Fabrizio Cornelli",
+      "target": "Eugene Ho"
+    },
+    {
+      "value": 3,
+      "source": "Eros Marcon",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Massimiliano Luppi",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 36,
+      "source": "Daniel Martinez",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 1,
+      "source": "Alex Velasco",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 1,
+      "source": "John Solano",
+      "target": "rcs-support"
+    },
+    {
+      "value": 4,
+      "source": "Emad Shehata",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 2,
+      "source": "Alberto Ornaghi",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "'delivery@hackingteam.it'"
+    },
+    {
+      "value": 1,
+      "source": "Alessandro Scarafile",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 1,
+      "source": "Rosario Armando Viscardi",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 9,
+      "source": "Marco Valleri",
+      "target": "Serge Woon"
+    },
+    {
+      "value": 1,
+      "source": "Fabio Busatto",
+      "target": "'ornella-dev@hackingteam.it'"
+    },
+    {
+      "value": 1,
+      "source": "Eric Rabe",
+      "target": "RSALES (rsales@hackingteam.it)"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez Moreno",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 1,
+      "source": "Taysir Abbadi",
+      "target": "ceo@blueventurecap.com"
+    },
+    {
+      "value": 2,
+      "source": "Lorenzo Invernizzi",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 1,
+      "source": "Fabrizio Cornelli",
+      "target": "Davide Romualdi"
+    },
+    {
+      "value": 3,
+      "source": "gilbertoe@neolinx.mx",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 15,
+      "source": "Lucia Rana",
+      "target": "staff"
+    },
+    {
+      "value": 2,
+      "source": "Daniele Milan",
+      "target": "Massimiliano Luppi"
+    },
+    {
+      "value": 3,
+      "source": "Mohamed Al Rejaibi",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 1,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Serge Woon"
+    },
+    {
+      "value": 7,
+      "source": "Alessandro Scarafile",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 19,
+      "source": "Daniel Martinez",
+      "target": "fae"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "Luca Guerra"
+    },
+    {
+      "value": 7,
+      "source": "Daniele Milan",
+      "target": "Alex Velasco"
+    },
+    {
+      "value": 10,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "rcs-support"
+    },
+    {
+      "value": 6,
+      "source": "Nu Pham Thi (Ms.)",
+      "target": ""
+    },
+    {
+      "value": 448,
+      "source": "Cristian Vardaro",
+      "target": "rcs-support"
+    },
+    {
+      "value": 17,
+      "source": "Daniel Martinez",
+      "target": "Philippe Antoine Vinci"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "tarini@sekur.it"
+    },
+    {
+      "value": 8,
+      "source": "Fabio Busatto",
+      "target": "Massimiliano Luppi"
+    },
+    {
+      "value": 5,
+      "source": "Luis Diaz",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "'ceo@omandst.com'"
+    },
+    {
+      "value": 1,
+      "source": "Alberto Ornaghi",
+      "target": "Ivan Speziale"
+    },
+    {
+      "value": 2,
+      "source": "Daniel Martinez",
+      "target": "pc_jalisco@hotmail.com"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "travel"
+    },
+    {
+      "value": 11,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Maglietta",
+      "target": "Lorenzo Invernizzi"
+    },
+    {
+      "value": 11,
+      "source": "Marco Antonio",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "oscarg@symservicios.com"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "Massimiliano Luppi"
+    },
+    {
+      "value": 1,
+      "source": "Luca Guerra",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 1,
+      "source": "Philippe Antoine Vinci",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 4,
+      "source": "Marco Bettini",
+      "target": "Serge Woon"
+    },
+    {
+      "value": 8,
+      "source": "Massimiliano Luppi",
+      "target": "rcs-support"
+    },
+    {
+      "value": 10,
+      "source": "Jacopo Cialli",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "Fabrizio Cornelli"
+    },
+    {
+      "value": 2,
+      "source": "bodee",
+      "target": "Eugene Ho"
+    },
+    {
+      "value": 5,
+      "source": "Marco Bettini",
+      "target": "jl@cloudsec.mx"
+    },
+    {
+      "value": 2,
+      "source": "Serge Woon",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 1,
+      "source": "Luca Guerra",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 3,
+      "source": "Daniel Maglietta",
+      "target": "'g.russo@hackingteam.it'"
+    },
+    {
+      "value": 6,
+      "source": "Alessandro Scarafile",
+      "target": "Cristian Vardaro"
+    },
+    {
+      "value": 6,
+      "source": "Alessandro Scarafile",
+      "target": "Daniel Maglietta"
+    },
+    {
+      "value": 10,
+      "source": "Marco Bettini",
+      "target": "Alex Velasco"
+    },
+    {
+      "value": 1,
+      "source": "Alessandra Mino",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 13,
+      "source": "E.",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Andrea Di Pasquale",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "travel"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "'ceo@blueventurecap.com'"
+    },
+    {
+      "value": 4,
+      "source": "Massimiliano Luppi",
+      "target": "'Tom\u00a8\u00a2? Hlavsa'"
+    },
+    {
+      "value": 21,
+      "source": "Philippe Antoine Vinci",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 2,
+      "source": "Davide Romualdi",
+      "target": "'Bodee S'"
+    },
+    {
+      "value": 1,
+      "source": "Giancarlo Russo",
+      "target": "Walter Furlan"
+    },
+    {
+      "value": 1,
+      "source": "Jorge Lorca - Mipoltec Ltda.",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "d.martinez",
+      "target": "Mauro Romeo"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Maglietta",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 2,
+      "source": "Daniel Martinez",
+      "target": "ldiaz@neolinx.mx"
+    },
+    {
+      "value": 4,
+      "source": "Oliver  Jurgen (RX)",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 15,
+      "source": "Amr Hemeda",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Randall Pennington",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Hugo de Barros Correia",
+      "target": "sergio.sacm@dpf.gov.br"
+    },
+    {
+      "value": 22,
+      "source": "Alessandro Scarafile",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 1,
+      "source": "Lucia Rana",
+      "target": "'RSALES'"
+    },
+    {
+      "value": 8,
+      "source": "Fabrizio Cornelli",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 1,
+      "source": "Lorenzo Invernizzi",
+      "target": "Davide Romualdi"
+    },
+    {
+      "value": 1,
+      "source": "Davide Romualdi",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Ivan Speziale",
+      "target": "ornella-dev@hackingteam.it"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "Lorenzo Invernizzi"
+    },
+    {
+      "value": 1,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "'Sergio de Arruda Costa Macedo'"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "Francisco Villegas Landin"
+    },
+    {
+      "value": 1,
+      "source": "Fabio Busatto",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 7,
+      "source": "Daniele Milan",
+      "target": "Serge Woon"
+    },
+    {
+      "value": 5,
+      "source": "Amr Hemeda",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez Moreno",
+      "target": "ask"
+    },
+    {
+      "value": 6,
+      "source": "Fabrizio Cornelli",
+      "target": "rcs-support"
+    },
+    {
+      "value": 2,
+      "source": "Gerardo Bautista Luciano",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 9,
+      "source": "Simonetta Gallucci",
+      "target": "staff@hackingteam.it"
+    },
+    {
+      "value": 121,
+      "source": "devilangel",
+      "target": "rcs-support"
+    },
+    {
+      "value": 2,
+      "source": "Walter Furlan",
+      "target": "Mauro Romeo"
+    },
+    {
+      "value": 10,
+      "source": "Ivan Speziale",
+      "target": ""
+    },
+    {
+      "value": 2,
+      "source": "Daniel Martinez",
+      "target": "staff"
+    },
+    {
+      "value": 4,
+      "source": "Paco Villegas Land\u00a8\u00aan",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 21,
+      "source": "Alessandro Scarafile",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 6,
+      "source": "Movistar",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 2,
+      "source": "Emad Shehata",
+      "target": "'Amr Hemeda'"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "Alessandra Mino"
+    },
+    {
+      "value": 35,
+      "source": "Simonetta Gallucci",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 2,
+      "source": "Taysir Abbadi",
+      "target": ""
+    },
+    {
+      "value": 101,
+      "source": "Astana Team",
+      "target": "rcs-support"
+    },
+    {
+      "value": 4,
+      "source": "Fabrizio Cornelli",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 3,
+      "source": "Massimiliano Luppi",
+      "target": "rsales"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "Massimiliano Luppi"
+    },
+    {
+      "value": 5,
+      "source": "Moniem GNSE",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 2,
+      "source": "Massimo Chiodini",
+      "target": "Ornella-dev"
+    },
+    {
+      "value": 1,
+      "source": "Walter Furlan",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 5,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 1,
+      "source": "Cristian Vardaro",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 4,
+      "source": "Serge Woon",
+      "target": "Daniel Maglietta"
+    },
+    {
+      "value": 42,
+      "source": "Emad Shehata",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 2,
+      "source": "Emad Shehata",
+      "target": "'Mohamed Al Rejaibi'"
+    },
+    {
+      "value": 24,
+      "source": "Marco Bettini",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 2,
+      "source": "Cristian Vardaro",
+      "target": "staff"
+    },
+    {
+      "value": 3,
+      "source": "Marco Valleri",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 1,
+      "source": "Walter Furlan",
+      "target": "staff"
+    },
+    {
+      "value": 2,
+      "source": "Mauro Romeo",
+      "target": "Ivan Speziale"
+    },
+    {
+      "value": 2,
+      "source": "Bruno Muschitiello",
+      "target": "Giancarlo Russo"
+    },
+    {
+      "value": 354,
+      "source": "Alessandro Scarafile",
+      "target": ""
+    },
+    {
+      "value": 2,
+      "source": "Giancarlo Russo",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 2,
+      "source": "Dan",
+      "target": "rcs-support"
+    },
+    {
+      "value": 3,
+      "source": "Walter Furlan",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Mahmoud Irtaimeh",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 52,
+      "source": "Lorenzo Invernizzi",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "Riccardo Cassin"
+    },
+    {
+      "value": 19,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 3,
+      "source": "Alex Velasco",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 3,
+      "source": "Daniele Milan",
+      "target": "Lorenzo Invernizzi"
+    },
+    {
+      "value": 1,
+      "source": "kiodo",
+      "target": ""
+    },
+    {
+      "value": 13,
+      "source": "Emad Shehata",
+      "target": "Davide Romualdi"
+    },
+    {
+      "value": 81,
+      "source": "Massimiliano Luppi",
+      "target": ""
+    },
+    {
+      "value": 15,
+      "source": "Daniel Martinez",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 5,
+      "source": "Mauro Romeo",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 1,
+      "source": "Bruno Muschitiello",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 3,
+      "source": "Fabio Busatto",
+      "target": "Ornella-dev"
+    },
+    {
+      "value": 1,
+      "source": "Diego Giubertoni",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 1,
+      "source": "Alessandro Scarafile",
+      "target": "delivery"
+    },
+    {
+      "value": 26,
+      "source": "Alessandro Scarafile",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 1,
+      "source": "Ivan Speziale",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Marco Losito",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 3,
+      "source": "Mauro Romeo",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Alberto Ornaghi",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 1,
+      "source": "clarion@kohensistemas.com.br",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 5,
+      "source": "gilbertoe@neolinx.mx",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Emanuele Placidi",
+      "target": "Marco Fontana"
+    },
+    {
+      "value": 151,
+      "source": "HackingTeam",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Alessandro Scarafile",
+      "target": "rosario@hackingteam.com"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "rsales"
+    },
+    {
+      "value": 1,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "'Marco Bettini'"
+    },
+    {
+      "value": 1,
+      "source": "Luca Guerra",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 4,
+      "source": "Walter Furlan",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 11,
+      "source": "Daniel Martinez",
+      "target": "'Dan. Moreno'"
+    },
+    {
+      "value": 2,
+      "source": "David Vincenzetti",
+      "target": "Ornella-dev"
+    },
+    {
+      "value": 7,
+      "source": "Megat",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "Demetrio Bregolin"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "'m.bettini@hackingteam.it'"
+    },
+    {
+      "value": 1,
+      "source": "Massimiliano Luppi",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 1,
+      "source": "Eros Marcon",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 2,
+      "source": "Ronaldo Padovani",
+      "target": "tecnologia"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "info@gemrad.com"
+    },
+    {
+      "value": 2,
+      "source": "Daniel Martinez Moreno",
+      "target": "Giancarlo Russo"
+    },
+    {
+      "value": 1,
+      "source": "Simonetta Gallucci",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 13,
+      "source": "Mariana Vazquez",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "topac",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 6,
+      "source": "Lorenzo Invernizzi",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 3,
+      "source": "PC Jalisco",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 12,
+      "source": "Fabio Busatto",
+      "target": "Cristian Vardaro"
+    },
+    {
+      "value": 1,
+      "source": "Ivan Speziale",
+      "target": "Mauro Romeo"
+    },
+    {
+      "value": 7,
+      "source": "Cristian Vardaro",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 1,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "sergio.sacm@dpf.gov.br"
+    },
+    {
+      "value": 2,
+      "source": "Dan. Moreno",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 1,
+      "source": "Alessandro Scarafile",
+      "target": "netsec"
+    },
+    {
+      "value": 3,
+      "source": "Daniel Martinez",
+      "target": "<jl@cloudsec.mx>"
+    },
+    {
+      "value": 3,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 2,
+      "source": "Alessandro Scarafile",
+      "target": "g.russo@hackingteam.it"
+    },
+    {
+      "value": 1,
+      "source": "Christian Pozzi",
+      "target": "Antonella Capaldo"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "'niv@grupokabat.com'"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "Simonetta Gallucci"
+    },
+    {
+      "value": 7,
+      "source": "Lucia Rana",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 1,
+      "source": "danmoreno@gmail.com",
+      "target": "ivan solis pino"
+    },
+    {
+      "value": 10,
+      "source": "Alessandro Scarafile",
+      "target": "Alex Velasco"
+    },
+    {
+      "value": 3,
+      "source": "David Vincenzetti",
+      "target": "Mauro Romeo"
+    },
+    {
+      "value": 2,
+      "source": "Pasquale D'Ambrosio",
+      "target": "rcs-support"
+    },
+    {
+      "value": 2,
+      "source": "Ernest Batista",
+      "target": "James Miller"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "silvia"
+    },
+    {
+      "value": 7,
+      "source": "Cristian Vardaro",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 2,
+      "source": "Daniele Milan",
+      "target": "HT"
+    },
+    {
+      "value": 50,
+      "source": "cateringlllc",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Lucia Rana",
+      "target": "'Eliud Herrera'"
+    },
+    {
+      "value": 1,
+      "source": "David Vincenzetti",
+      "target": "Antonella Capaldo"
+    },
+    {
+      "value": 7,
+      "source": "Francisco Villegas Landin",
+      "target": "Philippe Antoine Vinci"
+    },
+    {
+      "value": 4,
+      "source": "Francisco Villegas Landin",
+      "target": "jl@cloudsec.mx"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "'Karl Feghali'"
+    },
+    {
+      "value": 8,
+      "source": "Enrico Parentini",
+      "target": ""
+    },
+    {
+      "value": 4,
+      "source": "Lorenzo Invernizzi",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 1,
+      "source": "Niv Yarimi",
+      "target": "Ing. Oscar Israel Gonzalez"
+    },
+    {
+      "value": 5,
+      "source": "Antonio Mazzeo",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 58,
+      "source": "Fabio Busatto",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Francisco Villegas Landin",
+      "target": "Maximo Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "ask"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 4,
+      "source": "Marco Bettini",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 12,
+      "source": "Alessandro Scarafile",
+      "target": "Serge Woon"
+    },
+    {
+      "value": 9,
+      "source": "Massimiliano Luppi",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 2,
+      "source": "Simonetta Gallucci",
+      "target": "amministrazione"
+    },
+    {
+      "value": 1,
+      "source": "Fabrizio Cornelli",
+      "target": "Marco Losito"
+    },
+    {
+      "value": 13,
+      "source": "Daniel Martinez",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 1,
+      "source": "Giovanni Cino",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 2,
+      "source": "Serge Woon",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Antonio Mazzeo",
+      "target": "marketing"
+    },
+    {
+      "value": 2,
+      "source": "Davide Romualdi",
+      "target": "rsales"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "Jorge Lorca Rivera"
+    },
+    {
+      "value": 3,
+      "source": "Alberto Ornaghi",
+      "target": "marketing"
+    },
+    {
+      "value": 1,
+      "source": "Luca Guerra",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "Daniel Maglietta"
+    },
+    {
+      "value": 19,
+      "source": "Simon Thewes",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "'MOI'"
+    },
+    {
+      "value": 1,
+      "source": "Simonetta Gallucci",
+      "target": "Emanuele Placidi"
+    },
+    {
+      "value": 5,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Lorenzo Invernizzi"
+    },
+    {
+      "value": 1,
+      "source": "CWT Itinerary (No-Reply)",
+      "target": "Alessandra Mino"
+    },
+    {
+      "value": 1,
+      "source": "Ivan Speziale",
+      "target": "'ornella-dev@hackingteam.it'"
+    },
+    {
+      "value": 1,
+      "source": "Dream Team",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "Serge Woon"
+    },
+    {
+      "value": 1,
+      "source": "Alessandro Scarafile",
+      "target": "support"
+    },
+    {
+      "value": 1,
+      "source": "Eugene Ho",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "jarno.antonelli@beretta.it"
+    },
+    {
+      "value": 1,
+      "source": "Paco Villegas Landin",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 2,
+      "source": "Francesco Sperandeo",
+      "target": "rcs-support"
+    },
+    {
+      "value": 3,
+      "source": "SAID ORTIZ",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Massimiliano Luppi",
+      "target": "Andrea Di Pasquale"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "Davide Romualdi"
+    },
+    {
+      "value": 2,
+      "source": "David Vincenzetti",
+      "target": "Eric Rabe"
+    },
+    {
+      "value": 1,
+      "source": "Fabio Busatto",
+      "target": "Philippe Antoine Vinci"
+    },
+    {
+      "value": 11,
+      "source": "Daniele Milan",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 3,
+      "source": "Alex Velasco",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 1,
+      "source": "Giovanni Cino",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Bruno Muschitiello",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 31,
+      "source": "miloudi franck",
+      "target": "rcs-support"
+    },
+    {
+      "value": 10,
+      "source": "Fabio Busatto",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 5,
+      "source": "Eugene Ho",
+      "target": "rsales"
+    },
+    {
+      "value": 6,
+      "source": "Davide Romualdi",
+      "target": "'Amr Hemeda'"
+    },
+    {
+      "value": 1,
+      "source": "Takayama",
+      "target": "rcs-support"
+    },
+    {
+      "value": 29,
+      "source": "CWT Itinerary (No-Reply)",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Bruno Muschitiello",
+      "target": "fae"
+    },
+    {
+      "value": 4,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Alex Velasco"
+    },
+    {
+      "value": 1,
+      "source": "Elisabetta Ciceri",
+      "target": "staff"
+    },
+    {
+      "value": 41,
+      "source": "Antonella Capaldo",
+      "target": ""
+    },
+    {
+      "value": 2,
+      "source": "said ortiz",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "danmoreno@gmail.com",
+      "target": "eduvagpo74@tutanota.de"
+    },
+    {
+      "value": 1,
+      "source": "Philippe Antoine Vinci",
+      "target": "Dan. Moreno"
+    },
+    {
+      "value": 15,
+      "source": "Emad Shehata",
+      "target": "Lorenzo Invernizzi"
+    },
+    {
+      "value": 1,
+      "source": "pavarang hackingteam",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 4,
+      "source": "Walter Furlan",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 8,
+      "source": "Mohamed Al Rejaibi",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Daniel Maglietta",
+      "target": "Walter Furlan"
+    },
+    {
+      "value": 2,
+      "source": "Marco Valleri",
+      "target": "Ivan Speziale"
+    },
+    {
+      "value": 1,
+      "source": "Taysir Abbadi",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 1,
+      "source": "Alberto Ornaghi",
+      "target": "Massimo Chiodini"
+    },
+    {
+      "value": 1,
+      "source": "Francisco Villegas Landin",
+      "target": "JOSE LUIS DUE?AS GARCIA"
+    },
+    {
+      "value": 21,
+      "source": "Francisco Villegas Landin",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 6,
+      "source": "Daniel Martinez",
+      "target": "Alessandra Mino"
+    },
+    {
+      "value": 10,
+      "source": "Fabio Busatto",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Diego Giubertoni",
+      "target": "Cristian Vardaro"
+    },
+    {
+      "value": 8,
+      "source": "Massimiliano Luppi",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 14,
+      "source": "Alessandra Mino",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 10,
+      "source": "Alex Velasco",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 68,
+      "source": "Alessandro Scarafile",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "rgia@gruppogdm.it",
+      "target": "staff@hackingteam.it"
+    },
+    {
+      "value": 1,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Lorenzo Invernizzi"
+    },
+    {
+      "value": 3,
+      "source": "Fabio Busatto",
+      "target": "staff"
+    },
+    {
+      "value": 2,
+      "source": "Daniel Maglietta",
+      "target": "fae"
+    },
+    {
+      "value": 1,
+      "source": "Lorenzo Invernizzi",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 3,
+      "source": "Lucia Rana",
+      "target": "Alex Velasco"
+    },
+    {
+      "value": 1,
+      "source": "Alessandro Scarafile",
+      "target": "Dan. Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "'dmoreno@elitetactical.net'"
+    },
+    {
+      "value": 2,
+      "source": "Lorenzo Invernizzi",
+      "target": "Cristian Vardaro"
+    },
+    {
+      "value": 2,
+      "source": "Antonio Mazzeo",
+      "target": "Fabrizio Cornelli"
+    },
+    {
+      "value": 17,
+      "source": "Walcot Woly",
+      "target": "rcs-support"
+    },
+    {
+      "value": 3,
+      "source": "Alessandro Scarafile",
+      "target": "rsales@hackingteam.it"
+    },
+    {
+      "value": 8,
+      "source": "Fabio Busatto",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 1,
+      "source": "David Vincenzetti",
+      "target": "kiodo"
+    },
+    {
+      "value": 2,
+      "source": "Simonetta Gallucci",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 1,
+      "source": "Serge Woon",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 4,
+      "source": "Mesfer S. Al Mesfer",
+      "target": ""
+    },
+    {
+      "value": 3,
+      "source": "Daniele Milan",
+      "target": "Cristian Vardaro"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "rsales"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "'niv@symservicios.com'"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Maglietta",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 2,
+      "source": "Eugene Ho",
+      "target": "Walter Furlan"
+    },
+    {
+      "value": 3,
+      "source": "Serge Woon",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 1,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "'topac'"
+    },
+    {
+      "value": 9,
+      "source": "Emad Shehata",
+      "target": "fae"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "Daniele Santi"
+    },
+    {
+      "value": 3,
+      "source": "Daniel Martinez",
+      "target": "dmartinezm@me.com"
+    },
+    {
+      "value": 3,
+      "source": "Daniele Milan",
+      "target": "Randall Pennington"
+    },
+    {
+      "value": 4,
+      "source": "tzm",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Eric Rabe",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 32,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 1,
+      "source": "Fabio Busatto",
+      "target": "Ivan Speziale"
+    },
+    {
+      "value": 1,
+      "source": "Massimiliano Luppi",
+      "target": "'Fabio Busatto'"
+    },
+    {
+      "value": 1,
+      "source": "Serge Woon",
+      "target": "rcs-support"
+    },
+    {
+      "value": 29,
+      "source": "UIAPuebla",
+      "target": "rcs-support"
+    },
+    {
+      "value": 4,
+      "source": "Hrabec Josef",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "Niv Yarimi"
+    },
+    {
+      "value": 3,
+      "source": "CWT Mobile Services",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 7,
+      "source": "Alberto Ornaghi",
+      "target": "Fabrizio Cornelli"
+    },
+    {
+      "value": 2,
+      "source": "Daniel Martinez",
+      "target": "gilbertoe@neolinx.mx"
+    },
+    {
+      "value": 1,
+      "source": "Marco Losito",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 1,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "'HT'"
+    },
+    {
+      "value": 1,
+      "source": "etickets@amtrak.com",
+      "target": "DMARTINEZM@ME.COM"
+    },
+    {
+      "value": 3,
+      "source": "Marco Valleri",
+      "target": "rsales@hackingteam.it"
+    },
+    {
+      "value": 6,
+      "source": "Philippe Antoine Vinci",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 3,
+      "source": "Fabio Busatto",
+      "target": "Walter Furlan"
+    },
+    {
+      "value": 2,
+      "source": "Serge Yun",
+      "target": ""
+    },
+    {
+      "value": 22,
+      "source": "CC",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Davide Romualdi",
+      "target": "'bodee@placingvalue.com'"
+    },
+    {
+      "value": 19,
+      "source": "i.eugene",
+      "target": "rcs-support"
+    },
+    {
+      "value": 6,
+      "source": "Marco Valleri",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 8,
+      "source": "Massimiliano Luppi",
+      "target": "Cristian Vardaro"
+    },
+    {
+      "value": 2,
+      "source": "CWT.Client.Care.Network.Traveler.Setup@carlsonwagonlit.com",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Eduardo Pardo",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 2,
+      "source": "Daniel Martinez",
+      "target": "Serge Woon"
+    },
+    {
+      "value": 1,
+      "source": "Antonella Capaldo",
+      "target": "Giovanni Cino"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez Moreno",
+      "target": "rsales"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "Cristian Vardaro"
+    },
+    {
+      "value": 1,
+      "source": "Ernest Batista",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 1,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Philippe Antoine Vinci"
+    },
+    {
+      "value": 1,
+      "source": "Josef Hrabec",
+      "target": "Massimiliano Luppi"
+    },
+    {
+      "value": 8,
+      "source": "Emanuele Placidi",
+      "target": ""
+    },
+    {
+      "value": 2,
+      "source": "Giancarlo Russo",
+      "target": "delivery"
+    },
+    {
+      "value": 2,
+      "source": "Ivan Speziale",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 1,
+      "source": "Walter Furlan",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 1,
+      "source": "Fabio Busatto",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 1,
+      "source": "Alex Velasco",
+      "target": "Serge Woon"
+    },
+    {
+      "value": 3,
+      "source": "Massimo Chiodini",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "Busso Patrizia"
+    },
+    {
+      "value": 333,
+      "source": "Ariel",
+      "target": "rcs-support"
+    },
+    {
+      "value": 2,
+      "source": "G\u00a8\u00a2bor Farkas",
+      "target": "rcs-support"
+    },
+    {
+      "value": 3,
+      "source": "Francisco Villegas Landin",
+      "target": "Eric Jaime Medina Ruiz"
+    },
+    {
+      "value": 3,
+      "source": "Giancarlo Russo",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 21,
+      "source": "Daniel Maglietta",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Neal Jacob",
+      "target": "'taysir@nextgenerationco.com'"
+    },
+    {
+      "value": 1,
+      "source": "Alberto Ornaghi",
+      "target": "Davide Romualdi"
+    },
+    {
+      "value": 1,
+      "source": "Christian Pozzi",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 1,
+      "source": "Matteo Oliva",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Fabrizio Cornelli",
+      "target": "Antonio Mazzeo"
+    },
+    {
+      "value": 2,
+      "source": "said ortiz",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 2,
+      "source": "Nu Pham Thi (Ms.)",
+      "target": "Eugene Ho"
+    },
+    {
+      "value": 3,
+      "source": "Diego Giubertoni",
+      "target": "Luca Guerra"
+    },
+    {
+      "value": 2,
+      "source": "Marco Bettini",
+      "target": "'jl@cloudsec.mx'"
+    },
+    {
+      "value": 2,
+      "source": "\"Sergio R.-Sol\u00a8\u00aas\"",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 3,
+      "source": "Hugo de Barros Correia",
+      "target": ""
+    },
+    {
+      "value": 5,
+      "source": "David Vincenzetti",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez Moreno",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 2,
+      "source": "Fabrizio Cornelli",
+      "target": "fae"
+    },
+    {
+      "value": 4,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 1,
+      "source": "Walter Furlan",
+      "target": "Massimiliano Luppi"
+    },
+    {
+      "value": 3,
+      "source": "Bruno Muschitiello",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Tom\u00a8\u00a2? Hlavsa",
+      "target": "Walter Furlan"
+    },
+    {
+      "value": 20,
+      "source": "Daniel Martinez",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Maglietta",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 1,
+      "source": "Serge Woon",
+      "target": "Lorenzo Invernizzi"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "Davide Romualdi"
+    },
+    {
+      "value": 1,
+      "source": "Ernest Batista",
+      "target": "Alessandra Mino"
+    },
+    {
+      "value": 1,
+      "source": "topac",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 1,
+      "source": "Marco Valleri",
+      "target": "'Ornella-dev'"
+    },
+    {
+      "value": 7,
+      "source": "Gerardo Bautista Luciano",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 4,
+      "source": "Daniel Martinez Moreno",
+      "target": "Simonetta Gallucci"
+    },
+    {
+      "value": 2,
+      "source": "Christian Pozzi",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Serge Woon",
+      "target": "rsales"
+    },
+    {
+      "value": 1,
+      "source": "Massimo Chiodini",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez Moreno",
+      "target": "Walter Furlan"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "niv@symservicios.com"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 1,
+      "source": "Lucia Rana",
+      "target": "serviciosadicionales@centrobanamex.com"
+    },
+    {
+      "value": 1,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Marco Losito"
+    },
+    {
+      "value": 4,
+      "source": "Alessandra Mino",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "'Bruno'"
+    },
+    {
+      "value": 1,
+      "source": "Marco Valleri",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 1,
+      "source": "Eugene Ho",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 26,
+      "source": "Lucia Rana",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Walter Furlan",
+      "target": "Marco Losito"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "Walter Furlan"
+    },
+    {
+      "value": 1,
+      "source": "Walter Furlan",
+      "target": "rsales@hackingteam.it"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 4,
+      "source": "Computrack Rosa Raquel",
+      "target": ""
+    },
+    {
+      "value": 4,
+      "source": "Fabio Busatto",
+      "target": "Lorenzo Invernizzi"
+    },
+    {
+      "value": 12,
+      "source": "Francisco Villegas Landin",
+      "target": "Eric Jaime Medina Ruiz (jaime@cloudsec.mx)"
+    },
+    {
+      "value": 1,
+      "source": "Taysir Abbadi",
+      "target": "m_irtaimeh@sahoury.com"
+    },
+    {
+      "value": 19,
+      "source": "Support",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Lorenzo Invernizzi",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 1,
+      "source": "Giancarlo Russo",
+      "target": "Massimiliano Luppi"
+    },
+    {
+      "value": 1,
+      "source": "Brandy Murray",
+      "target": "staff@hackingteam.it"
+    },
+    {
+      "value": 1,
+      "source": "Nu Pham Thi (Ms.)",
+      "target": "hoanpv@dhag.com.vn"
+    },
+    {
+      "value": 1,
+      "source": "Pasquale8daf16@iusacell.net",
+      "target": "staff@hackingteam.it"
+    },
+    {
+      "value": 16,
+      "source": "Eric Rabe",
+      "target": ""
+    },
+    {
+      "value": 2,
+      "source": "jorge.lorca@mipoltec.cl",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "tulum@tutanota.de"
+    },
+    {
+      "value": 1,
+      "source": "Rosario Armando Viscardi",
+      "target": "rcs-support"
+    },
+    {
+      "value": 2,
+      "source": "Daniel Martinez Moreno",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Alberto Ornaghi",
+      "target": "Alex Velasco"
+    },
+    {
+      "value": 2,
+      "source": "Lorenzo Invernizzi",
+      "target": "rsales"
+    },
+    {
+      "value": 207,
+      "source": "Francisco Villegas Landin",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 3,
+      "source": "Emad Shehata",
+      "target": "Giancarlo Russo"
+    },
+    {
+      "value": 1,
+      "source": "Alberto Ornaghi",
+      "target": "media"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 1,
+      "source": "topac",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 5,
+      "source": "Emad Shehata",
+      "target": "'Moniem GNSE'"
+    },
+    {
+      "value": 1,
+      "source": "Lucia Rana",
+      "target": "fae"
+    },
+    {
+      "value": 2,
+      "source": "Alberto Ornaghi",
+      "target": "Giancarlo Russo"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Molteni",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 26,
+      "source": "KD",
+      "target": "rcs-support"
+    },
+    {
+      "value": 3,
+      "source": "Alberto Ornaghi",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 3,
+      "source": "Diego Giubertoni",
+      "target": "staff"
+    },
+    {
+      "value": 5,
+      "source": "ivan solis pino",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 2,
+      "source": "Antonella Capaldo",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 12,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 2,
+      "source": "Davide Romualdi",
+      "target": "fae"
+    },
+    {
+      "value": 2,
+      "source": "Fabrizio Cornelli",
+      "target": "Antonella Capaldo"
+    },
+    {
+      "value": 2,
+      "source": "Alberto Ornaghi",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 1,
+      "source": "Philippe Antoine Vinci",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 1,
+      "source": "Antonella Capaldo",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 113,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Alberto Ornaghi",
+      "target": "pavarang hackingteam"
+    },
+    {
+      "value": 3,
+      "source": "Alessandro Scarafile",
+      "target": "ornella-dev"
+    },
+    {
+      "value": 2,
+      "source": "Emanuele Placidi",
+      "target": "Antonella Capaldo"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez Moreno",
+      "target": "Davide Romualdi"
+    },
+    {
+      "value": 1,
+      "source": "Simonetta Gallucci",
+      "target": "Philippe Antoine Vinci"
+    },
+    {
+      "value": 1,
+      "source": "Giancarlo Russo",
+      "target": "ornella-dev@hackingteam.it"
+    },
+    {
+      "value": 1,
+      "source": "Ivan Speziale",
+      "target": "kiodo"
+    },
+    {
+      "value": 2,
+      "source": "Fabio Busatto",
+      "target": "Eugene Ho"
+    },
+    {
+      "value": 9,
+      "source": "David Vincenzetti",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "'a.scarafile@hackingteam.it'"
+    },
+    {
+      "value": 1,
+      "source": "Luis Diaz",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 1,
+      "source": "Fabrizio Cornelli",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 2,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 44,
+      "source": "Francisco Villegas Landin",
+      "target": "Herve Hurtado (hh@gvillas.com)"
+    },
+    {
+      "value": 2,
+      "source": "Alberto Ornaghi",
+      "target": "topac"
+    },
+    {
+      "value": 1,
+      "source": "Giancarlo Russo",
+      "target": "'ornella-dev@hackingteam.it'"
+    },
+    {
+      "value": 1,
+      "source": "Neal Jacob",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 1,
+      "source": "Marco Losito",
+      "target": "staff"
+    },
+    {
+      "value": 11,
+      "source": "Lucia Rana",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 3,
+      "source": "Cristian Vardaro",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 2,
+      "source": "Fabio Busatto",
+      "target": "Antonio Mazzeo"
+    },
+    {
+      "value": 3,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 4,
+      "source": "Alberto Ornaghi",
+      "target": "fae"
+    },
+    {
+      "value": 8,
+      "source": "Paco Villegas Land\u00a8\u00aan",
+      "target": ""
+    },
+    {
+      "value": 2,
+      "source": "Alessandra Mino",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "'gilbertoe@neolinx.mx'"
+    },
+    {
+      "value": 2,
+      "source": "Serge Woon",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 4,
+      "source": "Emanuele Placidi",
+      "target": "staff"
+    },
+    {
+      "value": 15,
+      "source": "Daniel Martinez Moreno",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 4,
+      "source": "Giancarlo Russo",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Davide Romualdi",
+      "target": "Lorenzo Invernizzi"
+    },
+    {
+      "value": 4,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 299,
+      "source": "Emad Shehata",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Alessandra Mino",
+      "target": "'Ernest Batista'"
+    },
+    {
+      "value": 13,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "rcs-support"
+    },
+    {
+      "value": 28,
+      "source": "Lorenzo Invernizzi",
+      "target": "rcs-support"
+    },
+    {
+      "value": 18,
+      "source": "Daniel Martinez",
+      "target": "Cristian Vardaro"
+    },
+    {
+      "value": 1,
+      "source": "said ortiz",
+      "target": "'dmoreno@elitetactical.net'"
+    },
+    {
+      "value": 3,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 5,
+      "source": "Giancarlo Russo",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 36,
+      "source": "Alessandro Scarafile",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 1,
+      "source": "David Vincenzetti",
+      "target": "Massimo Chiodini"
+    },
+    {
+      "value": 3,
+      "source": "Daniel Maglietta",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 6,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "RSALES (rsales@hackingteam.it)"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez Moreno",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan (Confluence)",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "'Wdb@kapo.zh.ch'"
+    },
+    {
+      "value": 22,
+      "source": "Francisco Villegas Landin",
+      "target": "JOSE LUIS DUE?AS GARCIA (luis@cloudsec.mx)"
+    },
+    {
+      "value": 4,
+      "source": "Daniel Maglietta",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 1,
+      "source": "Marco Fontana",
+      "target": "staff@hackingteam.it"
+    },
+    {
+      "value": 2,
+      "source": "Lucia Rana",
+      "target": "Philippe Antoine Vinci"
+    },
+    {
+      "value": 2,
+      "source": "Randall Pennington",
+      "target": ""
+    },
+    {
+      "value": 3,
+      "source": "Daniel Martinez",
+      "target": "jorge.lorca@mipoltec.cl"
+    },
+    {
+      "value": 1,
+      "source": "Giovanni Cino",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 4,
+      "source": "pavarang hackingteam",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Giancarlo Russo",
+      "target": "Cristian Vardaro"
+    },
+    {
+      "value": 3,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 3,
+      "source": "Luca Guerra",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Giovanni Cino",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 2,
+      "source": "Alberto Ornaghi",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 2,
+      "source": "Massimo Chiodini",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 2,
+      "source": "Rosario Armando Viscardi",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Luca Guerra",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 1,
+      "source": "Marco Valleri",
+      "target": "Cristian Vardaro"
+    },
+    {
+      "value": 1,
+      "source": "Antonio Mazzeo",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "amr.hemeda@gnsegroup.com"
+    },
+    {
+      "value": 9,
+      "source": "Gerardo Bautista Luciano",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "kiodo",
+      "target": "Ornella-dev"
+    },
+    {
+      "value": 1,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "'m.bettini@hackingteam.it'"
+    },
+    {
+      "value": 6,
+      "source": "Marco Valleri",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Marco Valleri",
+      "target": "Lorenzo Invernizzi"
+    },
+    {
+      "value": 13,
+      "source": "Alessandro Scarafile",
+      "target": "rcs-support"
+    },
+    {
+      "value": 22,
+      "source": "Eugene Ho",
+      "target": ""
+    },
+    {
+      "value": 6,
+      "source": "Daniel Martinez",
+      "target": "Giancarlo Russo"
+    },
+    {
+      "value": 1,
+      "source": "Eric Rabe",
+      "target": "Emanuele Placidi"
+    },
+    {
+      "value": 1,
+      "source": "Walter Furlan",
+      "target": "'Tom\u00a8\u00a2? Hlavsa'"
+    },
+    {
+      "value": 1,
+      "source": "Eugene Ho",
+      "target": "'Bodee S'"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Maglietta",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 1,
+      "source": "Marco Fontana",
+      "target": ""
+    },
+    {
+      "value": 176,
+      "source": "Eduardo Pardo Carvajal",
+      "target": ""
+    },
+    {
+      "value": 5,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Massimiliano Luppi"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "Alan Zarza"
+    },
+    {
+      "value": 4,
+      "source": "Amr Hemeda",
+      "target": "Davide Romualdi"
+    },
+    {
+      "value": 2,
+      "source": "Alex Velasco",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 5,
+      "source": "Giancarlo Russo",
+      "target": "rcs-support"
+    },
+    {
+      "value": 4,
+      "source": "Emad Shehata",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 1,
+      "source": "Mauro Romeo",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 3,
+      "source": "Daniel Martinez",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 2,
+      "source": "David Vincenzetti",
+      "target": "Andrea Di Pasquale"
+    },
+    {
+      "value": 1,
+      "source": "Fabio Busatto",
+      "target": "Daniel Maglietta"
+    },
+    {
+      "value": 2,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Enrico Parentini"
+    },
+    {
+      "value": 1,
+      "source": "Niv Yarimi",
+      "target": "Niv Yarimi"
+    },
+    {
+      "value": 5,
+      "source": "Lorenzo Invernizzi",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 13,
+      "source": "Alessandro Scarafile",
+      "target": "Davide Romualdi"
+    },
+    {
+      "value": 2,
+      "source": "Emad Shehata",
+      "target": "'Weder Bernhard (Wdb)'"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "'Gilberto Enriquez Jaime'"
+    },
+    {
+      "value": 110,
+      "source": "Lucia Rana",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Marco Valleri",
+      "target": "'ornella-dev'"
+    },
+    {
+      "value": 1,
+      "source": "Andrea Di Pasquale",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 6,
+      "source": "Fabrizio Cornelli",
+      "target": "Ornella-dev"
+    },
+    {
+      "value": 14,
+      "source": "Lorenzo Invernizzi",
+      "target": "fae"
+    },
+    {
+      "value": 1,
+      "source": "David Vincenzetti",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 1,
+      "source": "Lucia Rana",
+      "target": "travel"
+    },
+    {
+      "value": 5,
+      "source": "Francisco Villegas Landin",
+      "target": "Herve Hurtado"
+    },
+    {
+      "value": 3,
+      "source": "SAIDO",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Fabrizio Cornelli",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "Emanuele Placidi"
+    },
+    {
+      "value": 1,
+      "source": "Mahmoud Irtaimeh",
+      "target": "ceo@blueventurecap.com"
+    },
+    {
+      "value": 2,
+      "source": "Daniel Martinez Moreno",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 24,
+      "source": "Alberto Ornaghi",
+      "target": "Ornella-dev"
+    },
+    {
+      "value": 2,
+      "source": "Mesfer S. Al Mesfer",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 3,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Giancarlo Russo"
+    },
+    {
+      "value": 2,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "'Toni Meneses'"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "Gilberto Enriquez"
+    },
+    {
+      "value": 2,
+      "source": "Marco Bettini",
+      "target": "Walter Furlan"
+    },
+    {
+      "value": 3,
+      "source": "Davide Romualdi",
+      "target": "Eugene Ho"
+    },
+    {
+      "value": 1,
+      "source": "Philippe Antoine Vinci",
+      "target": "Massimiliano Luppi"
+    },
+    {
+      "value": 12,
+      "source": "Daniel Martinez Moreno",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 1,
+      "source": "\"Sergio R.-Sol\u00a8\u00aas\"",
+      "target": "fae"
+    },
+    {
+      "value": 1,
+      "source": "Hlavsa Tomas",
+      "target": "rcs-support"
+    },
+    {
+      "value": 3,
+      "source": "Emad Shehata",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 5,
+      "source": "Daniel Martinez Moreno",
+      "target": "Philippe Antoine Vinci"
+    },
+    {
+      "value": 1,
+      "source": "Massimiliano Luppi",
+      "target": "'HT'"
+    },
+    {
+      "value": 5,
+      "source": "Daniel Maglietta",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 2,
+      "source": "Marco Bettini",
+      "target": "RSALES (rsales@hackingteam.it)"
+    },
+    {
+      "value": 4,
+      "source": "danmoreno@gmail.com",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 66,
+      "source": "  Richard Hiller",
+      "target": "rcs-support"
+    },
+    {
+      "value": 4,
+      "source": "\"Sergio R.-Sol\u00a8\u00aas\"",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Mauro Romeo",
+      "target": "Marco Losito"
+    },
+    {
+      "value": 1,
+      "source": "Giancarlo Russo",
+      "target": "'Eric Rabe'"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "",
+      "target": "Simonetta Gallucci"
+    },
+    {
+      "value": 1,
+      "source": "bbidpw-donotreply@blackberry.com",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Francisco Villegas Landin",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 14,
+      "source": "Daniel Martinez",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez Moreno",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 1,
+      "source": "Antonella Capaldo",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 2,
+      "source": "Daniel Martinez",
+      "target": "Gerardo Bautista Luciano"
+    },
+    {
+      "value": 1,
+      "source": "Fabrizio Cornelli",
+      "target": "support"
+    },
+    {
+      "value": 3,
+      "source": "Dan. Moreno",
+      "target": ""
+    },
+    {
+      "value": 4,
+      "source": "Alberto Ornaghi",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 2,
+      "source": "Francisco Villegas Landin",
+      "target": "Juan Pablo Diaz Ezcurdia"
+    },
+    {
+      "value": 3,
+      "source": "Alberto Ornaghi",
+      "target": "Serge Woon"
+    },
+    {
+      "value": 4,
+      "source": "David Vincenzetti",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 2,
+      "source": "Marco Bettini",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Molteni",
+      "target": "staff"
+    },
+    {
+      "value": 4,
+      "source": "Giancarlo Russo",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 633,
+      "source": "support",
+      "target": "rcs-support"
+    },
+    {
+      "value": 42,
+      "source": "Alberto Ornaghi",
+      "target": "rcs-support"
+    },
+    {
+      "value": 5,
+      "source": "Eugene Ho",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "sales@forcetek.it"
+    },
+    {
+      "value": 2,
+      "source": "Alex Velasco",
+      "target": "Dan. Moreno"
+    },
+    {
+      "value": 9,
+      "source": "Ernest Batista",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Lucia Rana",
+      "target": "Emanuele Placidi"
+    },
+    {
+      "value": 1,
+      "source": "Josef Hrabec",
+      "target": ""
+    },
+    {
+      "value": 2,
+      "source": "Jorge Lorca - Mipoltec Ltda.",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "Eugene Ho"
+    },
+    {
+      "value": 2,
+      "source": "Marco Valleri",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 1,
+      "source": "",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 26,
+      "source": "Antonella Capaldo",
+      "target": "staff"
+    },
+    {
+      "value": 10,
+      "source": "Massimiliano Luppi",
+      "target": "fae"
+    },
+    {
+      "value": 2,
+      "source": "Emad Shehata",
+      "target": "Simonetta Gallucci"
+    },
+    {
+      "value": 3,
+      "source": "Emad Shehata",
+      "target": "'mohamed.moniem@gnsegroup.com'"
+    },
+    {
+      "value": 1,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "'Giancarlo Russo'"
+    },
+    {
+      "value": 3,
+      "source": "David Vincenzetti",
+      "target": "Alex Velasco"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "mele@sekur.it"
+    },
+    {
+      "value": 1,
+      "source": "Alessandro Scarafile",
+      "target": "Mauro Romeo"
+    },
+    {
+      "value": 2,
+      "source": "Antonella Capaldo",
+      "target": "travel"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "'Nabil Sardouk'"
+    },
+    {
+      "value": 15,
+      "source": "David Vincenzetti",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 1,
+      "source": "Elisabetta Ciceri",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 2,
+      "source": "Fabio Busatto",
+      "target": "Antonella Capaldo"
+    },
+    {
+      "value": 2,
+      "source": "Alessandro Scarafile",
+      "target": "rsales"
+    },
+    {
+      "value": 5,
+      "source": "Daniel Martinez Moreno",
+      "target": "Cristian Vardaro"
+    },
+    {
+      "value": 1,
+      "source": "Eros Marcon",
+      "target": "Antonella Capaldo"
+    },
+    {
+      "value": 1,
+      "source": "Niv Yarimi",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "Paco Villegas Land\u00a8\u00aan"
+    },
+    {
+      "value": 1,
+      "source": "Eugene Ho",
+      "target": "Fabrizio Cornelli"
+    },
+    {
+      "value": 1,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "'a.velasco@hackingteam.it'"
+    },
+    {
+      "value": 1,
+      "source": "Giovanni Cino",
+      "target": "ornella-dev"
+    },
+    {
+      "value": 9,
+      "source": "Alessandro Scarafile",
+      "target": "Giancarlo Russo"
+    },
+    {
+      "value": 26,
+      "source": "Licensing System",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "support"
+    },
+    {
+      "value": 1,
+      "source": "Cristian Vardaro",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 3,
+      "source": "Alex Velasco",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 1,
+      "source": "Serge Woon",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Massimo Chiodini",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 18,
+      "source": "Daniele Milan",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 15,
+      "source": "Daniele Milan",
+      "target": "fae"
+    },
+    {
+      "value": 11,
+      "source": "Alessandro Scarafile",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 3,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "HT"
+    },
+    {
+      "value": 14,
+      "source": "Alessandro Scarafile",
+      "target": "Lorenzo Invernizzi"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "'Federico Lauria'"
+    },
+    {
+      "value": 4,
+      "source": "Antonio Mazzeo",
+      "target": "ornella-dev"
+    },
+    {
+      "value": 1,
+      "source": "Alberto Ornaghi",
+      "target": "Marco Losito"
+    },
+    {
+      "value": 1,
+      "source": "Rosario Armando Viscardi",
+      "target": "ornella-dev"
+    },
+    {
+      "value": 3,
+      "source": "Dan. Moreno",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Lorenzo Invernizzi",
+      "target": "Serge Woon"
+    },
+    {
+      "value": 1,
+      "source": "Alberto Ornaghi",
+      "target": "Lorenzo Invernizzi"
+    },
+    {
+      "value": 2,
+      "source": "Giancarlo Russo",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Maglietta",
+      "target": "Alex Velasco"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez Moreno",
+      "target": "Alex Velasco"
+    },
+    {
+      "value": 1,
+      "source": "Eugene Ho",
+      "target": "staff"
+    },
+    {
+      "value": 32,
+      "source": "Raffaele Gabrieli",
+      "target": "rcs-support"
+    },
+    {
+      "value": 2,
+      "source": "danmoreno@gmail.com",
+      "target": "Alex Velasco"
+    },
+    {
+      "value": 7,
+      "source": "SW",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Francisco Villegas Landin",
+      "target": "Adrian Contreras"
+    },
+    {
+      "value": 2,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Luis D\u00a8\u00aaaz"
+    },
+    {
+      "value": 10,
+      "source": "Cristian Vardaro",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Serge Woon",
+      "target": "ornella-dev"
+    },
+    {
+      "value": 1,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Mauro Romeo"
+    },
+    {
+      "value": 71,
+      "source": "Walter Furlan",
+      "target": ""
+    },
+    {
+      "value": 4,
+      "source": "Fabio Busatto",
+      "target": "Giancarlo Russo"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata (Confluence)",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "Simone Cirocchi"
+    },
+    {
+      "value": 2,
+      "source": "Bruno Muschitiello",
+      "target": "ornella-dev"
+    },
+    {
+      "value": 2,
+      "source": "Massimiliano Luppi",
+      "target": "Antonella Capaldo"
+    },
+    {
+      "value": 1,
+      "source": "Fahad",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Luca Guerra",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 9,
+      "source": "Massimiliano Luppi",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 4,
+      "source": "Giovanni Cino",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Giancarlo Russo",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 1,
+      "source": "Walter Furlan",
+      "target": "Serge Woon"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "'Randall Pennington'"
+    },
+    {
+      "value": 1,
+      "source": "Andrea Di Pasquale",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 1,
+      "source": "David Vincenzetti",
+      "target": "media"
+    },
+    {
+      "value": 1,
+      "source": "Emanuele Placidi",
+      "target": "Massimo Chiodini"
+    },
+    {
+      "value": 5,
+      "source": "Massimiliano Luppi",
+      "target": "'Bruno'"
+    },
+    {
+      "value": 2,
+      "source": "David Vincenzetti",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 11,
+      "source": "Alex Velasco",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 5,
+      "source": "Marco Bettini",
+      "target": "fae"
+    },
+    {
+      "value": 62,
+      "source": "Daniel Martinez",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 1,
+      "source": "Marco Valleri",
+      "target": "Fabrizio Cornelli"
+    },
+    {
+      "value": 2,
+      "source": "Alberto Ornaghi",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 8,
+      "source": "Marco Bettini",
+      "target": "Francisco Villegas Landin"
+    },
+    {
+      "value": 2,
+      "source": "Eugene Ho",
+      "target": "Lorenzo Invernizzi"
+    },
+    {
+      "value": 78,
+      "source": "Daniel Martinez Moreno",
+      "target": ""
+    },
+    {
+      "value": 8,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "staff"
+    },
+    {
+      "value": 7,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Maglietta",
+      "target": "delivery"
+    },
+    {
+      "value": 1,
+      "source": "Bruno Muschitiello",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 18,
+      "source": "Fabio Busatto",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 29,
+      "source": "CWT Itinerary (No-Reply)",
+      "target": "travel@hackingteam.it"
+    },
+    {
+      "value": 10,
+      "source": "Fabio Busatto",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "Marco Losito"
+    },
+    {
+      "value": 13,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "JM Venegas",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 9,
+      "source": "Fabio Busatto",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 7,
+      "source": "Emad Shehata",
+      "target": "Antonella Capaldo"
+    },
+    {
+      "value": 1,
+      "source": "Alessandra Mino",
+      "target": "'James Miller'"
+    },
+    {
+      "value": 1,
+      "source": "Ivan Speziale",
+      "target": "Serge Woon"
+    },
+    {
+      "value": 1,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Fabrizio Cornelli"
+    },
+    {
+      "value": 24,
+      "source": "Ricardo Peri?an",
+      "target": "rcs-support"
+    },
+    {
+      "value": 15,
+      "source": "Daniel Martinez Moreno",
+      "target": "fae"
+    },
+    {
+      "value": 2,
+      "source": "Giancarlo Russo",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 4,
+      "source": "Philippe Antoine Vinci",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 20,
+      "source": "Massimo Chiodini",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "Walter Furlan"
+    },
+    {
+      "value": 9,
+      "source": "Marco Bettini",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 14,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "rsales"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "'vince@hackingteam.it'"
+    },
+    {
+      "value": 1,
+      "source": "Eugene Ho",
+      "target": "Philippe Antoine Vinci"
+    },
+    {
+      "value": 34,
+      "source": "Davide Romualdi",
+      "target": ""
+    },
+    {
+      "value": 2,
+      "source": "Marco Valleri",
+      "target": "Philippe Antoine Vinci"
+    },
+    {
+      "value": 3,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Cristian Vardaro"
+    },
+    {
+      "value": 1,
+      "source": "Alex Velasco",
+      "target": "ornella-dev"
+    },
+    {
+      "value": 1,
+      "source": "Davide Romualdi",
+      "target": "ornella-dev"
+    },
+    {
+      "value": 2,
+      "source": "Andrea Di Pasquale",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "capospi@sgd.difesa.it"
+    },
+    {
+      "value": 1,
+      "source": "Simonetta Gallucci",
+      "target": "rsales"
+    },
+    {
+      "value": 19,
+      "source": "7S39831",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Mauro Romeo",
+      "target": "Walter Furlan"
+    },
+    {
+      "value": 179,
+      "source": "David Vincenzetti",
+      "target": ""
+    },
+    {
+      "value": 3,
+      "source": "topac",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Giancarlo Russo",
+      "target": "Fabrizio Cornelli"
+    },
+    {
+      "value": 1,
+      "source": "Massimiliano Luppi",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Eros Marcon",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 6,
+      "source": "Philippe Antoine Vinci",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Molteni",
+      "target": "Giovanni Cino"
+    },
+    {
+      "value": 1,
+      "source": "Eric Rabe",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 2,
+      "source": "Dan. Moreno",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Massimiliano Luppi",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 51,
+      "source": "HelpTeam66",
+      "target": "rcs-support"
+    },
+    {
+      "value": 3,
+      "source": "David Vincenzetti",
+      "target": "Walter Furlan"
+    },
+    {
+      "value": 2,
+      "source": "Fabrizio Cornelli",
+      "target": "'ornella-dev@hackingteam.it'"
+    },
+    {
+      "value": 176,
+      "source": "Enrico Parentini",
+      "target": "rcs-support"
+    },
+    {
+      "value": 9,
+      "source": "Alessandro Scarafile",
+      "target": "Eugene Ho"
+    },
+    {
+      "value": 7,
+      "source": "Massimiliano Luppi",
+      "target": "Walter Furlan"
+    },
+    {
+      "value": 7,
+      "source": "Daniel Martinez Moreno",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 4,
+      "source": "Daniel Martinez",
+      "target": "amministrazione"
+    },
+    {
+      "value": 1,
+      "source": "David Vincenzetti",
+      "target": "netsec@hackingteam.it"
+    },
+    {
+      "value": 1,
+      "source": "pavarang hackingteam",
+      "target": "Ivan Speziale"
+    },
+    {
+      "value": 7,
+      "source": "danmoreno@gmail.com",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 4,
+      "source": "Emad Shehata",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "rsales@hackingteam.it"
+    },
+    {
+      "value": 318,
+      "source": "Alessandro Scarafile (Confluence)",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Lucia Rana",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 3,
+      "source": "bodee",
+      "target": ""
+    },
+    {
+      "value": 2,
+      "source": "Emad Shehata",
+      "target": "'msmesfer@tcc-ict.com'"
+    },
+    {
+      "value": 1,
+      "source": "Massimo Chiodini",
+      "target": "Serge Woon"
+    },
+    {
+      "value": 74,
+      "source": "Philippe Antoine Vinci",
+      "target": ""
+    },
+    {
+      "value": 2,
+      "source": "Antonio Mazzeo",
+      "target": "Ornella-dev"
+    },
+    {
+      "value": 1,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Ing. Oscar Israel Gonzalez"
+    },
+    {
+      "value": 2,
+      "source": "Marco Valleri",
+      "target": "Antonella Capaldo"
+    },
+    {
+      "value": 4,
+      "source": "Daniele Milan",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "David Vincenzetti",
+      "target": "RSALES"
+    },
+    {
+      "value": 9,
+      "source": "Francisco Villegas Landin",
+      "target": "daniel@cloudsec.mx"
+    },
+    {
+      "value": 2,
+      "source": "Daniel Martinez",
+      "target": "'Francisco Villegas Landin'"
+    },
+    {
+      "value": 2,
+      "source": "Enrico Parentini",
+      "target": "Cristian Vardaro"
+    },
+    {
+      "value": 5,
+      "source": "Giancarlo Russo",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 1,
+      "source": "Alessandro Scarafile",
+      "target": "ask"
+    },
+    {
+      "value": 9,
+      "source": "Philippe Antoine Vinci",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 1,
+      "source": "Walter Furlan",
+      "target": "Davide Romualdi"
+    },
+    {
+      "value": 8,
+      "source": "Bruno Muschitiello",
+      "target": "Cristian Vardaro"
+    },
+    {
+      "value": 1,
+      "source": "Eduardo Pardo",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "ivan solis pino"
+    },
+    {
+      "value": 5,
+      "source": "Marco Valleri",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Lorenzo Invernizzi",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 1,
+      "source": "Lorenzo Invernizzi",
+      "target": "support"
+    },
+    {
+      "value": 2,
+      "source": "Alessandro Scarafile",
+      "target": "'Dan. Moreno'"
+    },
+    {
+      "value": 2,
+      "source": "David Vincenzetti",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 2,
+      "source": "David Vincenzetti",
+      "target": "Philippe Antoine Vinci"
+    },
+    {
+      "value": 1,
+      "source": "Massimiliano Luppi",
+      "target": "'Tomas.Hlavsa@bull.cz'"
+    },
+    {
+      "value": 5,
+      "source": "Niv Yarimi",
+      "target": ""
+    },
+    {
+      "value": 3,
+      "source": "Jasurbek Khujaev",
+      "target": "rcs-support"
+    },
+    {
+      "value": 4,
+      "source": "Marco Valleri",
+      "target": "Walter Furlan"
+    },
+    {
+      "value": 3,
+      "source": "Simonetta Gallucci",
+      "target": "staff"
+    },
+    {
+      "value": 3,
+      "source": "Daniel Martinez Moreno",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 7,
+      "source": "Davide Romualdi (Confluence)",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Paco Villegas Landin",
+      "target": "Philippe Antoine Vinci"
+    },
+    {
+      "value": 6,
+      "source": "Emad Shehata",
+      "target": "staff"
+    },
+    {
+      "value": 242,
+      "source": "Daniele Milan",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "kiodo",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 1,
+      "source": "Diego Giubertoni",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 3,
+      "source": "Daniel Maglietta",
+      "target": "'m.bettini@hackingteam.it'"
+    },
+    {
+      "value": 1,
+      "source": "Mauro Romeo",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "Jorge Lorca - Mipoltec Ltda."
+    },
+    {
+      "value": 2,
+      "source": "Mauro Romeo",
+      "target": "netsec"
+    },
+    {
+      "value": 22,
+      "source": "CSS",
+      "target": "rcs-support"
+    },
+    {
+      "value": 4,
+      "source": "gilbertoe@neolinx.mx",
+      "target": "Philippe Antoine Vinci"
+    },
+    {
+      "value": 1,
+      "source": "Marco Valleri",
+      "target": "Emanuele Placidi"
+    },
+    {
+      "value": 27,
+      "source": "Antonella Capaldo",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "'alor@hackingteam.it'"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 3,
+      "source": "Alessandro Scarafile",
+      "target": "m.bettini@hackingteam.it"
+    },
+    {
+      "value": 1,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Daniel Maglietta"
+    },
+    {
+      "value": 1,
+      "source": "Philippe Antoine Vinci",
+      "target": "staff"
+    },
+    {
+      "value": 372,
+      "source": "Daniel Martinez",
+      "target": ""
+    },
+    {
+      "value": 8,
+      "source": "Giancarlo Russo",
+      "target": "fae"
+    },
+    {
+      "value": 15,
+      "source": "Fabio Busatto",
+      "target": "fae"
+    },
+    {
+      "value": 6,
+      "source": "Mauro Sorrento",
+      "target": "rcs-support"
+    },
+    {
+      "value": 2,
+      "source": "Simonetta Gallucci",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 1,
+      "source": "Fabrizio Cornelli",
+      "target": "Philippe Antoine Vinci"
+    },
+    {
+      "value": 12,
+      "source": "jorge.lorca@mipoltec.cl",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "danmoreno@gmail.com",
+      "target": "felipe_uh87@hotmail.com"
+    },
+    {
+      "value": 11,
+      "source": "Marco Valleri",
+      "target": "ornella-dev"
+    },
+    {
+      "value": 4,
+      "source": "CWT Itinerary (No-Reply)",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 2,
+      "source": "Diego Giubertoni",
+      "target": "rcs-support"
+    },
+    {
+      "value": 7,
+      "source": "Bruno Muschitiello",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 1,
+      "source": "Giancarlo Russo",
+      "target": "media@hackingteam.it"
+    },
+    {
+      "value": 3,
+      "source": "Enrico Parentini",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 28,
+      "source": "Daniel Martinez",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez Moreno",
+      "target": "'dmoreno@elitetactical.net'"
+    },
+    {
+      "value": 1,
+      "source": "Alex Velasco",
+      "target": "fae"
+    },
+    {
+      "value": 1,
+      "source": "topac",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "'russo.giancarlo@gmail.com'"
+    },
+    {
+      "value": 1,
+      "source": "Alessandro Scarafile",
+      "target": "'russo.giancarlo@gmail.com'"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "Luca Guerra"
+    },
+    {
+      "value": 1,
+      "source": "Ivan Speziale",
+      "target": "pavarang hackingteam"
+    },
+    {
+      "value": 17,
+      "source": "Andrea Di Pasquale",
+      "target": ""
+    },
+    {
+      "value": 4,
+      "source": "Paco Villegas Landin",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Massimo Chiodini",
+      "target": "Antonio Mazzeo"
+    },
+    {
+      "value": 6,
+      "source": "Alessandro Scarafile",
+      "target": "Massimiliano Luppi"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "Giancarlo Russo"
+    },
+    {
+      "value": 1,
+      "source": "Alessandra Mino",
+      "target": "Philippe Antoine Vinci"
+    },
+    {
+      "value": 2,
+      "source": "Fabrizio Cornelli",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "Matteo Oliva"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "'Giancarlo Russo'"
+    },
+    {
+      "value": 1,
+      "source": "Mahmoud Irtaimeh",
+      "target": "taysir@nextgenerationco.com"
+    },
+    {
+      "value": 5,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 3,
+      "source": "Philippe Antoine Vinci",
+      "target": "gilbertoe@neolinx.mx"
+    },
+    {
+      "value": 2,
+      "source": "Emanuele Placidi",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 9,
+      "source": "Daniel Martinez",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 3,
+      "source": "Giancarlo Russo",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 1,
+      "source": "Alberto Ornaghi",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 28,
+      "source": "Daniel Martinez",
+      "target": "Antonella Capaldo"
+    },
+    {
+      "value": 1,
+      "source": "Antonella Capaldo",
+      "target": "Antonella Capaldo"
+    },
+    {
+      "value": 2,
+      "source": "Alessandra Mino",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 2,
+      "source": "Andrea Di Pasquale",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 2,
+      "source": "Alessandro Scarafile",
+      "target": "'sortiz@cargatechnology.com'"
+    },
+    {
+      "value": 1,
+      "source": "Lucia Rana",
+      "target": "joliver@reedexpo.com"
+    },
+    {
+      "value": 1,
+      "source": "danmoreno@gmail.com",
+      "target": "roberto_p31@hotmail.com"
+    },
+    {
+      "value": 1,
+      "source": "Cristian Vardaro",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 9,
+      "source": "Eugene Ho",
+      "target": "fae"
+    },
+    {
+      "value": 1,
+      "source": "Massimiliano Luppi",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 18,
+      "source": "Test Wizard 003",
+      "target": "rcs-support"
+    },
+    {
+      "value": 12,
+      "source": "Marco Valleri",
+      "target": "fae"
+    },
+    {
+      "value": 7,
+      "source": "said ortiz",
+      "target": ""
+    },
+    {
+      "value": 9,
+      "source": "gilberto",
+      "target": "rcs-support"
+    },
+    {
+      "value": 3,
+      "source": "Daniele Milan",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 2,
+      "source": "Tom\u00a8\u00a2? Hlavsa",
+      "target": "Massimiliano Luppi"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "Massimiliano Luppi"
+    },
+    {
+      "value": 1,
+      "source": "Cristian Vardaro",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 1,
+      "source": "Serge Yun",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 1,
+      "source": "Francisco Villegas Landin",
+      "target": "Jose Marcelo Moreno Olvera"
+    },
+    {
+      "value": 2,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "'Jorge Lorca Rivera'"
+    },
+    {
+      "value": 1,
+      "source": "Hugo de Barros Correia",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 4,
+      "source": "Lucia Rana",
+      "target": "'Oliver  Jurgen (RX)'"
+    },
+    {
+      "value": 10,
+      "source": "Daniel Martinez Moreno",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 1,
+      "source": "Marco Valleri",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "alberto Bertolini-Isoclima S.p.A."
+    },
+    {
+      "value": 5,
+      "source": "Alberto Ornaghi",
+      "target": "ornella-dev"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "Eric Rabe"
+    },
+    {
+      "value": 3,
+      "source": "Eugene Ho",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 1,
+      "source": "NewYork.100ChurchStreet@regus.com",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "danmoreno@gmail.com",
+      "target": "Renato Melendez Galvan"
+    },
+    {
+      "value": 1,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "'russo.giancarlo@gmail.com'"
+    },
+    {
+      "value": 1,
+      "source": "Alessandro Scarafile",
+      "target": "'ornella-dev@hackingteam.it'"
+    },
+    {
+      "value": 2,
+      "source": "Daniel Maglietta",
+      "target": "Serge Woon"
+    },
+    {
+      "value": 9,
+      "source": "Antonio Mazzeo",
+      "target": ""
+    },
+    {
+      "value": 10,
+      "source": "Alessandro Scarafile",
+      "target": "Walter Furlan"
+    },
+    {
+      "value": 3,
+      "source": "Eugene Ho",
+      "target": "rcs-support"
+    },
+    {
+      "value": 11,
+      "source": "Suporte",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Lucia Rana",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "Enrico Parentini"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "David Nyoni"
+    },
+    {
+      "value": 1,
+      "source": "Antonella Capaldo",
+      "target": "Massimiliano Luppi"
+    },
+    {
+      "value": 2,
+      "source": "Massimiliano Luppi",
+      "target": "Giancarlo Russo"
+    },
+    {
+      "value": 2,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "'rsales@hackingteam.it'"
+    },
+    {
+      "value": 76,
+      "source": "Ahmed Al Masoud",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 17,
+      "source": "danmoreno@gmail.com",
+      "target": ""
+    },
+    {
+      "value": 3,
+      "source": "Walter Furlan",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 2,
+      "source": "Alessandro Scarafile",
+      "target": "staff"
+    },
+    {
+      "value": 12,
+      "source": "Davide Romualdi",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "'delivery@hackingteam.it'"
+    },
+    {
+      "value": 2,
+      "source": "Marco Bettini",
+      "target": "gilbertoe@neolinx.mx"
+    },
+    {
+      "value": 1,
+      "source": "Giovanni Cino",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "donotreply@blackberry.com",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Andrea Di Pasquale",
+      "target": "Antonella Capaldo"
+    },
+    {
+      "value": 1,
+      "source": "Marco Valleri",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 1,
+      "source": "danmoreno@gmail.com",
+      "target": "Said Ortiz"
+    },
+    {
+      "value": 8,
+      "source": "Ivan Speziale",
+      "target": "ornella-dev"
+    },
+    {
+      "value": 1,
+      "source": "Mauro Romeo",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 2,
+      "source": "Mauro Romeo",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 3,
+      "source": "CWT To Go",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 4,
+      "source": "Emanuele Placidi",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 1,
+      "source": "Alex Velasco",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo via Dropbox",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Alessandro Scarafile",
+      "target": "'Said Ortiz'"
+    },
+    {
+      "value": 1,
+      "source": "Ing. Oscar Israel Gonzalez",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "'f.busatto@hackingteam.it'"
+    },
+    {
+      "value": 5,
+      "source": "Licensing System",
+      "target": "Alex Velasco"
+    },
+    {
+      "value": 2,
+      "source": "Serge Woon",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 14,
+      "source": "Support Team",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "Serge Rossi Pasquali Microwave"
+    },
+    {
+      "value": 1,
+      "source": "Alex Velasco",
+      "target": "travel"
+    },
+    {
+      "value": 5,
+      "source": "Eduardo Pardo",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Marco Losito",
+      "target": "Ivan Speziale"
+    },
+    {
+      "value": 3,
+      "source": "Emad Shehata",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 134,
+      "source": "Fabio Busatto",
+      "target": ""
+    },
+    {
+      "value": 3,
+      "source": "Daniel Maglietta",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "Naji_hajjar@sets.com.lb"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "davilori@gni.it"
+    },
+    {
+      "value": 1,
+      "source": "Neal Jacob",
+      "target": "'m_irtaimeh@sahoury.com'"
+    },
+    {
+      "value": 2,
+      "source": "Alessandro Scarafile",
+      "target": "'dmoreno@elitetactical.net'"
+    },
+    {
+      "value": 1,
+      "source": "Giancarlo Russo",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 10,
+      "source": "Zuriana",
+      "target": "rcs-support"
+    },
+    {
+      "value": 3,
+      "source": "support hackingteam.it",
+      "target": "rcs-support"
+    },
+    {
+      "value": 39,
+      "source": "cateringllc",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Massimiliano Luppi",
+      "target": "'RSALES'"
+    },
+    {
+      "value": 2,
+      "source": "Marco Bettini (Confluence)",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 2,
+      "source": "Bruno Muschitiello",
+      "target": "Serge Woon"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez Moreno",
+      "target": "Massimiliano Luppi"
+    },
+    {
+      "value": 1,
+      "source": "\"Sergio R.-Sol\u00a8\u00aas\"",
+      "target": "Cristian Vardaro"
+    },
+    {
+      "value": 1,
+      "source": "Hugo de Barros Correia",
+      "target": "'Toni Meneses'"
+    },
+    {
+      "value": 5,
+      "source": "Lorenzo Invernizzi (Confluence)",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "russo.giancarlo@gmail.com"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 4,
+      "source": "Giancarlo Russo",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 1,
+      "source": "Lucia Rana",
+      "target": "eliudh@ormex.com"
+    },
+    {
+      "value": 3,
+      "source": "Daniel Martinez Moreno",
+      "target": "Mauro Romeo"
+    },
+    {
+      "value": 33,
+      "source": "Daniel Martinez",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 121,
+      "source": "Juan",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "marcogeraci@uol.com.br"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez Moreno",
+      "target": "Lorenzo Invernizzi"
+    },
+    {
+      "value": 1,
+      "source": "danmoreno@gmail.com",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 1,
+      "source": "Antonio Mazzeo",
+      "target": "'ornella-dev@hackingteam.it'"
+    },
+    {
+      "value": 1,
+      "source": "Fabrizio Cornelli",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Fabrizio Cornelli",
+      "target": "Fabio Busatto"
+    },
+    {
+      "value": 139,
+      "source": "Francisco Villegas Landin",
+      "target": ""
+    },
+    {
+      "value": 307,
+      "source": "Marco Bettini",
+      "target": ""
+    },
+    {
+      "value": 49,
+      "source": "satthubongdem123456789@gmail.com",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Alex Velasco",
+      "target": "Philippe Antoine Vinci"
+    },
+    {
+      "value": 1,
+      "source": "Support DHA",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Emanuele Placidi",
+      "target": "Simonetta Gallucci"
+    },
+    {
+      "value": 4,
+      "source": "Daniele Milan",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 4,
+      "source": "danmoreno@gmail.com",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 2,
+      "source": "Fabio Busatto",
+      "target": "Serge Woon"
+    },
+    {
+      "value": 1,
+      "source": "Serge Woon",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 1,
+      "source": "ChristiBairdbbu@jensight.com",
+      "target": "staff@hackingteam.it"
+    },
+    {
+      "value": 1,
+      "source": "Eugene Ho",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 28,
+      "source": "CWT Itinerary (No-Reply)",
+      "target": "travel"
+    },
+    {
+      "value": 1,
+      "source": "User_Mod_01",
+      "target": "rcs-support"
+    },
+    {
+      "value": 2,
+      "source": "Paco Villegas Landin",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 3,
+      "source": "David Vincenzetti",
+      "target": "Emanuele Placidi"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 77,
+      "source": "UZC Bull",
+      "target": "rcs-support"
+    },
+    {
+      "value": 24,
+      "source": "Alessandra Mino",
+      "target": ""
+    },
+    {
+      "value": 15,
+      "source": "Alessandro Scarafile",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 1,
+      "source": "Lucia Rana",
+      "target": "'Ernest Batista'"
+    },
+    {
+      "value": 5,
+      "source": "Eugene Ho",
+      "target": "ask"
+    },
+    {
+      "value": 3,
+      "source": "Massimiliano Luppi",
+      "target": "sgeorgakis@cis.gov.cy"
+    },
+    {
+      "value": 2,
+      "source": "Giancarlo Russo",
+      "target": "Davide Romualdi"
+    },
+    {
+      "value": 43,
+      "source": "ulziibadrakh",
+      "target": "rcs-support"
+    },
+    {
+      "value": 3,
+      "source": "Expo Seguridad Mexico",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Massimiliano Luppi",
+      "target": "Davide Romualdi"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez Moreno",
+      "target": "Serge Woon"
+    },
+    {
+      "value": 1,
+      "source": "Bruno Muschitiello",
+      "target": "'Bruno'"
+    },
+    {
+      "value": 2,
+      "source": "Daniel Martinez",
+      "target": "Daniel Maglietta"
+    },
+    {
+      "value": 9,
+      "source": "Tom\u00a8\u00a2? Hlavsa",
+      "target": ""
+    },
+    {
+      "value": 2,
+      "source": "David Vincenzetti",
+      "target": "ornella-dev"
+    },
+    {
+      "value": 2,
+      "source": "Simonetta Gallucci",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 3,
+      "source": "David Vincenzetti",
+      "target": "Antonio Mazzeo"
+    },
+    {
+      "value": 2,
+      "source": "\"Sergio R.-Sol\u00a8\u00aas\"",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 13,
+      "source": "Oliver  Jurgen (RX)",
+      "target": ""
+    },
+    {
+      "value": 10,
+      "source": "CWT Itinerary (No-Reply)",
+      "target": "Simonetta Gallucci"
+    },
+    {
+      "value": 1,
+      "source": "David Vincenzetti",
+      "target": "netsec"
+    },
+    {
+      "value": 1,
+      "source": "Philippe Antoine Vinci",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 12,
+      "source": "Daniel Martinez Moreno",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "David Vincenzetti",
+      "target": "Cristian Vardaro"
+    },
+    {
+      "value": 4,
+      "source": "",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Lucia Rana",
+      "target": "'James Miller'"
+    },
+    {
+      "value": 16,
+      "source": "gilbertoe@neolinx.mx",
+      "target": ""
+    },
+    {
+      "value": 4,
+      "source": "Daniel Martinez",
+      "target": "Daniel Mart\u00a8\u00aanez Moreno"
+    },
+    {
+      "value": 7,
+      "source": "Francisco Villegas Landin",
+      "target": "Alex Velasco"
+    },
+    {
+      "value": 2,
+      "source": "Daniel Martinez",
+      "target": "<gilbertoe@neolinx.mx>"
+    },
+    {
+      "value": 43,
+      "source": "Cristian Vardaro",
+      "target": ""
+    },
+    {
+      "value": 2,
+      "source": "Marco Valleri",
+      "target": "Eugene Ho"
+    },
+    {
+      "value": 1,
+      "source": "Josef Hrabec",
+      "target": "Tom\u00a8\u00a2? Hlavsa"
+    },
+    {
+      "value": 1,
+      "source": "Daniele Milan",
+      "target": "Philippe Antoine Vinci"
+    },
+    {
+      "value": 7,
+      "source": "Bruno Muschitiello",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Simonetta Gallucci",
+      "target": "fae"
+    },
+    {
+      "value": 9,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Alex Velasco"
+    },
+    {
+      "value": 65,
+      "source": "Fabrizio Cornelli",
+      "target": ""
+    },
+    {
+      "value": 6,
+      "source": "Bruno Muschitiello",
+      "target": "Eduardo Pardo Carvajal"
+    },
+    {
+      "value": 3,
+      "source": "Emad Shehata",
+      "target": "Cristian Vardaro"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "segreteria@sigmaconsulting.it"
+    },
+    {
+      "value": 65,
+      "source": "Alessandro Scarafile",
+      "target": "fae"
+    },
+    {
+      "value": 1,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Jorge Lorca Rivera"
+    },
+    {
+      "value": 1,
+      "source": "Ivan Speziale",
+      "target": "rcs-support"
+    },
+    {
+      "value": 2,
+      "source": "David Vincenzetti",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 2,
+      "source": "Emad Shehata",
+      "target": "delivery@hackingteam.it"
+    },
+    {
+      "value": 254,
+      "source": "Salvatore Macchiarella",
+      "target": "rcs-support"
+    },
+    {
+      "value": 2,
+      "source": "Alberto Ornaghi",
+      "target": "Cristian Vardaro"
+    },
+    {
+      "value": 2,
+      "source": "Marco Valleri",
+      "target": "ask"
+    },
+    {
+      "value": 21,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "fae"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "'ivan solis pino'"
+    },
+    {
+      "value": 1,
+      "source": "Eros Marcon",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Massimiliano Luppi",
+      "target": "rsales@hackingteam.it"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "'f.busatto@hackingteam.it'"
+    },
+    {
+      "value": 15,
+      "source": "Moniem GNSE",
+      "target": ""
+    },
+    {
+      "value": 2,
+      "source": "Massimiliano Luppi",
+      "target": "'SPRINGTHORPE  Jonathan'"
+    },
+    {
+      "value": 1,
+      "source": "topac",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 1,
+      "source": "Emad Shehata",
+      "target": "'kambal456@gmail.com'"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "<jl@cloudsec.mx>"
+    },
+    {
+      "value": 2,
+      "source": "consola@idec2015-colombia.com",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 9,
+      "source": "Daniel Martinez",
+      "target": "jl@cloudsec.mx"
+    },
+    {
+      "value": 6,
+      "source": "Alex Velasco",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 1,
+      "source": "topac",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 2,
+      "source": "Serge Woon",
+      "target": "Ivan Speziale"
+    },
+    {
+      "value": 1,
+      "source": "Marco Bettini",
+      "target": "Dan. Moreno"
+    },
+    {
+      "value": 3,
+      "source": "Serge Woon",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 4,
+      "source": "Sergio",
+      "target": "rcs-support"
+    },
+    {
+      "value": 6,
+      "source": "Massimiliano Luppi",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 1,
+      "source": "Diego Giubertoni",
+      "target": "Serge Woon"
+    },
+    {
+      "value": 74,
+      "source": "Giancarlo Russo",
+      "target": ""
+    },
+    {
+      "value": 3,
+      "source": "Cristian Vardaro",
+      "target": "Lorenzo Invernizzi"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "pino.scancarello@bcubegroup.com"
+    },
+    {
+      "value": 3,
+      "source": "eduvagpo74",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Alessandro Scarafile",
+      "target": "'said ortiz'"
+    },
+    {
+      "value": 24,
+      "source": "Mauro Romeo",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "simonetti@sekur.it"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez Moreno",
+      "target": "'paco@cloudsec.mx'"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "rgiudici@gtline.com"
+    },
+    {
+      "value": 1,
+      "source": "Marco Valleri",
+      "target": "Rosario Armando Viscardi"
+    },
+    {
+      "value": 1,
+      "source": "Mauro Romeo",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 65,
+      "source": "Daniele Molteni",
+      "target": "rcs-support"
+    },
+    {
+      "value": 27,
+      "source": "netsec",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Alex Velasco",
+      "target": "Simonetta Gallucci"
+    },
+    {
+      "value": 1,
+      "source": "Randall Pennington",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 2,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "Iv\u00a8\u00a2n Gmail",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 4,
+      "source": "Giancarlo Russo",
+      "target": "HT"
+    },
+    {
+      "value": 29,
+      "source": "Francisco Villegas Landin",
+      "target": "Francisco Villegas Landin"
+    },
+    {
+      "value": 15,
+      "source": "Emad Shehata",
+      "target": "Walter Furlan"
+    },
+    {
+      "value": 1,
+      "source": "Marco Valleri",
+      "target": "Massimo Chiodini"
+    },
+    {
+      "value": 32,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "fae"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Martinez",
+      "target": "support"
+    },
+    {
+      "value": 1,
+      "source": "Philippe Antoine Vinci",
+      "target": "Fabrizio Cornelli"
+    },
+    {
+      "value": 9,
+      "source": "Fabio Busatto",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 3,
+      "source": "Fabio Busatto",
+      "target": "ornella-dev"
+    },
+    {
+      "value": 2,
+      "source": "Emad Shehata",
+      "target": "Mauro Romeo"
+    },
+    {
+      "value": 1,
+      "source": "David Vincenzetti",
+      "target": "topac"
+    },
+    {
+      "value": 1,
+      "source": "Lucia Rana",
+      "target": "staff@hackingteam.it"
+    },
+    {
+      "value": 8,
+      "source": "Massimiliano Luppi",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 1,
+      "source": "Daniel Maglietta",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 5,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Dan. Moreno"
+    },
+    {
+      "value": 3,
+      "source": "Daniel Martinez",
+      "target": "ask"
+    },
+    {
+      "value": 2,
+      "source": "Daniele Milan",
+      "target": "Dan. Moreno"
+    },
+    {
+      "value": 2,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "'Hugo de Barros Correia'"
+    },
+    {
+      "value": 6,
+      "source": "Emad Shehata",
+      "target": "rsales"
+    },
+    {
+      "value": 2,
+      "source": "Davide Romualdi",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 1,
+      "source": "Simonetta Gallucci",
+      "target": "Walter Furlan"
+    },
+    {
+      "value": 1,
+      "source": "danmoreno@gmail.com",
+      "target": "Raji Gonzalez"
+    },
+    {
+      "value": 6,
+      "source": "Giancarlo Russo",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 63,
+      "source": "Marco Valleri",
+      "target": ""
+    },
+    {
+      "value": 3,
+      "source": "Luca Guerra",
+      "target": ""
+    },
+    {
+      "value": 2,
+      "source": "Daniel Martinez Moreno",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 4,
+      "source": "\"Sergio R.-Sol\u00a8\u00aas\"",
+      "target": "rcs-support"
+    },
+    {
+      "value": 3,
+      "source": "Daniel Martinez Moreno",
+      "target": "Antonella Capaldo"
+    },
+    {
+      "value": 1,
+      "source": "Ronaldo Padovani",
+      "target": "a.santini@explorercases.com"
+    },
+    {
+      "value": 3,
+      "source": "Lucia Rana",
+      "target": "Simonetta Gallucci"
+    },
+    {
+      "value": 1,
+      "source": "Philippe Antoine Vinci",
+      "target": "<gilbertoe@neolinx.mx>"
+    },
+    {
+      "value": 7,
+      "source": "Bruno Muschitiello",
+      "target": "Massimiliano Luppi"
+    },
+    {
+      "value": 3,
+      "source": "Daniele Milan",
+      "target": "Emad Shehata"
+    },
+    {
+      "value": 7,
+      "source": "Serge Woon",
+      "target": "fae"
+    },
+    {
+      "value": 8,
+      "source": "Serge Woon",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 3,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 1,
+      "source": "Sultan Alrashed",
+      "target": "rcs-support"
+    },
+    {
+      "value": 1,
+      "source": "Cristian Vardaro",
+      "target": "Marco Valleri"
+    },
+    {
+      "value": 8,
+      "source": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "target": "Giancarlo Russo"
+    },
+    {
+      "value": 1,
+      "source": "Walter Furlan",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 2,
+      "source": "Ivan Speziale",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 37,
+      "source": "sortiz@cargatechnology.com",
+      "target": "rcs-support"
+    },
+    {
+      "value": 8,
+      "source": "Alex Velasco",
+      "target": "Daniele Milan"
+    },
+    {
+      "value": 5,
+      "source": "Alex Velasco",
+      "target": "Giancarlo Russo"
+    },
+    {
+      "value": 2,
+      "source": "Emad Shehata",
+      "target": "msmesfer@tcc-ict.com"
+    },
+    {
+      "value": 1,
+      "source": "Serge Yun",
+      "target": "staff"
+    },
+    {
+      "value": 1,
+      "source": "bodee",
+      "target": "Davide Romualdi"
+    },
+    {
+      "value": 1,
+      "source": "Ivan Speziale",
+      "target": "Bruno Muschitiello"
+    },
+    {
+      "value": 1,
+      "source": "joeysolaro@tre.it",
+      "target": "staff@hackingteam.it"
+    },
+    {
+      "value": 2,
+      "source": "Massimo Chiodini",
+      "target": "Fabrizio Cornelli"
+    },
+    {
+      "value": 1,
+      "source": "MailScanner",
+      "target": "rcs-support"
+    },
+    {
+      "value": 74,
+      "source": "Serge Woon",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "etickets@amtrak.com",
+      "target": "Daniel Martinez Moreno"
+    },
+    {
+      "value": 1,
+      "source": "Giovanni Cino",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 2,
+      "source": "Mahmoud Irtaimeh",
+      "target": ""
+    },
+    {
+      "value": 3,
+      "source": "Antonio Mazzeo",
+      "target": "David Vincenzetti"
+    },
+    {
+      "value": 1,
+      "source": "Davide Romualdi",
+      "target": "Naji_hajjar@sets.com.lb"
+    },
+    {
+      "value": 2,
+      "source": "Neal Jacob",
+      "target": ""
+    },
+    {
+      "value": 1,
+      "source": "Fabio Busatto",
+      "target": "Marco Bettini"
+    },
+    {
+      "value": 1,
+      "source": "Eduardo Pardo Carvajal",
+      "target": "Antonella Capaldo"
+    },
+    {
+      "value": 1,
+      "source": "Philippe Antoine Vinci",
+      "target": "Lucia Rana"
+    },
+    {
+      "value": 2,
+      "source": "Eugene Ho",
+      "target": "nupt@dhag.com.vn"
+    },
+    {
+      "value": 1,
+      "source": "Giancarlo Russo",
+      "target": "'f.busatto@hackingteam.it'"
+    },
+    {
+      "value": 13,
+      "source": "Marco Valleri",
+      "target": "Alessandro Scarafile"
+    },
+    {
+      "value": 3,
+      "source": "David Vincenzetti",
+      "target": "Fabrizio Cornelli"
+    },
+    {
+      "value": 6,
+      "source": "Daniele Milan",
+      "target": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero"
+    },
+    {
+      "value": 6,
+      "source": "Alessandro Scarafile",
+      "target": "Philippe Antoine Vinci"
+    },
+    {
+      "value": 2,
+      "source": "Marco Bettini",
+      "target": "Alberto Ornaghi"
+    },
+    {
+      "value": 3,
+      "source": "Walter Furlan",
+      "target": "Alessandro Scarafile"
+    }
+  ],
+  "nodes": [
+    {
+      "name": "David Vincenzetti",
+      "group": 1
+    },
+    {
+      "name": "list@hackingteam.it",
+      "group": 1
+    },
+    {
+      "name": "flist@hackingteam.it",
+      "group": 1
+    },
+    {
+      "name": "support",
+      "group": 1
+    },
+    {
+      "name": "rcs-support",
+      "group": 1
+    },
+    {
+      "name": "Alessandro Scarafile (Confluence)",
+      "group": 1
+    },
+    {
+      "name": "Daniel Martinez Moreno",
+      "group": 1
+    },
+    {
+      "name": "Emad Shehata",
+      "group": 1
+    },
+    {
+      "name": "'Federico Lauria'",
+      "group": 1
+    },
+    {
+      "name": "",
+      "group": 1
+    },
+    {
+      "name": "Walter Furlan",
+      "group": 1
+    },
+    {
+      "name": "'Nabil Sardouk'",
+      "group": 1
+    },
+    {
+      "name": "rsales",
+      "group": 1
+    },
+    {
+      "name": "Davide Romualdi",
+      "group": 1
+    },
+    {
+      "name": "'Bodee S'",
+      "group": 1
+    },
+    {
+      "name": "Simonetta Gallucci",
+      "group": 1
+    },
+    {
+      "name": "staff@hackingteam.it",
+      "group": 1
+    },
+    {
+      "name": "Alessandro Scarafile",
+      "group": 1
+    },
+    {
+      "name": "Eugene Ho",
+      "group": 1
+    },
+    {
+      "name": "ask",
+      "group": 1
+    },
+    {
+      "name": "ornella-dev",
+      "group": 1
+    },
+    {
+      "name": "'mohamed.moniem@gnsegroup.com'",
+      "group": 1
+    },
+    {
+      "name": "Moniem GNSE",
+      "group": 1
+    },
+    {
+      "name": "'Amr Hemeda'",
+      "group": 1
+    },
+    {
+      "name": "Lorenzo Invernizzi",
+      "group": 1
+    },
+    {
+      "name": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero",
+      "group": 1
+    },
+    {
+      "name": "Eduardo Pardo Carvajal",
+      "group": 1
+    },
+    {
+      "name": "Marco Bettini",
+      "group": 1
+    },
+    {
+      "name": "Mauro Romeo",
+      "group": 1
+    },
+    {
+      "name": "'Moniem GNSE'",
+      "group": 1
+    },
+    {
+      "name": "Eric Rabe",
+      "group": 1
+    },
+    {
+      "name": "'bodee@placingvalue.com'",
+      "group": 1
+    },
+    {
+      "name": "Licensing System",
+      "group": 1
+    },
+    {
+      "name": "bodee",
+      "group": 1
+    },
+    {
+      "name": "RSALES (rsales@hackingteam.it)",
+      "group": 1
+    },
+    {
+      "name": "fae",
+      "group": 1
+    },
+    {
+      "name": "staff",
+      "group": 1
+    },
+    {
+      "name": "Dan. Moreno",
+      "group": 1
+    },
+    {
+      "name": "Philippe Antoine Vinci",
+      "group": 1
+    },
+    {
+      "name": "Massimiliano Luppi",
+      "group": 1
+    },
+    {
+      "name": "Mariana Vazquez",
+      "group": 1
+    },
+    {
+      "name": "Alessandra Mino",
+      "group": 1
+    },
+    {
+      "name": "Daniele Milan",
+      "group": 1
+    },
+    {
+      "name": "Mahmoud Irtaimeh",
+      "group": 1
+    },
+    {
+      "name": "ceo@blueventurecap.com",
+      "group": 1
+    },
+    {
+      "name": "taysir@nextgenerationco.com",
+      "group": 1
+    },
+    {
+      "name": "Taysir Abbadi",
+      "group": 1
+    },
+    {
+      "name": "m_irtaimeh@sahoury.com",
+      "group": 1
+    },
+    {
+      "name": "consola@idec2015-colombia.com",
+      "group": 1
+    },
+    {
+      "name": "Neal Jacob",
+      "group": 1
+    },
+    {
+      "name": "'taysir@nextgenerationco.com'",
+      "group": 1
+    },
+    {
+      "name": "'m_irtaimeh@sahoury.com'",
+      "group": 1
+    },
+    {
+      "name": "'ceo@blueventurecap.com'",
+      "group": 1
+    },
+    {
+      "name": "Fabio Busatto",
+      "group": 1
+    },
+    {
+      "name": "Marco Valleri",
+      "group": 1
+    },
+    {
+      "name": "Francisco Villegas Landin",
+      "group": 1
+    },
+    {
+      "name": "Herve Hurtado",
+      "group": 1
+    },
+    {
+      "name": "Antonella Capaldo",
+      "group": 1
+    },
+    {
+      "name": "Alberto Ornaghi",
+      "group": 1
+    },
+    {
+      "name": "Andrea Di Pasquale",
+      "group": 1
+    },
+    {
+      "name": "Lucia Rana",
+      "group": 1
+    },
+    {
+      "name": "Eros Marcon",
+      "group": 1
+    },
+    {
+      "name": "Luca Guerra",
+      "group": 1
+    },
+    {
+      "name": "Daniele Molteni",
+      "group": 1
+    },
+    {
+      "name": "Giovanni Cino",
+      "group": 1
+    },
+    {
+      "name": "Giancarlo Russo",
+      "group": 1
+    },
+    {
+      "name": "Elisabetta Ciceri",
+      "group": 1
+    },
+    {
+      "name": "Daniel Maglietta",
+      "group": 1
+    },
+    {
+      "name": "Antonio Mazzeo",
+      "group": 1
+    },
+    {
+      "name": "HT",
+      "group": 1
+    },
+    {
+      "name": "delivery",
+      "group": 1
+    },
+    {
+      "name": "Enrico Parentini",
+      "group": 1
+    },
+    {
+      "name": "Cristian Vardaro",
+      "group": 1
+    },
+    {
+      "name": "Amr Hemeda",
+      "group": 1
+    },
+    {
+      "name": "'HT'",
+      "group": 1
+    },
+    {
+      "name": "'rsales@hackingteam.it'",
+      "group": 1
+    },
+    {
+      "name": "Expo Seguridad Mexico",
+      "group": 1
+    },
+    {
+      "name": "Bruno Muschitiello",
+      "group": 1
+    },
+    {
+      "name": "Randall Pennington",
+      "group": 1
+    },
+    {
+      "name": "Marco Losito",
+      "group": 1
+    },
+    {
+      "name": "Sales",
+      "group": 1
+    },
+    {
+      "name": "Diego Giubertoni",
+      "group": 1
+    },
+    {
+      "name": "Massimo Chiodini",
+      "group": 1
+    },
+    {
+      "name": "Emanuele Placidi",
+      "group": 1
+    },
+    {
+      "name": "daniel@cloudsec.mx",
+      "group": 1
+    },
+    {
+      "name": "JOSE LUIS DUE?AS GARCIA",
+      "group": 1
+    },
+    {
+      "name": "Eric Jaime Medina Ruiz",
+      "group": 1
+    },
+    {
+      "name": "Adrian Contreras",
+      "group": 1
+    },
+    {
+      "name": "jl@cloudsec.mx",
+      "group": 1
+    },
+    {
+      "name": "Herve Hurtado (hh@gvillas.com)",
+      "group": 1
+    },
+    {
+      "name": "Niv Yarimi",
+      "group": 1
+    },
+    {
+      "name": "amministrazione",
+      "group": 1
+    },
+    {
+      "name": "Daniel Martinez",
+      "group": 1
+    },
+    {
+      "name": "nupt@dhag.com.vn",
+      "group": 1
+    },
+    {
+      "name": "Nu Pham Thi (Ms.)",
+      "group": 1
+    },
+    {
+      "name": "hoanpv@dhag.com.vn",
+      "group": 1
+    },
+    {
+      "name": "Mtra. Rosa Raquel Garc\u00a8\u00aaa de Le\u00a8\u00aen Peniche (rosaraquel@computrack.com.mx)",
+      "group": 1
+    },
+    {
+      "name": "gilbertoe@neolinx.mx",
+      "group": 1
+    },
+    {
+      "name": "Rosario Armando Viscardi",
+      "group": 1
+    },
+    {
+      "name": "'gilbertoe@neolinx.mx'",
+      "group": 1
+    },
+    {
+      "name": "'m.bettini@hackingteam.it'",
+      "group": 1
+    },
+    {
+      "name": "'g.russo@hackingteam.it'",
+      "group": 1
+    },
+    {
+      "name": "m.bettini@hackingteam.it",
+      "group": 1
+    },
+    {
+      "name": "g.russo@hackingteam.it",
+      "group": 1
+    },
+    {
+      "name": "Christian Pozzi",
+      "group": 1
+    },
+    {
+      "name": "topac",
+      "group": 1
+    },
+    {
+      "name": "Ivan Speziale",
+      "group": 1
+    },
+    {
+      "name": "Luis Diaz",
+      "group": 1
+    },
+    {
+      "name": "JOSE LUIS DUE?AS GARCIA (luis@cloudsec.mx)",
+      "group": 1
+    },
+    {
+      "name": "Paco Villegas Landin",
+      "group": 1
+    },
+    {
+      "name": "Ernest Batista",
+      "group": 1
+    },
+    {
+      "name": "James Miller",
+      "group": 1
+    },
+    {
+      "name": "'Ernest Batista'",
+      "group": 1
+    },
+    {
+      "name": "'James Miller'",
+      "group": 1
+    },
+    {
+      "name": "dmoreno@elitetactical.net",
+      "group": 1
+    },
+    {
+      "name": "direcciongeneral@grupoarmor.mx",
+      "group": 1
+    },
+    {
+      "name": "<gilbertoe@neolinx.mx>",
+      "group": 1
+    },
+    {
+      "name": "'delivery@hackingteam.it'",
+      "group": 1
+    },
+    {
+      "name": "delivery@hackingteam.it",
+      "group": 1
+    },
+    {
+      "name": "'paco@cloudsec.mx'",
+      "group": 1
+    },
+    {
+      "name": "'jl@cloudsec.mx'",
+      "group": 1
+    },
+    {
+      "name": "Naji_hajjar@sets.com.lb",
+      "group": 1
+    },
+    {
+      "name": "Alan Zarza",
+      "group": 1
+    },
+    {
+      "name": "amr.hemeda@gnsegroup.com",
+      "group": 1
+    },
+    {
+      "name": "Eduardo Pardo Carvajal (Confluence)",
+      "group": 1
+    },
+    {
+      "name": "'Karl Feghali'",
+      "group": 1
+    },
+    {
+      "name": "Fabrizio Cornelli",
+      "group": 1
+    },
+    {
+      "name": "Ronaldo via Dropbox",
+      "group": 1
+    },
+    {
+      "name": "Jorge Lorca - Mipoltec Ltda.",
+      "group": 1
+    },
+    {
+      "name": "Ronaldo Padovani",
+      "group": 1
+    },
+    {
+      "name": "a.santini@explorercases.com",
+      "group": 1
+    },
+    {
+      "name": "Alex Velasco",
+      "group": 1
+    },
+    {
+      "name": "alberto Bertolini-Isoclima S.p.A.",
+      "group": 1
+    },
+    {
+      "name": "alberto.quaquarelli@forcetex.it",
+      "group": 1
+    },
+    {
+      "name": "Bruno Cisotti",
+      "group": 1
+    },
+    {
+      "name": "capospi@sgd.difesa.it",
+      "group": 1
+    },
+    {
+      "name": "claudio.debertolis@bcubegroup.com",
+      "group": 1
+    },
+    {
+      "name": "David Nyoni",
+      "group": 1
+    },
+    {
+      "name": "davilori@gni.it",
+      "group": 1
+    },
+    {
+      "name": "Demetrio Bregolin",
+      "group": 1
+    },
+    {
+      "name": "Daniele Santi",
+      "group": 1
+    },
+    {
+      "name": "info@gemrad.com",
+      "group": 1
+    },
+    {
+      "name": "jarno.antonelli@beretta.it",
+      "group": 1
+    },
+    {
+      "name": "marcogeraci@uol.com.br",
+      "group": 1
+    },
+    {
+      "name": "marketing@gemrad.com",
+      "group": 1
+    },
+    {
+      "name": "Busso Patrizia",
+      "group": 1
+    },
+    {
+      "name": "pino.scancarello@bcubegroup.com",
+      "group": 1
+    },
+    {
+      "name": "Riccardo Cassin",
+      "group": 1
+    },
+    {
+      "name": "rgiudici@gtline.com",
+      "group": 1
+    },
+    {
+      "name": "sales@forcetek.it",
+      "group": 1
+    },
+    {
+      "name": "segreteria@sigmaconsulting.it",
+      "group": 1
+    },
+    {
+      "name": "silvia",
+      "group": 1
+    },
+    {
+      "name": "Simone Cirocchi",
+      "group": 1
+    },
+    {
+      "name": "tarini@sekur.it",
+      "group": 1
+    },
+    {
+      "name": "mele@sekur.it",
+      "group": 1
+    },
+    {
+      "name": "simonetti@sekur.it",
+      "group": 1
+    },
+    {
+      "name": "Serge Rossi Pasquali Microwave",
+      "group": 1
+    },
+    {
+      "name": "ICE SanPaolo",
+      "group": 1
+    },
+    {
+      "name": "Marco Bettini (Confluence)",
+      "group": 1
+    },
+    {
+      "name": "'Eliud Herrera'",
+      "group": 1
+    },
+    {
+      "name": "serviciosadicionales@centrobanamex.com",
+      "group": 1
+    },
+    {
+      "name": "eliudh@ormex.com",
+      "group": 1
+    },
+    {
+      "name": "Sergio Rodriguez-Sol\u00a8\u00aas y Guerrero (Confluence)",
+      "group": 1
+    },
+    {
+      "name": "'Oliver  Jurgen (RX)'",
+      "group": 1
+    },
+    {
+      "name": "CWT Mobile Services",
+      "group": 1
+    },
+    {
+      "name": "Oliver  Jurgen (RX)",
+      "group": 1
+    },
+    {
+      "name": "<jl@cloudsec.mx>",
+      "group": 1
+    },
+    {
+      "name": "CWT.Client.Care.Network.Traveler.Setup@carlsonwagonlit.com",
+      "group": 1
+    },
+    {
+      "name": "Maximo Moreno",
+      "group": 1
+    },
+    {
+      "name": "Juan Pablo Diaz Ezcurdia",
+      "group": 1
+    },
+    {
+      "name": "Jose Marcelo Moreno Olvera",
+      "group": 1
+    },
+    {
+      "name": "'Bruno'",
+      "group": 1
+    },
+    {
+      "name": "netsec",
+      "group": 1
+    },
+    {
+      "name": "joliver@reedexpo.com",
+      "group": 1
+    },
+    {
+      "name": "ornella-dev@hackingteam.it",
+      "group": 1
+    },
+    {
+      "name": "media@hackingteam.it",
+      "group": 1
+    },
+    {
+      "name": "'f.busatto@hackingteam.it'",
+      "group": 1
+    },
+    {
+      "name": "Brandy Murray",
+      "group": 1
+    },
+    {
+      "name": "media",
+      "group": 1
+    },
+    {
+      "name": "'Sergio de Arruda Costa Macedo'",
+      "group": 1
+    },
+    {
+      "name": "Gilberto Enriquez",
+      "group": 1
+    },
+    {
+      "name": "'Hugo de Barros Correia'",
+      "group": 1
+    },
+    {
+      "name": "'Toni Meneses'",
+      "group": 1
+    },
+    {
+      "name": "sergio.sacm@dpf.gov.br",
+      "group": 1
+    },
+    {
+      "name": "Hugo de Barros Correia",
+      "group": 1
+    },
+    {
+      "name": "Luis D\u00a8\u00aaaz",
+      "group": 1
+    },
+    {
+      "name": "Paco Villegas Land\u00a8\u00aan",
+      "group": 1
+    },
+    {
+      "name": "Computrack Rosa Raquel",
+      "group": 1
+    },
+    {
+      "name": "Pasquale8daf16@iusacell.net",
+      "group": 1
+    },
+    {
+      "name": "rsales@hackingteam.it",
+      "group": 1
+    },
+    {
+      "name": "Ornella-dev",
+      "group": 1
+    },
+    {
+      "name": "rosario@hackingteam.com",
+      "group": 1
+    },
+    {
+      "name": "Serge Yun",
+      "group": 1
+    },
+    {
+      "name": "Serge Woon",
+      "group": 1
+    },
+    {
+      "name": "danmoreno@gmail.com",
+      "group": 1
+    },
+    {
+      "name": "eduvagpo74@tutanota.de",
+      "group": 1
+    },
+    {
+      "name": "Renato Melendez Galvan",
+      "group": 1
+    },
+    {
+      "name": "sgeorgakis@cis.gov.cy",
+      "group": 1
+    },
+    {
+      "name": "said ortiz",
+      "group": 1
+    },
+    {
+      "name": "Raji Gonzalez",
+      "group": 1
+    },
+    {
+      "name": "felipe_uh87@hotmail.com",
+      "group": 1
+    },
+    {
+      "name": "roberto_p31@hotmail.com",
+      "group": 1
+    },
+    {
+      "name": "ivan solis pino",
+      "group": 1
+    },
+    {
+      "name": "'topac'",
+      "group": 1
+    },
+    {
+      "name": "Ing. Oscar Israel Gonzalez",
+      "group": 1
+    },
+    {
+      "name": "'sortiz@cargatechnology.com'",
+      "group": 1
+    },
+    {
+      "name": "'dmoreno@elitetactical.net'",
+      "group": 1
+    },
+    {
+      "name": "'said ortiz'",
+      "group": 1
+    },
+    {
+      "name": "'Dan. Moreno'",
+      "group": 1
+    },
+    {
+      "name": "'Said Ortiz'",
+      "group": 1
+    },
+    {
+      "name": "Said Ortiz",
+      "group": 1
+    },
+    {
+      "name": "'a.scarafile@hackingteam.it'",
+      "group": 1
+    },
+    {
+      "name": "NewYork.100ChurchStreet@regus.com",
+      "group": 1
+    },
+    {
+      "name": "clarion@kohensistemas.com.br",
+      "group": 1
+    },
+    {
+      "name": "Daniele Milan (Confluence)",
+      "group": 1
+    },
+    {
+      "name": "travel",
+      "group": 1
+    },
+    {
+      "name": "etickets@amtrak.com",
+      "group": 1
+    },
+    {
+      "name": "DMARTINEZM@ME.COM",
+      "group": 1
+    },
+    {
+      "name": "'msmesfer@tcc-ict.com'",
+      "group": 1
+    },
+    {
+      "name": "Mesfer S. Al Mesfer",
+      "group": 1
+    },
+    {
+      "name": "JM Venegas",
+      "group": 1
+    },
+    {
+      "name": "support hackingteam.it",
+      "group": 1
+    },
+    {
+      "name": "Gerardo Bautista Luciano",
+      "group": 1
+    },
+    {
+      "name": "'RSALES'",
+      "group": 1
+    },
+    {
+      "name": "'Giancarlo Russo'",
+      "group": 1
+    },
+    {
+      "name": "msmesfer@tcc-ict.com",
+      "group": 1
+    },
+    {
+      "name": "'vince@hackingteam.it'",
+      "group": 1
+    },
+    {
+      "name": "'Weder Bernhard (Wdb)'",
+      "group": 1
+    },
+    {
+      "name": "'alor@hackingteam.it'",
+      "group": 1
+    },
+    {
+      "name": "Eric Jaime Medina Ruiz (jaime@cloudsec.mx)",
+      "group": 1
+    },
+    {
+      "name": "PC Jalisco",
+      "group": 1
+    },
+    {
+      "name": "Marco Fontana",
+      "group": 1
+    },
+    {
+      "name": "'ornella-dev@hackingteam.it'",
+      "group": 1
+    },
+    {
+      "name": "marketing",
+      "group": 1
+    },
+    {
+      "name": "MailScanner",
+      "group": 1
+    },
+    {
+      "name": "'russo.giancarlo@gmail.com'",
+      "group": 1
+    },
+    {
+      "name": "'Wdb@kapo.zh.ch'",
+      "group": 1
+    },
+    {
+      "name": "'a.velasco@hackingteam.it'",
+      "group": 1
+    },
+    {
+      "name": "pavarang hackingteam",
+      "group": 1
+    },
+    {
+      "name": "RSALES",
+      "group": 1
+    },
+    {
+      "name": "joeysolaro@tre.it",
+      "group": 1
+    },
+    {
+      "name": "'SPRINGTHORPE  Jonathan'",
+      "group": 1
+    },
+    {
+      "name": "Fred D'Alessio",
+      "group": 1
+    },
+    {
+      "name": "'Eric Rabe'",
+      "group": 1
+    },
+    {
+      "name": "Josef Hrabec",
+      "group": 1
+    },
+    {
+      "name": "Tom\u00a8\u00a2? Hlavsa",
+      "group": 1
+    },
+    {
+      "name": "'Tom\u00a8\u00a2? Hlavsa'",
+      "group": 1
+    },
+    {
+      "name": "'niv@grupokabat.com'",
+      "group": 1
+    },
+    {
+      "name": "'niv@symservicios.com'",
+      "group": 1
+    },
+    {
+      "name": "Iv\u00a8\u00a2n Gmail",
+      "group": 1
+    },
+    {
+      "name": "oscarg@symservicios.com",
+      "group": 1
+    },
+    {
+      "name": "rgia@gruppogdm.it",
+      "group": 1
+    },
+    {
+      "name": "netsec@hackingteam.it",
+      "group": 1
+    },
+    {
+      "name": "'Fabio Busatto'",
+      "group": 1
+    },
+    {
+      "name": "jorge.lorca@mipoltec.cl",
+      "group": 1
+    },
+    {
+      "name": "kiodo",
+      "group": 1
+    },
+    {
+      "name": "Jorge Lorca Rivera",
+      "group": 1
+    },
+    {
+      "name": "Mohamed Al Rejaibi",
+      "group": 1
+    },
+    {
+      "name": "'ceo@omandst.com'",
+      "group": 1
+    },
+    {
+      "name": "'Jorge Lorca Rivera'",
+      "group": 1
+    },
+    {
+      "name": "'Marco Bettini'",
+      "group": 1
+    },
+    {
+      "name": "'ornella-dev'",
+      "group": 1
+    },
+    {
+      "name": "'Tomas.Hlavsa@bull.cz'",
+      "group": 1
+    },
+    {
+      "name": "'Ornella-dev'",
+      "group": 1
+    },
+    {
+      "name": "'kambal456@gmail.com'",
+      "group": 1
+    },
+    {
+      "name": "'MOI'",
+      "group": 1
+    },
+    {
+      "name": "donotreply@blackberry.com",
+      "group": 1
+    },
+    {
+      "name": "Matteo Oliva",
+      "group": 1
+    },
+    {
+      "name": "'Mohamed Al Rejaibi'",
+      "group": 1
+    },
+    {
+      "name": "Movistar",
+      "group": 1
+    },
+    {
+      "name": "Davide Romualdi (Confluence)",
+      "group": 1
+    },
+    {
+      "name": "Emad Shehata (Confluence)",
+      "group": 1
+    },
+    {
+      "name": "Lorenzo Invernizzi (Confluence)",
+      "group": 1
+    },
+    {
+      "name": "Gruppo SIO x HT",
+      "group": 1
+    },
+    {
+      "name": "Ariel",
+      "group": 1
+    },
+    {
+      "name": "Salvatore Macchiarella",
+      "group": 1
+    },
+    {
+      "name": "Ahmed Al Masoud",
+      "group": 1
+    },
+    {
+      "name": "UZC Bull",
+      "group": 1
+    },
+    {
+      "name": "Takayama",
+      "group": 1
+    },
+    {
+      "name": "devilangel",
+      "group": 1
+    },
+    {
+      "name": "cateringlllc",
+      "group": 1
+    },
+    {
+      "name": "  Richard Hiller",
+      "group": 1
+    },
+    {
+      "name": "satthubongdem123456789@gmail.com",
+      "group": 1
+    },
+    {
+      "name": "Marco Antonio",
+      "group": 1
+    },
+    {
+      "name": "Juan",
+      "group": 1
+    },
+    {
+      "name": "UIAPuebla",
+      "group": 1
+    },
+    {
+      "name": "Suporte",
+      "group": 1
+    },
+    {
+      "name": "Raffaele Gabrieli",
+      "group": 1
+    },
+    {
+      "name": "SW",
+      "group": 1
+    },
+    {
+      "name": "gilberto",
+      "group": 1
+    },
+    {
+      "name": "E.",
+      "group": 1
+    },
+    {
+      "name": "Hrabec Josef",
+      "group": 1
+    },
+    {
+      "name": "Simon Thewes",
+      "group": 1
+    },
+    {
+      "name": "Eduardo Pardo",
+      "group": 1
+    },
+    {
+      "name": "wirbelwind79@outlook.com",
+      "group": 1
+    },
+    {
+      "name": "sortiz@cargatechnology.com",
+      "group": 1
+    },
+    {
+      "name": "Astana Team",
+      "group": 1
+    },
+    {
+      "name": "Support Team",
+      "group": 1
+    },
+    {
+      "name": "ulziibadrakh",
+      "group": 1
+    },
+    {
+      "name": "Test Wizard 003",
+      "group": 1
+    },
+    {
+      "name": "CSS",
+      "group": 1
+    },
+    {
+      "name": "HelpTeam66",
+      "group": 1
+    },
+    {
+      "name": "Ricardo Peri?an",
+      "group": 1
+    },
+    {
+      "name": "G\u00a8\u00a2bor Farkas",
+      "group": 1
+    },
+    {
+      "name": "i.eugene",
+      "group": 1
+    },
+    {
+      "name": "Zuriana",
+      "group": 1
+    },
+    {
+      "name": "7S39831",
+      "group": 1
+    },
+    {
+      "name": "TRUST",
+      "group": 1
+    },
+    {
+      "name": "Mohammed",
+      "group": 1
+    },
+    {
+      "name": "User_Mod_01",
+      "group": 1
+    },
+    {
+      "name": "Pasquale D'Ambrosio",
+      "group": 1
+    },
+    {
+      "name": "SAIDO",
+      "group": 1
+    },
+    {
+      "name": "eduvagpo74",
+      "group": 1
+    },
+    {
+      "name": "Sergio",
+      "group": 1
+    },
+    {
+      "name": "tzm",
+      "group": 1
+    },
+    {
+      "name": "CC",
+      "group": 1
+    },
+    {
+      "name": "SAID ORTIZ",
+      "group": 1
+    },
+    {
+      "name": "\"Sergio R.-Sol\u00a8\u00aas\"",
+      "group": 1
+    },
+    {
+      "name": "Francesco Sperandeo",
+      "group": 1
+    },
+    {
+      "name": "Mauro Sorrento",
+      "group": 1
+    },
+    {
+      "name": "Jasurbek Khujaev",
+      "group": 1
+    },
+    {
+      "name": "Hlavsa Tomas",
+      "group": 1
+    },
+    {
+      "name": "Dream Team",
+      "group": 1
+    },
+    {
+      "name": "Jacopo Cialli",
+      "group": 1
+    },
+    {
+      "name": "cateringllc",
+      "group": 1
+    },
+    {
+      "name": "Support",
+      "group": 1
+    },
+    {
+      "name": "John Solano",
+      "group": 1
+    },
+    {
+      "name": "miloudi franck",
+      "group": 1
+    },
+    {
+      "name": "Walcot Woly",
+      "group": 1
+    },
+    {
+      "name": "Support DHA",
+      "group": 1
+    },
+    {
+      "name": "Megat",
+      "group": 1
+    },
+    {
+      "name": "Sultan Alrashed",
+      "group": 1
+    },
+    {
+      "name": "HackingTeam",
+      "group": 1
+    },
+    {
+      "name": "Fahad",
+      "group": 1
+    },
+    {
+      "name": "tulum@tutanota.de",
+      "group": 1
+    },
+    {
+      "name": "KD",
+      "group": 1
+    },
+    {
+      "name": "Dan",
+      "group": 1
+    },
+    {
+      "name": "CWT Itinerary (No-Reply)",
+      "group": 1
+    },
+    {
+      "name": "travel@hackingteam.it",
+      "group": 1
+    },
+    {
+      "name": "ldiaz@neolinx.mx",
+      "group": 1
+    },
+    {
+      "name": "'Gilberto Enriquez Jaime'",
+      "group": 1
+    },
+    {
+      "name": "dmartinezm@me.com",
+      "group": 1
+    },
+    {
+      "name": "'Randall Pennington'",
+      "group": 1
+    },
+    {
+      "name": "'Luis D\u00a8\u00aaaz'",
+      "group": 1
+    },
+    {
+      "name": "'Gerardo Bautista Luciano'",
+      "group": 1
+    },
+    {
+      "name": "pc_jalisco@hotmail.com",
+      "group": 1
+    },
+    {
+      "name": "'Francisco Villegas Landin'",
+      "group": 1
+    },
+    {
+      "name": "niv@symservicios.com",
+      "group": 1
+    },
+    {
+      "name": "russo.giancarlo@gmail.com",
+      "group": 1
+    },
+    {
+      "name": "'ivan solis pino'",
+      "group": 1
+    },
+    {
+      "name": "d.martinez",
+      "group": 1
+    },
+    {
+      "name": "Daniel Mart\u00a8\u00aanez Moreno",
+      "group": 1
+    },
+    {
+      "name": "tecnologia",
+      "group": 1
+    },
+    {
+      "name": "CWT To Go",
+      "group": 1
+    },
+    {
+      "name": "ChristiBairdbbu@jensight.com",
+      "group": 1
+    },
+    {
+      "name": "ccaceresh@investigaciones.cl",
+      "group": 1
+    },
+    {
+      "name": "bbidpw-donotreply@blackberry.com",
+      "group": 1
+    }
+  ]
+}

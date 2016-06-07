@@ -1,8 +1,10 @@
 import codecs
 import csv
 import json
-
+import xml
+import xml.dom.minidom as minidom
 from LineData import *
+import helper
 
 
 def addNode(name, nodes, count):
@@ -18,40 +20,30 @@ def addNode(name, nodes, count):
     return count
 
 
-def addLink(data, links, nodes):
+def addLink(fromDis, toDis, nodes, links, weight):
     """
     :type data: str
     :type links: dict
     :type nodes: dict
     :return:
     """
-    fromDis = data[0]
-    toDis = data[1]
     if fromDis in nodes and toDis in nodes:
-        key = (fromDis, toDis)
+        key = (nodes[fromDis], nodes[toDis])
         if key in links:
-            print("repeat")
+            # print("repeat: %s" % str(key))
+            value = links[key]
+            value += int(weight)
+            links[key] = value
         else:
-            links[key] = data[5]
+            links[key] = int(weight)
 
 
-def main():
-    outfile = "data/json/source_target.json"
-    dataDir = "data/After4/"
-    filename = "all_4_to.csv"
-    f = csv.reader(codecs.open(dataDir + filename, "r", "iso-8859-1"))
-    header = f.__next__()
-
-    nodes = dict()
-    links = dict()
-    id = 0
-
-    for line in f:
-        if len(line) > 1:
-            id = addNode(line[0], nodes, id)
-            id = addNode(line[1], nodes, id)
-            addLink(line, links, nodes)
-
+def dumpJson(nodes, links, outfile):
+    """
+    :param nodes: dict
+    :param links: dict
+    :return:
+    """
     nodeArray = []
     nodes2 = dict()
     for key in nodes:
@@ -68,9 +60,114 @@ def main():
 
     out = open(outfile, "w")
     json.dump(final, out)
-    # out.write(linksJson)
     out.flush()
     out.close()
+
+
+def dumpXML(nodes, links, outfile):
+    nodes2 = dict()
+    for key in nodes:
+        nodes2[nodes[key]] = key
+
+    doc = minidom.Document()
+    gexf = doc.createElement('gexf')
+    gexf.setAttribute("xmlns:viz", "http:///www.gexf.net/1.1draft/viz")
+    gexf.setAttribute("version", "1.1")
+    gexf.setAttribute("xmlns", "http://www.gexf.net/1.1draft")
+    doc.appendChild(gexf)
+
+    meta = doc.createElement("meta")
+    creator_text = doc.createTextNode("Gephi 0.7")
+    creator = doc.createElement("creator")
+    creator.appendChild(creator_text)
+    meta.appendChild(creator)
+    gexf.appendChild(meta)
+
+    graph = doc.createElement("graph")
+    graph.setAttribute("defaultedgetype", "directed")
+    graph.setAttribute("idtype", "string")
+    graph.setAttribute("type", "static")
+    gexf.appendChild(graph)
+
+    nodes = doc.createElement("nodes")
+    graph.appendChild(nodes)
+
+    count = 0
+    for i in range(len(nodes2)):
+        node = doc.createElement("node")
+        node.setAttribute("id", str(float(i)))
+        node.setAttribute("label", nodes2[i])
+        nodes.appendChild(node)
+        count += 1
+        # if count >= 500:
+        #     break
+
+    nodes.setAttribute("count", str(len(nodes2)))
+    # nodes.setAttribute("count", str(count))
+
+    edges = doc.createElement("edges")
+    graph.appendChild(edges)
+
+    index = 0
+    for key in links:
+        edge = doc.createElement("edge")
+        edge.setAttribute("id", str(index))
+        edge.setAttribute("source", str(float(key[0])))
+        edge.setAttribute("target", str(float(key[1])))
+        edge.setAttribute("weight", str(float(links[key])))
+        edges.appendChild(edge)
+        index += 1
+        # if index >= 1000:
+        #     break
+
+    edges.setAttribute("count", str(len(links)))
+    # edges.setAttribute("count", str(index))
+
+    f = open(outfile, "w")
+    f.write(doc.toprettyxml(indent='    '))
+    f.flush()
+    f.close()
+
+
+def handleFile(dataDir, input, output, nameDict):
+    f = csv.reader(codecs.open(dataDir + input, "r", "iso-8859-1"))
+    header = f.__next__()
+
+    nodes = dict()
+    links = dict()
+    id = 0
+
+    for line in f:
+        if len(line) > 1:
+            originFrom = str(line[0]).strip().lower()
+            originTo = str(line[1]).strip().lower()
+            if originFrom in nameDict and originTo in nameDict:
+                id = addNode(nameDict[originFrom], nodes, id)
+                id = addNode(nameDict[originTo], nodes, id)
+                addLink(nameDict[originFrom], nameDict[originTo], nodes, links, line[5])
+
+    dumpXML(nodes, links, output + ".gexf")
+    dumpJson(nodes, links, output + ".json")
+
+
+def main():
+    dataDir = "data/After4/"
+
+    toOut = "data/output/source_target_to"
+    ccOut = "data/output/source_target_cc"
+    bccOut = "data/output/source_target_bcc"
+    output = [toOut, ccOut, bccOut]
+
+    filename = "all_4_to.csv"
+    ccFilename = "all_4_cc.csv"
+    bccFilename = "all_4_bcc.csv"
+    input = [filename, ccFilename, bccFilename]
+
+    nameDict = helper.loadEmployeeSet()
+
+    index = 0
+    for i in range(len(input)):
+        handleFile(dataDir, input[i], output[i], nameDict)
 
 
 if __name__ == '__main__':

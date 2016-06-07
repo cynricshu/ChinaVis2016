@@ -6,7 +6,7 @@ from LineData import *
 
 
 def main():
-    outfile = "data/json/import.json"
+    outfile = "data/output/import.json"
     dataDir = "data/After4/"
     filename = "all_4_to.csv"
     f = csv.reader(codecs.open(dataDir + filename, "r", "iso-8859-1"))
@@ -36,7 +36,7 @@ def main():
 
     out = open(outfile, "w")
     json.dump(final, out)
-    # out.write(linksJson)
+    # output.write(linksJson)
     out.flush()
     out.close()
 

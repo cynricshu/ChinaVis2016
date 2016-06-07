@@ -4,7 +4,7 @@ import json
 import xml
 import xml.dom.minidom as minidom
 from LineData import *
-import helper
+import util.helper as helper
 
 
 def addNode(name, nodes, count):

@@ -3,8 +3,8 @@ import re
 
 excludeSet = {"", ":", "?", ",", "{", "}", "(", ")", "[", "]", "<", ">", "|",
               "!", "...", ";", "#", "&", "+", ".", "\"", "@", "'", "`", "=",
-              "the", "a", "or", "and", "for", "in", "on", "to", "is", "was",
-              "with", "by", "at", "about", "under"
+              "the", "a", "or", "of", "from", "and", "for", "in", "on", "to", "is", "was",
+              "with", "by", "at", "about", "under", "of", "are", "be", "is"
               }
 specialSet = {"¨", "¤", "¬", "¯", "¡", "®", "¦"}
 

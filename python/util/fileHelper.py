@@ -35,11 +35,12 @@ def writeIterableToFileWithIndex(filename, dataCollection):
     f.close()
 
 
-def writeDictToFile(filename, dataDict):
+def writeDictToFile(filename, dataDict, genOutputStr):
     count = 0
     f = open(filename, "w")
-    for data in dataDict:
-        f.write("{}:{}\n".format(dataDict[data], data))
+    for key in dataDict:
+        # f.write("{}:{}:{}:{}\n".format(dataDict[data][0], dataDict[data][1], dataDict[data][2], data))
+        f.write(genOutputStr(key, dataDict[key]))
         count += 1
         if count % _flush_count == 0:
             f.flush()

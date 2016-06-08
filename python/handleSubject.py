@@ -9,6 +9,8 @@ import util.ldaHelper as ldaHelper
 import util.helper as helper
 import util.fileHelper as fileHelper
 
+delimer = "DELIMER"
+
 
 def firstLoop(line, tuple):
     subjectdict = tuple[0]
@@ -20,9 +22,9 @@ def firstLoop(line, tuple):
     subject = subject.strip()
     if subject != "":
         if subject in subjectdict:
-            subjectdict[subject] += 1
+            subjectdict[subject][0] += 1
         else:
-            subjectdict[subject] = 1
+            subjectdict[subject] = [1, data.getDateSent(), data.getDateReceive()]
 
 
 def handleOriginFile(func, outputFile):
@@ -38,7 +40,8 @@ def handleOriginFile(func, outputFile):
         print("%s execute ok" % filename)
 
     print(len(subjectdict))
-    fileHelper.writeDictToFile(outputFile, subjectdict)
+    fileHelper.writeDictToFile(outputFile, subjectdict,
+                               lambda key, val: "{}DELIMER{}DELIMER{}DELIMER{}\n".format(val[0], val[1], val[2], key))
     return subjectdict
 
 
@@ -50,10 +53,11 @@ def handleSubject1(outputFile):
     termdict = dict()
     subjectList = list()
 
-    f = open("data/topic/subject1_w.txt")
+    f = open("data/topic/subject1_w_date.txt")
     for item in f:
-        count = item[0: item.index(":")]
-        subject = item[item.index(":") + 1: len(item)].strip()
+        array = item.strip().split("DELIMER")
+        count = array[0]
+        subject = array[3]
 
         for (regex, repl) in helper.regexList.items():
             subject = regex.sub(repl, subject)
@@ -72,7 +76,7 @@ def handleSubject1(outputFile):
         if s != "":
             regex = re.compile("\s+")
             s = regex.sub(" ", s)
-            subjectList.append("{}:{}".format(count, s.strip()))
+            subjectList.append("{}DELIMER{}DELIMER{}DELIMER{}".format(count, array[1], array[2], s.strip()))
 
     fileHelper.writeIterableToFile(outputFile, subjectList)
     return termdict
@@ -84,9 +88,10 @@ def getTermFromFile():
     """
     termdict = dict()
     index = 0
-    f = open("data/topic/subject2_w.txt")
-    for subject in f:
-        subject = subject[subject.index(":") + 1: len(subject)].strip()
+    f = open("data/topic/subject2_w_date.txt")
+    for line in f:
+        array = line.strip().split(delimer)
+        subject = array[3].strip()
         termList = subject.split(" ")
         for term in termList:
             if term not in termdict:
@@ -115,7 +120,7 @@ def ldaTest():
 
     X.shape
     X.sum()
-    model = lda.LDA(n_topics=20, n_iter=1500, random_state=1)
+    model = lda.LDA(n_topics=100, n_iter=1500, random_state=1)
     print("lda start to fit")
     model.fit(X)  # model.fit_transform(X) is also available
     topic_word = model.topic_word_  # model.components_ also works
@@ -152,10 +157,11 @@ def genLdaInputDoc(termdict):
         termdict = getTermFromFile()  # {term1: index1, term2: index2 ... }
     outlist = list()
 
-    f = open("data/topic/subject2_w.txt")
+    f = open("data/topic/subject2_w_date.txt")
     for line in f:
-        count = int(line[0: line.index(":")])
-        line = line[line.index(":") + 1: len(line)].strip()
+        array = line.strip().split(delimer)
+        count = array[0]
+        line = array[3].strip()
         temp = dict()  # {index of term: count} we use it to save the count of each term(use index to represent a term)
         terms = line.split(" ")
         for term in terms:
@@ -176,17 +182,17 @@ def genLdaInputDoc(termdict):
     for term, index in termdict.items():
         reversedTermDict[index] = term
 
-    outfile = "data/topic/subject2_w.tokens"
+    outfile = "data/topic/subject2_w_date.tokens"
     fileHelper.writeIterableToFileWithIndex(outfile, reversedTermDict)
 
-    outfile = "data/topic/subject2_w.ldac"
+    outfile = "data/topic/subject2_w_date.ldac"
     fileHelper.writeIterableToFileWithIndex(outfile, outlist)
 
 
 def main():
-    # subjectdict = handleOriginFile(firstLoop, "data/topic/subject1_w.txt")
+    # subjectdict = handleOriginFile(firstLoop, "data/topic/subject1_w_date.txt")
 
-    # termdict = handleSubject1("data/topic/subject2_w.txt")
+    # termdict = handleSubject1("data/topic/subject2_w_date.txt")
     # genLdaInputDoc(None)
     ldaTest()
     # nltkTest()

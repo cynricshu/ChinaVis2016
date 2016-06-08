@@ -56,3 +56,14 @@ class LineData(object):
         """
         return self.line[8]
 
+    def getDateSent(self):
+        """
+        :rtype: str
+        """
+        return self.line[11]
+
+    def getDateReceive(self):
+        """
+        :rtype: str
+        """
+        return self.line[12]

@@ -2,9 +2,9 @@ import os
 import lda.utils
 
 _test_dir = "/Users/cynric/workspaces/Python/ChinaVis2016/data/topic"
-ldac = 'subject2_w.ldac'
-tokens = 'subject2_w.tokens'
-title = 'subject2_w.txt'
+ldac = 'subject2_w_date.ldac'
+tokens = 'subject2_w_date.tokens'
+title = 'subject2_w_date.txt'
 
 
 def load_reuters():

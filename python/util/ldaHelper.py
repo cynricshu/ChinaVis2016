@@ -1,7 +1,7 @@
 import os
 import lda.utils
 
-_test_dir = "/Users/cynric/workspaces/Python/ChinaVis2016/data/topic"
+_test_dir = "data/topic"
 ldac = 'subject2_w_date.ldac'
 tokens = 'subject2_w_date.tokens'
 title = 'subject2_w_date.txt'

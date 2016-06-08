@@ -2,7 +2,7 @@ import csv
 import codecs
 import sys
 
-csv.field_size_limit(sys.maxsize)
+csv.field_size_limit(65535)
 _flush_count = 1000
 
 

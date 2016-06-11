@@ -3,28 +3,34 @@
   "children": [
     {
       "name": "Advertisement mail",
-      "children": [],
-      "value": 165
+      "children": [{
+        "name":"Advertisement mail",
+        "value": 165}]
+
     },
     {
       "name": "Alarm mail",
-      "children": [],
-      "value": 7237
+      "children": [{
+        "name":"Alarm mail",
+        "value": 7237}]
     },
     {
       "name": "Bulk mail",
-      "children": [],
-      "value": 2664
+      "children": [{
+        "name":"Bulk mail",
+        "value": 2664}]
     },
     {
       "name": "Meeting mail",
-      "children": [],
-      "value": 1863
+      "children": [{
+        "name":"Meeting mail",
+        "value": 1863}]
     },
     {
       "name": "Travel mail",
-      "children": [],
-      "value": 1433
+      "children": [{
+        "name":"Travel mail",
+        "value": 1433}]
     }
   ]
 }

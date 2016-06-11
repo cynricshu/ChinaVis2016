@@ -103,7 +103,7 @@
             .attr("y", 6 - margin.top)
             .attr("dy", ".75em");
 
-    d3.json("data/classify.json", function(root) {
+    d3.json("../data/output/category_firstLevel.json", function(root) {
         initialize(root);
         accumulate(root);
         layout(root);

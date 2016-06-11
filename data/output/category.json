@@ -3,9 +3,9 @@
   "children": [
     {
       "name": "Advertisement mail",
-      "value": 165,
       "children": [
         {
+          "free": true,
           "id": 399,
           "name": "See How Remarkablely Simple Tools Can Solve Real Life Challenges in 1 Day  10 June 2015 <ADV>",
           "value": "5"
@@ -834,7 +834,6 @@
     },
     {
       "name": "Alarm mail",
-      "value": 7237,
       "children": [
         {
           "id": 2,
@@ -37025,7 +37024,6 @@
     },
     {
       "name": "Bulk mail",
-      "value": 2664,
       "children": [
         {
           "id": 12,
@@ -50351,7 +50349,6 @@
     },
     {
       "name": "Meeting mail",
-      "value": 1863,
       "children": [
         {
           "id": 3,
@@ -59672,7 +59669,6 @@
     },
     {
       "name": "Travel mail",
-      "value": 1433,
       "children": [
         {
           "id": 57,

@@ -90,15 +90,15 @@ def findSubjectByCategory():
     index = 0
 
     advArray = []
-    advdict = {'name': 'Advertisement mail', 'children': advArray}
+    advdict = {'name': 'Advertisement mail', 'children': advArray, 'value': 165}
     alarmArray = []
-    alarmdict = {'name': 'Alarm mail', 'children': alarmArray}
+    alarmdict = {'name': 'Alarm mail', 'children': alarmArray, 'value': 7237}
     bulkArray = []
-    bulkdict = {'name': 'Bulk mail', 'children': bulkArray}
+    bulkdict = {'name': 'Bulk mail', 'children': bulkArray, 'value': 2664}
     meetingArray = []
-    meetingdict = {'name': 'Meeting mail', 'children': meetingArray}
+    meetingdict = {'name': 'Meeting mail', 'children': meetingArray, 'value': 1863}
     travelArray = []
-    traveldict = {'name': 'Travel mail', 'children': travelArray}
+    traveldict = {'name': 'Travel mail', 'children': travelArray, 'value': 1433}
 
     for item in f:
         array = item.strip().split(":")
@@ -123,13 +123,13 @@ def findSubjectByCategory():
 
         index += 1
 
-    print("adv mail:{}, alarm mail:{}, bulk mail:{}, travel mail:{}, meeting mail: {}".format(
+    print("adv mail:{}, alarm mail:{}, bulk mail:{}, meeting mail: {}, travel mail:{}".format(
         str(len(advArray)), str(len(alarmArray)), str(len(bulkArray)), str(len(travelArray)), str(len(meetingArray))
     ))
 
     alldict = {'name': 'All Mail', 'children': [advdict, alarmdict, bulkdict, meetingdict, traveldict]}
     with open("data/output/category.json", "w") as outfile:
-        json.dump(alarmdict, outfile)
+        json.dump(alldict, outfile)
 
 
 def getTermFromFile():

@@ -1,5 +1,5 @@
 import re
-
+import datetime
 
 def regexTest():
     pattern = re.compile("^\[!.*\].*")
@@ -18,9 +18,12 @@ def regexTest():
         else:
             print("not match")
 
+def datetimeTest():
+    datetime_obj = datetime.datetime.strptime('2015/6/6 3:39', '%Y/%m/%d %H:%M')
+    print(datetime_obj.timetuple())
 
 def main():
-    regexTest()
+    datetimeTest()
 
 
 if __name__ == '__main__':

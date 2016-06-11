@@ -8,6 +8,7 @@ import nltk
 import util.ldaHelper as ldaHelper
 import util.helper as helper
 import util.fileHelper as fileHelper
+import json
 
 delimer = "DELIMER"
 
@@ -80,6 +81,55 @@ def handleSubject1(outputFile):
 
     fileHelper.writeIterableToFile(outputFile, subjectList)
     return termdict
+
+
+def findSubjectByCategory():
+    f = open("data/topic/weight/subject1_w.txt")
+    alarm_pattern = re.compile("\[!.*\].*")
+    bulk_pattern = re.compile("\[BULK\].*")
+    index = 0
+
+    advArray = []
+    advdict = {'name': 'Advertisement mail', 'children': advArray}
+    alarmArray = []
+    alarmdict = {'name': 'Alarm mail', 'children': alarmArray}
+    bulkArray = []
+    bulkdict = {'name': 'Bulk mail', 'children': bulkArray}
+    meetingArray = []
+    meetingdict = {'name': 'Meeting mail', 'children': meetingArray}
+    travelArray = []
+    traveldict = {'name': 'Travel mail', 'children': travelArray}
+
+    for item in f:
+        array = item.strip().split(":")
+        count = array[0]
+        subject = ''.join(array[1:]).strip()
+
+        if "<adv>" in subject.lower() or "(adv)" in subject.lower():
+            advArray.append({'id': index, 'value': count, 'name': subject})
+
+        if re.match(alarm_pattern, subject):
+            alarmArray.append({'id': index, 'value': count, 'name': subject})
+
+        if re.match(bulk_pattern, subject):
+            bulkArray.append({'id': index, 'value': count, 'name': subject})
+
+        if "travel" in subject.lower() or "hotel" in subject.lower() or "tour" in subject.lower() \
+                or "journey" in subject.lower() or "trip" in subject.lower():
+            travelArray.append({'id': index, 'value': count, 'name': subject})
+
+        if "meeting" in subject.lower() or "conference" in subject.lower() or "forum" in subject.lower():
+            meetingArray.append({'id': index, 'value': count, 'name': subject})
+
+        index += 1
+
+    print("adv mail:{}, alarm mail:{}, bulk mail:{}, travel mail:{}, meeting mail: {}".format(
+        str(len(advArray)), str(len(alarmArray)), str(len(bulkArray)), str(len(travelArray)), str(len(meetingArray))
+    ))
+
+    alldict = {'name': 'All Mail', 'children': [advdict, alarmdict, bulkdict, meetingdict, traveldict]}
+    with open("data/output/category.json", "w") as outfile:
+        json.dump(alarmdict, outfile)
 
 
 def getTermFromFile():
@@ -194,9 +244,10 @@ def main():
 
     # termdict = handleSubject1("data/topic/subject2_w_date.txt")
     # genLdaInputDoc(None)
-    ldaTest()
+    # ldaTest()
     # nltkTest()
     # testRegex()
+    findSubjectByCategory()
 
     print("over")
 

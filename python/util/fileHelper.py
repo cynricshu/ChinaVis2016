@@ -30,7 +30,7 @@ def writeIterableToFileWithIndex(filename, dataCollection):
     f = open(filename, "w")
     for i in range(len(dataCollection)):
         f.write(dataCollection[i] + "\n")
-        if i % 500 == 0:
+        if i % _flush_count == 0:
             f.flush()
     f.close()
 

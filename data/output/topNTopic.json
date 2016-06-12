@@ -15,11 +15,10 @@
     "BAJA services not working - QJX-198-79423",
     "The confirmation of DAP schedule: Mobile Hacking",
     "Draft Contract - CNC - HT",
-    "APE luned2/09/2013",
+    "APE luned 2/09/2013",
     "Tramezzino.it",
     "Delivery and Training",
     "Delivery & Installation",
-    "R:",
     "Pranzo",
     "TNI Opportunity - RFP Released",
     "Presentazione domande per Assegno Nucleo Familiare (ANF)",
@@ -49,7 +48,8 @@
     "Dolce 14:30",
     "PUMA Project",
     "Signed PO + Proposal",
-    "NDA"
+    "NDA",
+    "RCS -Renewal -Critical"
   ],
   "count": [
     28484,
@@ -71,7 +71,6 @@
     3236,
     3193,
     3105,
-    2998,
     2939,
     2922,
     2898,
@@ -101,6 +100,7 @@
     2167,
     2166,
     2075,
-    2033
+    2033,
+    2031
   ]
 }

@@ -550,13 +550,13 @@ def findTopNSubject():
     with open("data/topic/weight&date/topNTopic.json", "w") as f:
         allSubjectList = list()
         outdict = {"label": allSubjectList, "count": []}
-        for i in range(50):
+        for i in range(51):
             count = countArray[i]
             subjectList = countIdxDict[count]
             for subject in subjectList:
                 allSubjectList.append(subject)
                 # f.write("{},{}\n".format(count, subject))
-        outdict['count'] = countArray[0: 50]
+        outdict['count'] = countArray[0: 51]
         json.dump(outdict, f)
 
 

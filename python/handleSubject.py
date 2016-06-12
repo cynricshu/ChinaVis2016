@@ -556,7 +556,7 @@ def findTopNSubject():
             for subject in subjectList:
                 allSubjectList.append(subject)
                 # f.write("{},{}\n".format(count, subject))
-        outdict['count'] = countArray[0: 51]
+        outdict['count'] = countArray[0: 52]
         json.dump(outdict, f)
 
 

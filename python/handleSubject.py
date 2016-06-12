@@ -523,6 +523,43 @@ def handleDateTopicJson2():
         json.dump(outdict, f, sort_keys=True)
 
 
+def findTopNSubject():
+    countArray = []
+    countIdxDict = {}
+    with open("data/topic/weight&date/subject_1_date_sorted.txt") as f:
+        for line in f:
+            array = line.strip().split(",")
+            subject_idx = array[0]
+            count = int(array[1])
+            countArray.append(count)
+
+            subject = array[2].strip()
+            min_datesent = helper.datetimeFromStr(1, array[3].strip(), None)
+            max_datesent = helper.datetimeFromStr(1, array[4].strip(), None)
+            min_daterecv = helper.datetimeFromStr(1, array[5].strip(), None)
+            max_daterecv = helper.datetimeFromStr(1, array[6].strip(), None)
+            importance = int(array[7])
+
+            if count not in countIdxDict:
+                countIdxDict[count] = list()
+                countIdxDict[count].append(subject)
+            else:
+                countIdxDict[count].append(subject)
+    countArray.sort(reverse=True)
+
+    with open("data/topic/weight&date/topNTopic.json", "w") as f:
+        allSubjectList = list()
+        outdict = {"label": allSubjectList, "count": []}
+        for i in range(50):
+            count = countArray[i]
+            subjectList = countIdxDict[count]
+            for subject in subjectList:
+                allSubjectList.append(subject)
+                # f.write("{},{}\n".format(count, subject))
+        outdict['count'] = countArray[0: 50]
+        json.dump(outdict, f)
+
+
 def main():
     # subjectdict = handleOriginFile("data/topic/weight&date/subject1_w_date.txt")
 
@@ -536,7 +573,8 @@ def main():
     # handleTopicDate()
     # handleTopicDateJson()
     # handleDateTopicJson2()
-    handleGant()
+    # handleGant()
+    findTopNSubject()
 
     print("over")
 

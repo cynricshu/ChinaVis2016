@@ -63,8 +63,8 @@
 
     // Chart dimensions.
     var margin = {top: 19.5, right: 19.5, bottom: 19.5, left: 39.5},
-            width = 960 - margin.right,
-            height = 500 - margin.top - margin.bottom;
+            width = 1260 - margin.right,
+            height = 800 - margin.top - margin.bottom;
 
     // Various scales. These domains make assumptions of data, naturally.
     var xScale = d3.scale.sqrt().domain([0, 120000]).range([0, width]),
@@ -100,7 +100,7 @@
             .attr("text-anchor", "end")
             .attr("x", width)
             .attr("y", height - 6)
-            .text("income per capita, inflation-adjusted (dollars)");
+            .text("topic count");
 
     // Add a y-axis label.
     svg.append("text")
@@ -109,7 +109,7 @@
             .attr("y", 6)
             .attr("dy", ".75em")
             .attr("transform", "rotate(-90)")
-            .text("life expectancy (years)");
+            .text("importance");
 
     // Add the year label; the value is set on transition.
     var label = svg.append("text")

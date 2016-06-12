@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+    /*
+    .chart rect {
+      fill: steelblue;
+    }
+    */
+    .chart .legend {
+        fill: black;
+        font: 14px sans-serif;
+        text-anchor: start;
+        font-size: 12px;
+    }
+
+    .chart text {
+        fill: white;
+        font: 10px sans-serif;
+        text-anchor: end;
+    }
+
+    .chart .label {
+        fill: black;
+        font: 14px sans-serif;
+        text-anchor: end;
+    }
+
+    .bar:hover {
+        fill: brown;
+    }
+
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+
+
+</style>
+<svg class="chart"></svg>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+
+    var data = {
+        "labels": [
+            "Pranzo gioved",
+            "E Max si sposa!",
+            "Arrivederci",
+            "Urgent",
+            "Puma DAT document 4595",
+            "Azerbaijan",
+            "Campagna elettorale!!!",
+            "demo Kazakstan",
+            "Offer",
+            "Riunione exploit",
+            "Global Protect for Yosemite?",
+            "Financial Proposal-TRD-HT",
+            "BAJA services not working - QJX-198-79423",
+            "The confirmation of DAP schedule: Mobile Hacking",
+            "Draft Contract - CNC - HT",
+            "APE luned 2/09/2013",
+            "Tramezzino.it",
+            "Delivery and Training",
+            "Delivery & Installation",
+            "Pranzo",
+            "TNI Opportunity - RFP Released",
+            "Presentazione domande per Assegno Nucleo Familiare (ANF)",
+            "New member on board",
+            "Jordan",
+            "New license for PHANTOM",
+            "Italian Lasagna - Touch-Base",
+            "Lawful hacking",
+            "Tax form",
+            "RCS",
+            "Payment",
+            "Release 9.6",
+            "Italian lasagna - next step",
+            "Un po' in anticipo..",
+            "Re:",
+            "compagni di pranzo",
+            "Demo India",
+            "Project",
+            "Wall Street Journal article",
+            "MOPS - GD1 : Questions for product and some request to support",
+            "Maintenance",
+            "Flight request - ISS PRAGUE- June 01-04",
+            "spagna",
+            "Transferred",
+            "Draft of Purchasing Oder from FHL",
+            "DELL offer.",
+            "Dolce 14:30",
+            "PUMA Project",
+            "Signed PO + Proposal",
+            "NDA",
+            "RCS -Renewal -Critical"
+        ],
+        series: [
+            {
+                label: 'all',
+                values: [
+                    28484,
+                    24076,
+                    6674,
+                    5362,
+                    5043,
+                    4648,
+                    4505,
+                    4302,
+                    4201,
+                    3860,
+                    3758,
+                    3575,
+                    3364,
+                    3348,
+                    3338,
+                    3250,
+                    3236,
+                    3193,
+                    3105,
+                    2939,
+                    2922,
+                    2898,
+                    2870,
+                    2844,
+                    2798,
+                    2779,
+                    2770,
+                    2653,
+                    2560,
+                    2557,
+                    2518,
+                    2503,
+                    2502,
+                    2425,
+                    2350,
+                    2347,
+                    2343,
+                    2337,
+                    2293,
+                    2261,
+                    2245,
+                    2228,
+                    2206,
+                    2187,
+                    2172,
+                    2167,
+                    2166,
+                    2075,
+                    2033,
+                    2031
+                ]
+            }]
+    };
+
+    var chartWidth       = 300,
+            barHeight        = 20,
+            groupHeight      = barHeight * data.series.length,
+            gapBetweenGroups = 10,
+            spaceForLabels   = 150,
+            spaceForLegend   = 150;
+
+    // Zip the series data together (first values, second values, etc.)
+    var zippedData = [];
+    for (var i=0; i<data.labels.length; i++) {
+        for (var j=0; j<data.series.length; j++) {
+            zippedData.push(data.series[j].values[i]);
+        }
+    }
+
+    // Color scale
+    var color = d3.scale.category20();
+    var chartHeight = barHeight * zippedData.length + gapBetweenGroups * data.labels.length;
+
+    var x = d3.scale.linear()
+            .domain([0, d3.max(zippedData)])
+            .range([0, chartWidth]);
+
+    var y = d3.scale.linear()
+            .range([chartHeight + gapBetweenGroups, 0]);
+
+    var yAxis = d3.svg.axis()
+            .scale(y)
+            .tickFormat('')
+            .tickSize(0)
+            .orient("left");
+
+    // Specify the chart area and dimensions
+    var chart = d3.select(".chart")
+            .attr("width", spaceForLabels + chartWidth + spaceForLegend)
+            .attr("height", chartHeight);
+
+    // Create bars
+    var bar = chart.selectAll("g")
+            .data(zippedData)
+            .enter().append("g")
+            .attr("transform", function(d, i) {
+                return "translate(" + spaceForLabels + "," + (i * barHeight + gapBetweenGroups * (0.5 + Math.floor(i/data.series.length))) + ")";
+            });
+
+    // Create rectangles of the correct width
+    bar.append("rect")
+            .attr("fill", function(d,i) { return color(i % data.series.length); })
+            .attr("class", "bar")
+            .attr("width", x)
+            .attr("height", barHeight - 1);
+
+    // Add text label in bar
+    bar.append("text")
+            .attr("x", function(d) { return x(d) - 3; })
+            .attr("y", barHeight / 2)
+            .attr("fill", "red")
+            .attr("dy", ".35em")
+            .text(function(d) { return d; });
+
+    // Draw labels
+    bar.append("text")
+            .attr("class", "label")
+            .attr("x", function(d) { return - 10; })
+            .attr("y", groupHeight / 2)
+            .attr("dy", ".35em")
+            .text(function(d,i) {
+                if (i % data.series.length === 0)
+                    return data.labels[Math.floor(i/data.series.length)];
+                else
+                    return ""});
+
+    chart.append("g")
+            .attr("class", "y axis")
+            .attr("transform", "translate(" + spaceForLabels + ", " + -gapBetweenGroups/2 + ")")
+            .call(yAxis);
+
+    // Draw legend
+    var legendRectSize = 18,
+            legendSpacing  = 4;
+
+    var legend = chart.selectAll('.legend')
+            .data(data.series)
+            .enter()
+            .append('g')
+            .attr('transform', function (d, i) {
+                var height = legendRectSize + legendSpacing;
+                var offset = -gapBetweenGroups/2;
+                var horz = spaceForLabels + chartWidth + 40 - legendRectSize;
+                var vert = i * height - offset;
+                return 'translate(' + horz + ',' + vert + ')';
+            });
+
+    legend.append('rect')
+            .attr('width', legendRectSize)
+            .attr('height', legendRectSize)
+            .style('fill', function (d, i) { return color(i); })
+            .style('stroke', function (d, i) { return color(i); });
+
+    legend.append('text')
+            .attr('class', 'legend')
+            .attr('x', legendRectSize + legendSpacing)
+            .attr('y', legendRectSize - legendSpacing)
+            .text(function (d) { return d.label; });
+
+</script>

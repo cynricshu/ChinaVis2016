@@ -52,3 +52,76 @@ html,body,#wrapper {
     border-bottom-right-radius: 2px;
     text-decoration: none;
 }
+
+.topic1{
+    fill : #3182bd
+}
+.topic2{
+    fill: #6baed6;
+}
+.topic3{
+    fill : #9ecae1
+}
+.topic4{
+    fill: #c6dbef;
+}
+
+.topic5{
+    fill: #e6550d;
+}
+
+
+.topic6{
+    fill: #fd8d3c;
+}
+
+
+.topic7{
+    fill: #fdae6b;
+}
+
+
+.topic8{
+    fill: #fdd0a2;
+}
+
+.topic9{
+    fill: #31a354;
+}
+
+.topic10{
+    fill: #74c476;
+}
+
+.topic11{
+    fill: #a1d99b;
+}
+
+
+.topic12{
+    fill: #c7e9c0;
+}
+
+
+.topic13{
+    fill: #756bb1;
+}
+
+
+.topic15{
+    fill: #bcbddc;
+}
+.topic16{
+    fill: #dadaeb;
+}
+.topic17{
+    fill: #636363;
+}
+.topic18{
+    fill: #969696;
+}
+
+.topic19{
+    fill: #bdbdbd;
+}
+

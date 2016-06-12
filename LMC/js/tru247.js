@@ -24,18 +24,33 @@ if (isOldBrowser()) {
 var buckets = 11,
     colorScheme = 'rbow2',
     days = [
-        { name: 'January', abbr: 'Jan.' },
-        { name: 'February', abbr: 'Feb.' },
-        { name: 'March', abbr: 'Mar.' },
-        { name: 'April', abbr: 'Apr.' },
-        { name: 'May', abbr: 'May.' },
-        { name: 'Jun', abbr: 'Jun.' },
-        { name: 'July', abbr: 'Jul.' },
-        { name: 'August', abbr: 'Aug.'},
-        { name: 'September', abbr: 'Sep.' },
-        { name: 'October', abbr: 'Oct.' },
-        { name: 'November', abbr: 'Nov.' },
-        { name: 'December', abbr: 'Dem.' }
+        //{ name: 'January', abbr: 'Jan.' },
+        //{ name: 'February', abbr: 'Feb.' },
+        //{ name: 'March', abbr: 'Mar.' },
+        //{ name: 'April', abbr: 'Apr.' },
+        //{ name: 'May', abbr: 'May.' },
+        //{ name: 'Jun', abbr: 'Jun.' },
+        //{ name: 'July', abbr: 'Jul.' },
+        //{ name: 'August', abbr: 'Aug.'},
+        //{ name: 'September', abbr: 'Sep.' },
+        //{ name: 'October', abbr: 'Oct.' },
+        //{ name: 'November', abbr: 'Nov.' },
+        //{ name: 'December', abbr: 'Dem.' }
+        { name: '2001', abbr: '2001' },
+        { name: '2002', abbr: '2002' },
+        { name: '2003', abbr: '2003' },
+        { name: '2004', abbr: '2004' },
+        { name: '2005', abbr: '2005' },
+        { name: '2006', abbr: '2006' },
+        { name: '2007', abbr: '2007' },
+        { name: '2008', abbr: '2008'},
+        { name: '2009', abbr: '2009' },
+        { name: '2010', abbr: '2010' },
+        { name: '2011', abbr: '2011' },
+        { name: '2012', abbr: '2012' },
+        { name: '2013', abbr: '2013' },
+        { name: '2014', abbr: '2014' },
+        { name: '2015', abbr: '2015' }
     ],
     types = {
         all: 'All',
@@ -54,7 +69,7 @@ addStateButtons();
 
 d3.select('#vis').classed(colorScheme, true);
 
-d3.json('data/tru247.json', function(json) {
+d3.json('../data/output/year_topic_2D_2.json', function(json) {
 
     data = json;
 

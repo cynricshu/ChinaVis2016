@@ -419,7 +419,7 @@ def handleTopicDateJson():
                     sumcount += topicdict[topic_idx][year][month]['count']
                     sumimportance += topicdict[topic_idx][year][month]['importance']
                 topicItem['count'].append([int(year), sumcount])
-                topicItem['importance'].append([int(year), sumimportance / sumcount])
+                topicItem['importance'].append([int(year), sumimportance / sumcount * 5])
     with open("data/output/topic_year_2D.json", "w") as f:
         json.dump(outarray, f, sort_keys=True)
 
@@ -458,8 +458,8 @@ def main():
     # findSubjectByCategory()
     # resort("data/topic/weight/subject1_w.txt", "data/topic/weight&date/subject1_w_date.txt")
     # handleTopicDate()
-    # handleTopicDateJson()
-    handleDateTopicJson()
+    handleTopicDateJson()
+    # handleDateTopicJson()
 
     print("over")
 

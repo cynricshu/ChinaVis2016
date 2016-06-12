@@ -447,6 +447,29 @@ def handleDateTopicJson():
         json.dump(outdict, f, sort_keys=True)
 
 
+def handleDateTopicJson2():
+    outdict = dict()
+    outdict['all'] = {'years': []}
+    for i in range(2001, 2016):
+        outdict['all']['years'].append(list())
+
+    with open("data/topic/weight&date/topic_year_month_count.json") as f:
+        topicdict = json.load(f)
+        for i in range(20):
+            topic_idx = str(i)
+            for j in range(2001, 2016):
+                year = str(j)
+                topicItem = {'pc': 0}
+                if year in topicdict[topic_idx]:
+                    for month in topicdict[topic_idx][year]:
+                        topicItem['pc'] += topicdict[topic_idx][year][month]['count']
+
+                outdict['all']['years'][j - 2001].append(topicItem)
+
+    with open("data/output/year_topic_2D_2.json", "w") as f:
+        json.dump(outdict, f, sort_keys=True)
+
+
 def main():
     # subjectdict = handleOriginFile("data/topic/weight&date/subject1_w_date.txt")
 
@@ -459,7 +482,7 @@ def main():
     # resort("data/topic/weight/subject1_w.txt", "data/topic/weight&date/subject1_w_date.txt")
     # handleTopicDate()
     # handleTopicDateJson()
-    handleDateTopicJson()
+    handleDateTopicJson2()
 
     print("over")
 

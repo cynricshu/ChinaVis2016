@@ -436,12 +436,12 @@ def handleDateTopicJson():
                     for j in range(12):
                         topicArray = []
                         for k in range(20):
-                            topicArray.append({'topic' + str(k): 0})
+                            topicArray.append({'pc': 0})
                         outdict[year]['months'].append(topicArray)
                 for month in topicdict[topic_idx][year]:
                     monthArray = outdict[year]['months']
                     topicArray = monthArray[int(month) - 1]
-                    topicArray[i]['topic' + topic_idx] += topicdict[topic_idx][year][month]['count']
+                    topicArray[i]['pc'] += topicdict[topic_idx][year][month]['count']
 
     with open("data/output/year_topic_2D.json", "w") as f:
         json.dump(outdict, f, sort_keys=True)
@@ -458,8 +458,8 @@ def main():
     # findSubjectByCategory()
     # resort("data/topic/weight/subject1_w.txt", "data/topic/weight&date/subject1_w_date.txt")
     # handleTopicDate()
-    handleTopicDateJson()
-    # handleDateTopicJson()
+    # handleTopicDateJson()
+    handleDateTopicJson()
 
     print("over")
 

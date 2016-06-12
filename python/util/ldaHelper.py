@@ -1,10 +1,10 @@
 import os
 import lda.utils
 
-_test_dir = "data/topic"
-ldac = 'subject2_w_date.ldac'
-tokens = 'subject2_w_date.tokens'
-title = 'subject2_w_date.txt'
+_test_dir = "data/topic/weight/"
+ldac = 'subject2_w.ldac'
+tokens = 'subject2_w.tokens'
+title = 'subject2_w.txt'
 
 
 def load_reuters():

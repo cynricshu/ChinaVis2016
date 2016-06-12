@@ -163,9 +163,8 @@
 
     // Zip the series data together (first values, second values, etc.)
     var zippedData = [];
-    for (var i=0; i<data.labels.length; i++) {
-        for (var j=0; j<data.series.length; j++) {
-
+    for (var i = 0; i < data.labels.length; i++) {
+        for (var j = 0; j < data.series.length; j++) {
             zippedData.push(data.series[j].values[i]);
         }
     }
@@ -274,7 +273,5 @@
             .text(function (d) {
                 return d.label;
             });
-
-
 
 </script>

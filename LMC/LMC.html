@@ -46,7 +46,7 @@
 
     var x = d3.scale.ordinal().rangeBands([0, width]),
             z = d3.scale.sqrt().domain([0, 100]).clamp(true),
-            c = d3.scale.category20b().domain(d3.range(10));
+            c = d3.scale.category20c().domain(d3.range(10));
 
     var svg = d3.select("body").append("svg")
             .attr("width", width + margin.left + margin.right)

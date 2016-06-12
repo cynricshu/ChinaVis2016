@@ -40,12 +40,15 @@
             .append("g")
             .attr("transform", "translate(" + radius + "," + radius + ")");
 
-    d3.json("readme-flare-imports.json", function(error, classes) {
+    d3.json("data/readme-flare-imports.json", function(error, classes) {
+        console.log(classes);
         if (error) throw error;
 
         var nodes = cluster.nodes(packageHierarchy(classes)),
-                links = packageImports(nodes);
 
+//        var nodes = classes.nodes,
+                links = packageImports(nodes);
+        console.log(nodes);
         svg.selectAll(".link")
                 .data(bundle(links))
                 .enter().append("path")
@@ -76,8 +79,8 @@
             if (!node) {
                 node = map[name] = data || {name: name, children: []};
                 if (name.length) {
-                    node.parent = find(name.substring(0, i = name.lastIndexOf(".")));
-                    node.parent.children.push(node);
+                    node.parent = name.substring(0, i = name.lastIndexOf("."));
+                    //node.parent.children.push(node);
                     node.key = name.substring(i + 1);
                 }
             }

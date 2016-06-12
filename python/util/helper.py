@@ -55,6 +55,10 @@ def datetimeFromStr(lineNum, datetimeStr, format):
     return None
 
 
+def dateTimeToStr(obj):
+    return datetime.datetime.strftime(obj, standardDatetimeFormat)
+
+
 def loadEmployeeSet():
     """
     :return: dict

@@ -400,6 +400,59 @@ def handleTopicDate():
         json.dump(topicdict, f, sort_keys=True)
 
 
+def handleGant():
+    file1 = "data/topic/weight&date/subject_1_date_sorted.txt"
+    ldaFile = "data/output/ldaResult_topic-doc_w.txt"
+    topicdict = list()
+    reversedTopicDict = dict()
+    for i in range(20):
+        topicdict.append({'startDate': None, 'endDate': None, 'taskName': '', 'status': 0, 'count': 0})
+
+    with open(ldaFile) as f:
+        for line in f:
+            array = line.strip().split(":")
+            subject_idx = array[0]
+            topic_idx = array[1]
+            reversedTopicDict[subject_idx] = topic_idx
+
+    with open(file1) as f:
+        for line in f:
+            array = line.strip().split(",")
+            subject_idx = array[0]
+            if subject_idx not in reversedTopicDict:
+                continue
+            count = int(array[1])
+            subject = array[2].strip()
+            min_datesent = helper.datetimeFromStr(1, array[3].strip(), None)
+            max_datesent = helper.datetimeFromStr(1, array[4].strip(), None)
+            # min_daterecv = helper.datetimeFromStr(1, array[5].strip(), None)
+            # max_daterecv = helper.datetimeFromStr(1, array[6].strip(), None)
+            importance = int(array[7])
+            topic_idx = int(reversedTopicDict[subject_idx])
+
+            topicdict[topic_idx]['taskName'] = 'topic' + str(topic_idx)
+            topicdict[topic_idx]['count'] += count
+            topicdict[topic_idx]['status'] += importance
+
+            if topicdict[topic_idx]['startDate'] is None:
+                topicdict[topic_idx]['startDate'] = min_datesent
+            else:
+                if topicdict[topic_idx]['startDate'] > min_datesent:
+                    topicdict[topic_idx]['startDate'] = min_datesent
+            if topicdict[topic_idx]['endDate'] is None:
+                topicdict[topic_idx]['endDate'] = max_datesent
+            else:
+                if topicdict[topic_idx]['endDate'] < max_datesent:
+                    topicdict[topic_idx]['endDate'] = max_datesent
+
+    for item in topicdict:
+        item['startDate'] = helper.dateTimeToStr(item['startDate'])
+        item['endDate'] = helper.dateTimeToStr(item['endDate'])
+        item['status'] = item['status'] / item['count'] * 5
+    with open("data/output/gant.json", "w") as f:
+        json.dump(topicdict, f, sort_keys=True)
+
+
 def handleTopicDateJson():
     outarray = list()
     with open("data/topic/weight&date/topic_year_month_count.json") as f:
@@ -482,7 +535,8 @@ def main():
     # resort("data/topic/weight/subject1_w.txt", "data/topic/weight&date/subject1_w_date.txt")
     # handleTopicDate()
     # handleTopicDateJson()
-    handleDateTopicJson2()
+    # handleDateTopicJson2()
+    handleGant()
 
     print("over")
 

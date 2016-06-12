@@ -250,7 +250,7 @@ Force-based label placement
     ...一下省略11个月
 ｝
 
-图2
+图3
 
 status可为 importance (SUCCEEDED,RUNNING,FAILED,KILLED)
 

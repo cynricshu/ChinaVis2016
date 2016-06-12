@@ -1,5 +1,6 @@
 import codecs
 import re
+import datetime
 
 excludeSet = {"", ":", "?", ",", "{", "}", "(", ")", "[", "]", "<", ">", "|",
               "!", "...", ";", "#", "&", "+", ".", "\"", "@", "'", "`", "=",
@@ -7,6 +8,10 @@ excludeSet = {"", ":", "?", ",", "{", "}", "(", ")", "[", "]", "<", ">", "|",
               "with", "by", "at", "about", "under", "of", "are", "be", "is"
               }
 specialSet = {"¨", "¤", "¬", "¯", "¡", "®", "¦"}
+
+datetimeFormat = '%Y/%m/%d %H:%M'
+datetimeFullFormat = '%Y/%m/%d %H:%M:%S'
+standardDatetimeFormat = '%Y-%m-%d %H:%M:%S'
 
 regexList = {
     re.compile("<<#.*#>>"): "",
@@ -26,6 +31,26 @@ nltkPattern = r"""(?x)                   # set flag to allow verbose regexps
   """
 
 keywords = ["Re: ", "RE: ", "Fwd: ", "FWD: ", "R: ", "I: ", "FW: ", "Fw: ", "i: "]
+
+
+def datetimeFromStr(lineNum, datetimeStr):
+    """
+    :type lineNum: int
+    :type datetimeStr: str
+    :return: datetime
+    """
+    # print("input:{}:{}".format(lineNum, datetimeStr))
+    datetimeStr = datetimeStr.strip()
+    if ':' not in datetimeStr:
+        datetimeStr += " 00:00:00"
+    if datetimeStr.count(":") == 1:
+        datetimeStr += ":00"
+    try:
+        ret = datetime.datetime.strptime(datetimeStr, standardDatetimeFormat)
+        return ret
+    except Exception as e:
+        print('{}:{}:{}'.format(str(lineNum), datetimeStr, e))
+    return None
 
 
 def loadEmployeeSet():

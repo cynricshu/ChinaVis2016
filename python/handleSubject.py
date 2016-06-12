@@ -9,26 +9,54 @@ import util.ldaHelper as ldaHelper
 import util.helper as helper
 import util.fileHelper as fileHelper
 import json
+import codecs
+from bson import json_util
 
 delimer = "DELIMER"
 
 
-def firstLoop(line, tuple):
-    subjectdict = tuple[0]
+def firstLoop(line, lineNum, tuple):
+    # print("firstLoop: {}".format(lineNum))
+    if len(line) != 15:
+        return
     data = LineData.LineData(line)
+    datesent = helper.datetimeFromStr(lineNum, data.getDateSent())
+    daterecv = helper.datetimeFromStr(lineNum, data.getDateReceive())
+
+    if datesent is None or daterecv is None:
+        return
+
+    # if lineNum == 24419:
+    #     print(line)
+    #     print(data)
+    #     print(data.getDateSent())
+    #     print(data.getDateReceive())
+
+    subjectdict = tuple[0]
     subject = data.getSubject().strip()
 
     for word in helper.keywords:
-        subject = subject.replace(word, "")
-    subject = subject.strip()
+        subject = subject.replace(word, "").strip()  # remove some meaningless words
     if subject != "":
+
         if subject in subjectdict:
-            subjectdict[subject][0] += 1
+            subjectdict[subject]['count'] += 1
+            if subjectdict[subject]['min_datesent'] > datesent:
+                subjectdict[subject]['min_datesent'] = datesent
+            if subjectdict[subject]['min_daterecv'] > daterecv:
+                subjectdict[subject]['min_daterecv'] = daterecv
+
+            if subjectdict[subject]['max_datesent'] < datesent:
+                subjectdict[subject]['max_datesent'] = datesent
+            if subjectdict[subject]['max_daterecv'] < daterecv:
+                subjectdict[subject]['max_daterecv'] = daterecv
+
         else:
-            subjectdict[subject] = [1, data.getDateSent(), data.getDateReceive()]
+            subjectdict[subject] = {'count': 1, 'min_datesent': datesent, 'max_datesent': datesent,
+                                    'min_daterecv': daterecv, 'max_daterecv': daterecv}
 
 
-def handleOriginFile(func, outputFile):
+def handleOriginFile(outputFile):
     """
     :return:
     """
@@ -37,12 +65,25 @@ def handleOriginFile(func, outputFile):
 
     fileList = os.listdir(dataDir)
     for filename in fileList:
-        fileHelper.readCsv(dataDir + "/" + filename, func, subjectdict)
+        fileHelper.readCsv(dataDir + "/" + filename, firstLoop, subjectdict)
         print("%s execute ok" % filename)
+        # break
 
     print(len(subjectdict))
-    fileHelper.writeDictToFile(outputFile, subjectdict,
-                               lambda key, val: "{}DELIMER{}DELIMER{}DELIMER{}\n".format(val[0], val[1], val[2], key))
+    # fileHelper.writeDictToFile(outputFile, subjectdict,
+    #                            lambda key, val: "{}DELIMER{}DELIMER{}DELIMER{}\n".format(val[0], val[1], val[2], key))
+    # with open("data/topic/weight/subject1_w.txt") as f:
+    with open("data/topic/weight&date/subject1_w_date.txt", "w") as outfile:
+        for subject in subjectdict:
+            count = subjectdict[subject]['count']
+            min_datesent = subjectdict[subject]['min_datesent']
+            min_daterecv = subjectdict[subject]['min_daterecv']
+            max_datesent = subjectdict[subject]['max_datesent']
+            max_daterecv = subjectdict[subject]['max_daterecv']
+            outfile.write(
+                "{},{},{},{},{},{}\n".format(count, subject, min_datesent, max_datesent, min_daterecv,
+                                             max_daterecv))
+            # json.dump(subjectdict, outfile, default=json_util.default)
     return subjectdict
 
 
@@ -176,7 +217,7 @@ def ldaTest():
     topic_word = model.topic_word_  # model.components_ also works
 
     print("start to write file")
-    f = open("data/output/ldaResult_w.txt", "w")
+    f = open("data/output/ldaResult_topic-doc_w.txt", "w")
     f.write("ntopics=20, n_iter=1500, random_state=1\n")
     f.write("n_top_words={}\n\n\n".format(n_top_words))
 
@@ -239,15 +280,120 @@ def genLdaInputDoc(termdict):
     fileHelper.writeIterableToFileWithIndex(outfile, outlist)
 
 
+def resort(file1, file2):
+    """
+    将file2里面的数据按照file1里面的顺序,重新排序
+    :param file1:
+    :param file2:
+    :return:
+    """
+    subjectdict = dict()
+    with open(file2) as file2:
+        for line in file2:
+            array = line.strip().split(",")
+            count = array[0]
+            subject = array[1]
+            min_datesent = array[2]
+            max_datesent = array[3]
+            min_daterecv = array[4]
+            max_daterecv = array[5]
+
+            subjectdict[subject] = {'count': count, 'min_datesent': min_datesent, 'max_datesent': max_datesent,
+                                    'min_daterecv': min_daterecv, 'max_daterecv': max_daterecv}
+    print(len(subjectdict))
+
+    error_count = 0
+    index = 0
+    with open(file1) as file1:
+        with open("data/topic/weight&date/subject_1_date_sorted.txt", "w") as outfile:
+            for line in file1:
+                count = line[0: line.index(":")]
+                subject = line[line.index(":") + 1: len(line)].strip()
+                if subject in subjectdict:
+                    # dcount = subjectdict[subject]['count']
+                    # if count != dcount:
+                    #     print("error! not match, subject:{}, origin count:{}, new count:{}".format(subject, count, dcount))
+                    min_datesent = subjectdict[subject]['min_datesent']
+                    min_daterecv = subjectdict[subject]['min_daterecv']
+                    max_datesent = subjectdict[subject]['max_datesent']
+                    max_daterecv = subjectdict[subject]['max_daterecv']
+                    outfile.write(
+                        "{},{},{},{},{},{},{}\n".format(index, count, subject, min_datesent, max_datesent, min_daterecv,
+                                                        max_daterecv))
+                else:
+                    error_count += 1
+                    # print("{} not in file2".format(subject))
+                index += 1
+
+    print(error_count)
+
+
+def handleTopicDate():
+    file1 = "data/topic/weight&date/subject_1_date_sorted.txt"
+    ldaFile = "data/output/ldaResult_topic-doc_w.txt"
+    topicdict = dict()
+    reversedTopicDict = dict()
+    for i in range(20):
+        topicdict[str(i)] = dict()  # { 0: { 0: {}, 1: {} } }
+        topicdict[str(i)]['subjects'] = dict()
+
+    with open(ldaFile) as f:
+        for line in f:
+            array = line.strip().split(":")
+            subject_idx = array[0]
+            topic_idx = array[1]
+            topicdict[topic_idx]['subjects'][subject_idx] = dict()
+
+            reversedTopicDict[subject_idx] = topic_idx
+
+    with open(file1) as f:
+        for line in f:
+            array = line.strip().split(",")
+            subject_idx = array[0]
+            if subject_idx not in reversedTopicDict:
+                continue
+            count = int(array[1])
+            subject = array[2].strip()
+            min_datesent = helper.datetimeFromStr(None, array[3].strip())
+            max_datesent = helper.datetimeFromStr(None, array[4].strip())
+            min_daterecv = helper.datetimeFromStr(None, array[5].strip())
+            max_daterecv = helper.datetimeFromStr(None, array[6].strip())
+            topic_idx = reversedTopicDict[subject_idx]
+            topicdict[topic_idx]['subjects'][subject_idx] = {
+                'min_datesent': min_datesent,
+                'min_daterecv': min_daterecv,
+                'max_datesent': max_datesent,
+                'max_daterecv': max_daterecv,
+                'subject': subject,
+                'count': count
+            }
+            year = min_datesent.year
+            month = min_datesent.month
+            if year not in topicdict[topic_idx]:
+                topicdict[topic_idx][year] = dict()
+                topicdict[topic_idx][year][month] = count
+            elif month not in topicdict[topic_idx][year]:
+                topicdict[topic_idx][year][month] = count
+            else:
+                topicdict[topic_idx][year][month] += count
+
+    for i in range(20):
+        del topicdict[str(i)]['subjects']
+    with open("data/output/topic_year_month_count.json", "w") as f:
+        json.dump(topicdict, f)
+
+
 def main():
-    # subjectdict = handleOriginFile(firstLoop, "data/topic/subject1_w_date.txt")
+    # subjectdict = handleOriginFile("data/topic/weight&date/subject1_w_date.txt")
 
     # termdict = handleSubject1("data/topic/subject2_w_date.txt")
     # genLdaInputDoc(None)
     # ldaTest()
     # nltkTest()
     # testRegex()
-    findSubjectByCategory()
+    # findSubjectByCategory()
+    # resort("data/topic/weight/subject1_w.txt", "data/topic/weight&date/subject1_w_date.txt")
+    handleTopicDate()
 
     print("over")
 

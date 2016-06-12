@@ -2,7 +2,7 @@ import csv
 import codecs
 import sys
 
-csv.field_size_limit(65535)
+csv.field_size_limit(2 ** 31)
 _flush_count = 1000
 
 
@@ -10,9 +10,10 @@ def readCsv(filename, func, *container):
     f = csv.reader(codecs.open(filename, "r", "iso-8859-1"))
     header = f.__next__()
 
+    lineNum = 1
     for line in f:
-        if len(line) > 1:
-            func(line, container)
+        func(line, lineNum, container)
+        lineNum += 1
 
 
 def writeIterableToFile(filename, dataCollection):

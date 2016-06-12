@@ -29,13 +29,13 @@
 <body>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
-    var margin = {top: 80, right: 80, bottom: 80, left: 80},
-            width = 600 - margin.left - margin.right,
-            height = 400 - margin.top - margin.bottom;
+    var margin = {top: 50, right: 80, bottom: 80, left: 80},
+            width = 4700 - margin.left - margin.right,
+            height = 800 - margin.top - margin.bottom;
     var x = d3.scale.ordinal()
             .rangeRoundBands([0, width], .1);
-    var y0 = d3.scale.linear().domain([300, 1100]).range([height, 0]),
-            y1 = d3.scale.linear().domain([20, 80]).range([height, 0]);
+    var y0 = d3.scale.linear().domain([0, 1000000]).range([height, 0]),
+            y1 = d3.scale.linear().domain([0, 120000]).range([height, 0]);
     var xAxis = d3.svg.axis()
             .scale(x)
             .orient("bottom");
@@ -66,7 +66,7 @@
                 .attr("dy", "-2em")
                 .style("text-anchor", "end")
                 .style("text-anchor", "end")
-                .text("Dollars");
+                .text("Send");
 
         svg.append("g")
                 .attr("class", "y axis axisRight")
@@ -77,7 +77,7 @@
                 .attr("dy", "-2em")
                 .attr("dx", "2em")
                 .style("text-anchor", "end")
-                .text("#");
+                .text("receive");
         bars = svg.selectAll(".bar").data(data).enter();
         bars.append("rect")
                 .attr("class", "bar1")

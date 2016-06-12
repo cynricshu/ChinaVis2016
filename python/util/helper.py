@@ -33,20 +33,22 @@ nltkPattern = r"""(?x)                   # set flag to allow verbose regexps
 keywords = ["Re: ", "RE: ", "Fwd: ", "FWD: ", "R: ", "I: ", "FW: ", "Fw: ", "i: "]
 
 
-def datetimeFromStr(lineNum, datetimeStr):
+def datetimeFromStr(lineNum, datetimeStr, format):
     """
     :type lineNum: int
     :type datetimeStr: str
     :return: datetime
     """
     # print("input:{}:{}".format(lineNum, datetimeStr))
+    if format is None:
+        format = standardDatetimeFormat
     datetimeStr = datetimeStr.strip()
     if ':' not in datetimeStr:
         datetimeStr += " 00:00:00"
     if datetimeStr.count(":") == 1:
         datetimeStr += ":00"
     try:
-        ret = datetime.datetime.strptime(datetimeStr, standardDatetimeFormat)
+        ret = datetime.datetime.strptime(datetimeStr, format)
         return ret
     except Exception as e:
         print('{}:{}:{}'.format(str(lineNum), datetimeStr, e))

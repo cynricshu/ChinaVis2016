@@ -20,8 +20,8 @@ def firstLoop(line, lineNum, tuple):
     if len(line) != 15:
         return
     data = LineData.LineData(line)
-    datesent = helper.datetimeFromStr(lineNum, data.getDateSent())
-    daterecv = helper.datetimeFromStr(lineNum, data.getDateReceive())
+    datesent = helper.datetimeFromStr(lineNum, data.getDateSent(), helper.datetimeFullFormat)
+    daterecv = helper.datetimeFromStr(lineNum, data.getDateReceive(), helper.datetimeFullFormat)
 
     if datesent is None or daterecv is None:
         return
@@ -41,6 +41,7 @@ def firstLoop(line, lineNum, tuple):
 
         if subject in subjectdict:
             subjectdict[subject]['count'] += 1
+            subjectdict[subject]['importance'] += data.getImportance()
             if subjectdict[subject]['min_datesent'] > datesent:
                 subjectdict[subject]['min_datesent'] = datesent
             if subjectdict[subject]['min_daterecv'] > daterecv:
@@ -53,7 +54,8 @@ def firstLoop(line, lineNum, tuple):
 
         else:
             subjectdict[subject] = {'count': 1, 'min_datesent': datesent, 'max_datesent': datesent,
-                                    'min_daterecv': daterecv, 'max_daterecv': daterecv}
+                                    'min_daterecv': daterecv, 'max_daterecv': daterecv,
+                                    'importance': data.getImportance()}
 
 
 def handleOriginFile(outputFile):
@@ -80,9 +82,10 @@ def handleOriginFile(outputFile):
             min_daterecv = subjectdict[subject]['min_daterecv']
             max_datesent = subjectdict[subject]['max_datesent']
             max_daterecv = subjectdict[subject]['max_daterecv']
+            importance = subjectdict[subject]['importance']
             outfile.write(
-                "{},{},{},{},{},{}\n".format(count, subject, min_datesent, max_datesent, min_daterecv,
-                                             max_daterecv))
+                "{},{},{},{},{},{},{}\n".format(count, subject, min_datesent, max_datesent, min_daterecv,
+                                                max_daterecv, importance))
             # json.dump(subjectdict, outfile, default=json_util.default)
     return subjectdict
 
@@ -288,6 +291,7 @@ def resort(file1, file2):
     :return:
     """
     subjectdict = dict()
+    # 读一遍file2,将数据先存到字典中
     with open(file2) as file2:
         for line in file2:
             array = line.strip().split(",")
@@ -297,9 +301,11 @@ def resort(file1, file2):
             max_datesent = array[3]
             min_daterecv = array[4]
             max_daterecv = array[5]
+            importance = array[6]
 
             subjectdict[subject] = {'count': count, 'min_datesent': min_datesent, 'max_datesent': max_datesent,
-                                    'min_daterecv': min_daterecv, 'max_daterecv': max_daterecv}
+                                    'min_daterecv': min_daterecv, 'max_daterecv': max_daterecv,
+                                    'importance': importance}
     print(len(subjectdict))
 
     error_count = 0
@@ -317,9 +323,10 @@ def resort(file1, file2):
                     min_daterecv = subjectdict[subject]['min_daterecv']
                     max_datesent = subjectdict[subject]['max_datesent']
                     max_daterecv = subjectdict[subject]['max_daterecv']
+                    importance = subjectdict[subject]['importance']
                     outfile.write(
-                        "{},{},{},{},{},{},{}\n".format(index, count, subject, min_datesent, max_datesent, min_daterecv,
-                                                        max_daterecv))
+                        "{},{},{},{},{},{},{},{}\n".format(index, count, subject, min_datesent, max_datesent,
+                                                           min_daterecv, max_daterecv, importance))
                 else:
                     error_count += 1
                     # print("{} not in file2".format(subject))
@@ -335,14 +342,14 @@ def handleTopicDate():
     reversedTopicDict = dict()
     for i in range(20):
         topicdict[str(i)] = dict()  # { 0: { 0: {}, 1: {} } }
-        topicdict[str(i)]['subjects'] = dict()
+        # topicdict[str(i)]['subjects'] = dict()
 
     with open(ldaFile) as f:
         for line in f:
             array = line.strip().split(":")
             subject_idx = array[0]
             topic_idx = array[1]
-            topicdict[topic_idx]['subjects'][subject_idx] = dict()
+            # topicdict[topic_idx]['subjects'][subject_idx] = dict()
 
             reversedTopicDict[subject_idx] = topic_idx
 
@@ -354,33 +361,66 @@ def handleTopicDate():
                 continue
             count = int(array[1])
             subject = array[2].strip()
-            min_datesent = helper.datetimeFromStr(None, array[3].strip())
-            max_datesent = helper.datetimeFromStr(None, array[4].strip())
-            min_daterecv = helper.datetimeFromStr(None, array[5].strip())
-            max_daterecv = helper.datetimeFromStr(None, array[6].strip())
+            min_datesent = helper.datetimeFromStr(1, array[3].strip(), None)
+            max_datesent = helper.datetimeFromStr(1, array[4].strip(), None)
+            min_daterecv = helper.datetimeFromStr(1, array[5].strip(), None)
+            max_daterecv = helper.datetimeFromStr(1, array[6].strip(), None)
+            importance = int(array[7])
             topic_idx = reversedTopicDict[subject_idx]
-            topicdict[topic_idx]['subjects'][subject_idx] = {
-                'min_datesent': min_datesent,
-                'min_daterecv': min_daterecv,
-                'max_datesent': max_datesent,
-                'max_daterecv': max_daterecv,
-                'subject': subject,
-                'count': count
-            }
+            # topicdict[topic_idx]['subjects'][subject_idx] = {
+            #     'min_datesent': min_datesent,
+            #     'min_daterecv': min_daterecv,
+            #     'max_datesent': max_datesent,
+            #     'max_daterecv': max_daterecv,
+            #     'subject': subject,
+            #     'count': count,
+            #     'importance': importance
+            # }
             year = min_datesent.year
             month = min_datesent.month
             if year not in topicdict[topic_idx]:
                 topicdict[topic_idx][year] = dict()
-                topicdict[topic_idx][year][month] = count
+                topicdict[topic_idx][year][month] = {'count': count, 'importance': importance}
             elif month not in topicdict[topic_idx][year]:
-                topicdict[topic_idx][year][month] = count
+                topicdict[topic_idx][year][month] = {'count': count, 'importance': importance}
             else:
-                topicdict[topic_idx][year][month] += count
+                topicdict[topic_idx][year][month]['count'] += count
+                topicdict[topic_idx][year][month]['importance'] += importance
 
-    for i in range(20):
-        del topicdict[str(i)]['subjects']
+                # for i in range(20):
+                # del topicdict[str(i)]['subjects']
+                # array.append(topicdict[str(i)])
+    # for topic_idx in topicdict:
+    #     for year in topicdict[topic_idx]:
+    #         for month in topicdict[topic_idx][year]:
+    #             topicdict[topic_idx][year][month]['importance'] = topicdict[topic_idx][year][month]['importance'] / \
+    #                                                               topicdict[topic_idx][year][month]['count']
+
     with open("data/output/topic_year_month_count.json", "w") as f:
-        json.dump(topicdict, f)
+        json.dump(topicdict, f, sort_keys=True)
+
+
+def handleTopicDateJson():
+    outarray = list()
+    with open("data/output/topic_year_month_count.json") as f:
+        topicdict = json.load(f)
+        for i in range(20):
+            topic_idx = str(i)
+            topicItem = {}
+            topicItem['region'] = 'topic' + topic_idx
+            topicItem['count'] = []
+            topicItem['importance'] = []
+            outarray.append(topicItem)
+            for year in topicdict[topic_idx]:
+                sumcount = 0
+                sumimportance = 0
+                for month in topicdict[topic_idx][year]:
+                    sumcount += topicdict[topic_idx][year][month]['count']
+                    sumimportance += topicdict[topic_idx][year][month]['importance']
+                topicItem['count'].append([int(year), sumcount])
+                topicItem['importance'].append([int(year), sumimportance / sumcount])
+    with open("data/output/topic_year_2D.json", "w") as f:
+        json.dump(outarray, f, sort_keys=True)
 
 
 def main():
@@ -393,7 +433,8 @@ def main():
     # testRegex()
     # findSubjectByCategory()
     # resort("data/topic/weight/subject1_w.txt", "data/topic/weight&date/subject1_w_date.txt")
-    handleTopicDate()
+    # handleTopicDate()
+    handleTopicDateJson()
 
     print("over")
 

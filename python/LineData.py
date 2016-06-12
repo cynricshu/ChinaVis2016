@@ -56,6 +56,12 @@ class LineData(object):
         """
         return self.line[8]
 
+    def getImportance(self):
+        """
+        :rtype: int
+        """
+        return int(self.line[10])
+
     def getDateSent(self):
         """
         :rtype: str

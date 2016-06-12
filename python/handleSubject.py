@@ -402,11 +402,12 @@ def handleTopicDate():
 
 def handleTopicDateJson():
     outarray = list()
-    with open("data/output/topic_year_month_count.json") as f:
+    with open("data/topic/weight&date/topic_year_month_count.json") as f:
         topicdict = json.load(f)
         for i in range(20):
             topic_idx = str(i)
             topicItem = {}
+            topicItem['name'] = 'topic' + topic_idx
             topicItem['region'] = 'topic' + topic_idx
             topicItem['count'] = []
             topicItem['importance'] = []
@@ -421,6 +422,9 @@ def handleTopicDateJson():
                 topicItem['importance'].append([int(year), sumimportance / sumcount])
     with open("data/output/topic_year_2D.json", "w") as f:
         json.dump(outarray, f, sort_keys=True)
+
+
+# def handleDateTopicJson():
 
 
 def main():

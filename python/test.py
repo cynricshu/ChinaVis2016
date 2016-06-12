@@ -30,7 +30,7 @@ def datetimeTest():
     datetime2 = datetime.datetime.strptime('2015/6/6 3:39:00', helper.datetimeFullFormat)
     datetime3 = datetime.datetime.strptime('2015/6/6 11:19:35', helper.datetimeFullFormat)
     print(type(datetime1.year))
-    print(type(datetime1.month))
+    print(datetime1.month)
     print(datetime1.year)
     # print(datetime1.timetuple())
     # print(datetime2.timetuple())

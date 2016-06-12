@@ -424,7 +424,27 @@ def handleTopicDateJson():
         json.dump(outarray, f, sort_keys=True)
 
 
-# def handleDateTopicJson():
+def handleDateTopicJson():
+    outdict = dict()
+    with open("data/topic/weight&date/topic_year_month_count.json") as f:
+        topicdict = json.load(f)
+        for i in range(20):
+            topic_idx = str(i)
+            for year in topicdict[topic_idx]:
+                if year not in outdict:
+                    outdict[year] = {"months": []}
+                    for j in range(12):
+                        topicArray = []
+                        for k in range(20):
+                            topicArray.append({'topic' + str(k): 0})
+                        outdict[year]['months'].append(topicArray)
+                for month in topicdict[topic_idx][year]:
+                    monthArray = outdict[year]['months']
+                    topicArray = monthArray[int(month) - 1]
+                    topicArray[i]['topic' + topic_idx] += topicdict[topic_idx][year][month]['count']
+
+    with open("data/output/year_topic_2D.json", "w") as f:
+        json.dump(outdict, f, sort_keys=True)
 
 
 def main():
@@ -438,7 +458,8 @@ def main():
     # findSubjectByCategory()
     # resort("data/topic/weight/subject1_w.txt", "data/topic/weight&date/subject1_w_date.txt")
     # handleTopicDate()
-    handleTopicDateJson()
+    # handleTopicDateJson()
+    handleDateTopicJson()
 
     print("over")
 

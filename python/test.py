@@ -49,8 +49,10 @@ def jsonTest():
 
 
 def main():
-    datetimeTest()
+    # datetimeTest()
     # jsonTest()
+    for i in range(min(0, 10)):
+        print(i)
 
 
 if __name__ == '__main__':

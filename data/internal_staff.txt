@@ -53,9 +53,9 @@ r.viscardi,Rosario Armando Viscardi
 s.gallucci,Simonetta Gallucci
 s.galvagna,Sara Galvagna
 s.iannelli,Stefania Iannelli
-s.solis,Sergio Rodriguez-Sol¨ªs y Guerrero
+s.solis,Sergio Rodriguez-Sol Guerrero
 s.woon,Serge Woon
-support,Utente Test
-u.test
+support
+Utente Test,u.test
 v.bedeschi,Valeriano Bedeschi
 w.furlan,Walter Furlan

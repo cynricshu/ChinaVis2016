@@ -9,6 +9,7 @@ import util.ldaHelper as ldaHelper
 import util.helper as helper
 import util.fileHelper as fileHelper
 import json
+import csv
 import codecs
 from bson import json_util
 
@@ -556,8 +557,178 @@ def findTopNSubject():
             for item in subjectList:
                 allSubjectList.append(subject)
                 f.write("{},{},{},{}\n".format(count, item[0], item[1], item[2]))
-        # outdict['count'] = countArray[0: 52]
-        # json.dump(outdict, f)
+                # outdict['count'] = countArray[0: 52]
+                # json.dump(outdict, f)
+
+
+def findTopNSubjectOfSomeone(sendPersons, recvPersons):
+    """
+    :param sendPersons: list
+    :param recvPersons:
+    :return:
+    """
+    namedict = helper.loadEmployeeSet()
+    sendPeopleDict = dict()
+    recvPeopleDict = dict()
+    subjectIdxDict = dict()
+
+    for i in range(len(sendPersons)):
+        person = sendPersons[i].lower()
+        sendPersons[i] = person
+        sendPeopleDict[person] = dict()
+
+    for i in range(len(recvPersons)):
+        person = recvPersons[i].lower()
+        recvPersons[i] = person
+        recvPeopleDict[person] = dict()
+
+    dataDir = "data/After2"
+    fileList = os.listdir(dataDir)
+    for filename in fileList:
+        f = csv.reader(codecs.open(dataDir + "/" + filename, "r", "iso-8859-1"))
+        header = f.__next__()
+        lineNum = 1
+        for line in f:
+            if len(line) != 15:
+                continue
+            data = LineData.LineData(line)
+            subject = data.getSubject().strip()
+
+            for word in helper.keywords:
+                subject = subject.replace(word, "").strip()  # remove some meaningless words
+            if subject != "":
+                subjectIdxDict[subject] = lineNum
+                fromPeople = data.getFromDis().lower()
+                toPeople = data.getToDis().lower()
+                ccPeople = data.getCcDis().lower()
+                bccPeople = data.getBccDis().lower()
+                if toPeople is None or toPeople == "":
+                    if ccPeople is None or ccPeople == "":
+                        toPeople = bccPeople
+                    else:
+                        toPeople = ccPeople
+
+                if fromPeople in namedict:
+                    person = namedict[fromPeople]
+                    if person in sendPersons:
+                        if subject in sendPeopleDict[person]:
+                            sendPeopleDict[person][subject] += 1
+                        else:
+                            sendPeopleDict[person][subject] = 1
+
+                if toPeople in namedict:
+                    person = namedict[toPeople]
+                    if person in recvPersons:
+                        if subject in recvPeopleDict[person]:
+                            recvPeopleDict[person][subject] += 1
+                        else:
+                            recvPeopleDict[person][subject] = 1
+
+            lineNum += 1
+        print("%s execute ok" % filename)
+
+    outdict = {}
+    alldict = {}
+    for people, subjectdict in sendPeopleDict.items():
+
+        countArray = set()
+        resultArray = list()
+        reverseddict = dict()
+        for subject, count in subjectdict.items():
+            countArray.add(count)
+            if count in reverseddict:
+                reverseddict[count].append(subject)
+            else:
+                reverseddict[count] = list()
+                reverseddict[count].append(subject)
+        array = list(countArray)
+        array.sort(reverse=True)
+
+        maxSize = 10
+        if len(array) < maxSize:
+            maxSize = len(array)
+
+        for i in range(maxSize):
+            count = array[i]
+            for subject in reverseddict[count]:
+                resultArray.append({'subject': subject, 'count': count, 'id': subjectIdxDict[subject]})
+                # if subject in alldict:
+                #     alldict[subject]['sender'].append({'name': people, 'count': count})
+                # else:
+                #     alldict[subject] = {'sender': [{'name': people, 'count': count}], 'receiver': []}
+
+        outdict[people] = resultArray
+
+    with open("data/output/topNsubjectOfPersonsSend.json", "w") as f:
+        json.dump(outdict, f)
+
+    outdict = {}
+    for people, subjectdict in recvPeopleDict.items():
+        countArray = set()
+        resultArray = list()
+        reverseddict = dict()
+        for subject, count in subjectdict.items():
+            countArray.add(count)
+            if count in reverseddict:
+                reverseddict[count].append(subject)
+            else:
+                reverseddict[count] = list()
+                reverseddict[count].append(subject)
+
+        array = list(countArray)
+        array.sort(reverse=True)
+
+        maxSize = 10
+        if len(array) < maxSize:
+            maxSize = len(array)
+        for i in range(maxSize):
+            count = array[i]
+            for subject in reverseddict[count]:
+                resultArray.append({'subject': subject, 'count': count, 'id': subjectIdxDict[subject]})
+                # if subject in alldict:
+                #     alldict[subject]['receiver'].append({'name': people, 'count': count})
+                # else:
+                #     alldict[subject] = {'sender': [], 'receiver': [{'name': people, 'count': count}]}
+
+        outdict[people] = resultArray
+    with open("data/output/topNsubjectOfPersonsRecv.json", "w") as f:
+        json.dump(outdict, f)
+
+        # outArray = list()
+        # index = 1
+        # for subject, value in alldict.items():
+        #     flag = 0
+        #     for i in range(min(len(value['sender']), len(value['receiver']))):
+        #         item = {'subjectname': subject, 'state': value['sender'][i]['name'],
+        #                 'sendersubject': value['sender'][i]['count'],
+        #                 'exchange': 'state', 'per-eligible': 1, 'per-success': 1, 'per-pop-apps': index,
+        #                 'receiver': value['receiver'][i]['name'], 'receiversubject': value['receiver'][i]['count']}
+        #         outArray.append(item)
+        #         index += 1
+        #         flag = i
+        #
+        #     print("hahaha: {}".format(str(flag)))
+        #
+        #     if len(value['sender']) < len(value['receiver']):
+        #         for j in range(flag, len(value['receiver'])):
+        #             item = {'subjectname': subject,
+        #                     # 'state': value['sender'][i]['name'], 'sendersubject': value['sender'][i]['count'],
+        #                     'exchange': 'state', 'per-eligible': 1, 'per-success': 1, 'per-pop-apps': index,
+        #                     'receiver': value['receiver'][j]['name'], 'receiversubject': value['receiver'][j]['count']}
+        #             outArray.append(item)
+        #             index += 1
+        #     else:
+        #         for j in range(flag, len(value['sender'])):
+        #             item = {'subjectname': subject,
+        #                     'state': value['sender'][j]['name'], 'sendersubject': value['sender'][j]['count'],
+        #                     'exchange': 'state', 'per-eligible': 1, 'per-success': 1, 'per-pop-apps': index,
+        #                     # 'receiver': value['receiver'][i]['name'], 'receiversubject': value['receiver'][i]['count']}
+        #                     }
+        #             outArray.append(item)
+        #             index += 1
+        #
+        # with open("data/output/topNsubjectOfPersonsFinal.json", "w") as f:
+        #     json.dump(outArray, f)
 
 
 def main():
@@ -574,8 +745,9 @@ def main():
     # handleTopicDateJson()
     # handleDateTopicJson2()
     # handleGant()
-    findTopNSubject()
-
+    # findTopNSubject()
+    findTopNSubjectOfSomeone(['David Vincenzetti', 'Massimiliano Luppi', 'Daniele Milan'],
+                             ['Daniele Milan', 'Giancarlo Russo', 'Marco Bettini'])
     print("over")
 
 

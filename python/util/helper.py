@@ -71,10 +71,10 @@ def loadEmployeeSet():
             nameDict[data[0].lower()] = data[0].lower()
             nameDict[data[0].lower() + "@hackingteam.it"] = data[0].lower()
         else:
-            nameDict[data[0].lower()] = data[0].lower()
-            nameDict[data[0].lower() + "@hackingteam.it"] = data[0].lower()
-            nameDict[data[1].lower()] = data[0].lower()
-            nameDict[data[1].lower() + "@hackingteam.it"] = data[0].lower()
+            nameDict[data[0].lower()] = data[1].lower()
+            nameDict[data[0].lower() + "@hackingteam.it"] = data[1].lower()
+            nameDict[data[1].lower()] = data[1].lower()
+            nameDict[data[1].lower() + "@hackingteam.it"] = data[1].lower()
 
     print(len(nameDict))
     # for item in nameSet:

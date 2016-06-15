@@ -535,20 +535,20 @@ def findTopNSubject():
             countArray.append(count)
 
             subject = array[2].strip()
-            min_datesent = array[3]
-            max_datesent = array[4]
+            min_datesent = helper.datetimeFromStr(1, array[3].strip(), None)
+            max_datesent = helper.datetimeFromStr(1, array[4].strip(), None)
             min_daterecv = helper.datetimeFromStr(1, array[5].strip(), None)
             max_daterecv = helper.datetimeFromStr(1, array[6].strip(), None)
             importance = int(array[7])
 
             if count not in countIdxDict:
                 countIdxDict[count] = list()
-                countIdxDict[count].append([subject, min_datesent, max_datesent])
+                countIdxDict[count].append(subject)
             else:
-                countIdxDict[count].append([subject, min_datesent, max_datesent])
+                countIdxDict[count].append(subject)
     countArray.sort(reverse=True)
 
-    with open("data/topic/weight&date/topNTopic.txt", "w") as f:
+    with open("data/topic/weight&date/topNTopic.json", "w") as f:
         allSubjectList = list()
         outdict = {"label": allSubjectList, "count": []}
         for i in range(51):
@@ -556,10 +556,9 @@ def findTopNSubject():
             subjectList = countIdxDict[count]
             for item in subjectList:
                 allSubjectList.append(subject)
-                f.write("{},{},{},{}\n".format(count, item[0], item[1], item[2]))
-                # outdict['count'] = countArray[0: 52]
-                # json.dump(outdict, f)
-
+                # f.write("{},{}\n".format(count, subject))
+        outdict['count'] = countArray[0: 52]
+        json.dump(outdict, f)
 
 def findTopNSubjectOfSomeone(sendPersons, recvPersons):
     """
@@ -729,6 +728,7 @@ def findTopNSubjectOfSomeone(sendPersons, recvPersons):
         #
         # with open("data/output/topNsubjectOfPersonsFinal.json", "w") as f:
         #     json.dump(outArray, f)
+
 
 
 def main():
